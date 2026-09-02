@@ -72,6 +72,38 @@ function buildInput(articles) {
 
 const clamp = (n, lo, hi) => Math.min(hi, Math.max(lo, Number(n)))
 
+// Transient server-side failures worth retrying. 429 = rate limited,
+// 5xx = the model is overloaded (a 503 killed the first scheduled run).
+// Anything else (bad key, bad model id, malformed request) is permanent.
+const TRANSIENT_STATUS = new Set([429, 500, 502, 503, 504])
+
+export function statusFromError(err) {
+  const m = String(err?.message || '').match(/\[(\d{3})\s/)
+  if (m) return Number(m[1])
+  return typeof err?.status === 'number' ? err.status : null
+}
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
+
+/** Call the model, retrying transient errors with exponential backoff + jitter. */
+export async function generateWithRetry(model, prompt, attempts = 4, backoffMs = 5000) {
+  for (let attempt = 1; ; attempt++) {
+    try {
+      return await model.generateContent(prompt)
+    } catch (err) {
+      const status = statusFromError(err)
+      if (!TRANSIENT_STATUS.has(status) || attempt >= attempts) throw err
+      // 5s, 15s, 45s (±25% jitter so retries don't sync up with other clients)
+      const base = backoffMs * 3 ** (attempt - 1)
+      const wait = Math.round(base * (0.75 + Math.random() * 0.5))
+      console.warn(
+        `  ! Gemini returned ${status} (attempt ${attempt}/${attempts}) — retrying in ${Math.round(wait / 1000)}s`,
+      )
+      await sleep(wait)
+    }
+  }
+}
+
 /** Validate model output and resolve source IDs back to real articles. */
 export function validateSignals(raw, articles) {
   if (!Array.isArray(raw)) return []
@@ -136,7 +168,7 @@ export async function analyze(articles) {
     },
   })
 
-  const result = await model.generateContent(`${PROMPT}\n\nARTICLES:\n${buildInput(articles)}`)
+  const result = await generateWithRetry(model, `${PROMPT}\n\nARTICLES:\n${buildInput(articles)}`)
   const text = result.response.text()
 
   let parsed

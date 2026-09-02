@@ -9,7 +9,8 @@
     "build": "vite build",
     "preview": "vite preview",
     "collect": "node pipeline/collect.mjs",
-    "pipeline": "node pipeline/run.mjs"
+    "pipeline": "node pipeline/run.mjs",
+    "test": "node --test pipeline/analyze.test.mjs"
   },
   "dependencies": {
     "framer-motion": "^11.11.17",

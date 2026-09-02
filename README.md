@@ -47,6 +47,7 @@ GitHub Actions (cron: every 6h)
 | Model returns **article IDs**, never URLs | The model physically cannot invent a source. IDs are resolved back to real articles after the call; unknown IDs are dropped. |
 | Structured output (`responseSchema`) | Guarantees parseable JSON instead of scraping prose with regex. |
 | One batched LLM call per run | Keeps the whole thing inside the Gemini free tier. |
+| Retry transient failures | The model is a shared service: a `503 overloaded` killed the first scheduled run. Transient statuses (429/5xx) are retried with exponential backoff and jitter; permanent ones (bad key, bad model id) fail fast instead of burning retries. |
 | Fail closed | If any step fails, the run exits non-zero and **leaves the previous `signals.json` untouched** — the dashboard never shows a broken state. |
 | Feedback stored per viewer | 👍/👎 re-ranks signals and is kept in `localStorage`, so the feedback loop works with no backend. |
 
@@ -79,6 +80,15 @@ npm run pipeline             # full run → writes public/data/signals.json
 ```
 
 > If the free-tier model id changes, override it with `GEMINI_MODEL` rather than editing code.
+
+### Tests
+
+```bash
+npm test
+```
+
+Covers the two parts most likely to break silently: the retry/backoff behaviour on
+transient API errors, and the validation that prevents the model inventing sources.
 
 ### Automating it
 
