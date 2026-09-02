@@ -125,7 +125,7 @@ export async function analyze(articles) {
   if (!key) throw new Error('GEMINI_API_KEY is not set')
   if (!articles.length) throw new Error('No articles to analyze')
 
-  const modelId = process.env.GEMINI_MODEL || 'gemini-2.0-flash'
+  const modelId = process.env.GEMINI_MODEL || 'gemini-3.6-flash'
   const genAI = new GoogleGenerativeAI(key)
   const model = genAI.getGenerativeModel({
     model: modelId,

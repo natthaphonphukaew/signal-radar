@@ -12,6 +12,22 @@ import { analyze } from './analyze.mjs'
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 const OUT = path.join(__dirname, '..', 'public', 'data', 'signals.json')
 
+// Load .env for local runs. In CI the values come from real environment
+// variables (GitHub Secrets), so a missing .env file is not an error.
+// Never overrides a variable that is already set.
+function loadDotEnv() {
+  const envPath = path.join(__dirname, '..', '.env')
+  if (!fs.existsSync(envPath)) return
+  for (const line of fs.readFileSync(envPath, 'utf8').split('\n')) {
+    const m = line.match(/^\s*([A-Z0-9_]+)\s*=\s*(.*)\s*$/i)
+    if (!m) continue
+    const key = m[1]
+    const value = m[2].replace(/^['"]|['"]$/g, '').trim()
+    if (value && !process.env[key]) process.env[key] = value
+  }
+}
+loadDotEnv()
+
 async function main() {
   const startedAt = Date.now()
 
