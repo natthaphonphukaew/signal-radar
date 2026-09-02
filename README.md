@@ -3,6 +3,7 @@
 **An AI-enabled dashboard that surfaces strategic signals across Thailand's economic, business, industry, consumer and social trends — collected, analysed and published automatically.**
 
 🔗 **Live demo:** _(add your Vercel URL here)_
+📘 **อธิบายแบบละเอียด (ภาษาไทย, ไม่ต้องมีพื้นฐานโปรแกรม):** [HOW-IT-WORKS.md](./HOW-IT-WORKS.md)
 
 ---
 
