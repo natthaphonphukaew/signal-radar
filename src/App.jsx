@@ -10,7 +10,7 @@ import FilterBar from './components/FilterBar'
 import SignalCard from './components/SignalCard'
 import Charts from './components/Charts'
 
-const REPO_URL = 'https://github.com/'
+const REPO_URL = 'https://github.com/natthaphonphukaew/signal-radar'
 
 export default function App() {
   const { theme, toggle } = useTheme()
