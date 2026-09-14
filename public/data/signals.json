@@ -1,208 +1,29 @@
 {
-  "generatedAt": "2026-09-14T01:48:59.303Z",
+  "generatedAt": "2026-09-14T11:01:05.875Z",
   "stats": {
     "feedsScanned": 10,
-    "feedsFailed": 0,
-    "articlesFetched": 70,
-    "signalsProduced": 10,
-    "durationMs": 99428,
+    "feedsFailed": 8,
+    "articlesFetched": 20,
+    "signalsProduced": 8,
+    "durationMs": 35315,
     "model": "gemini-3.6-flash"
   },
   "signals": [
     {
-      "id": "sig-1-mu0l40fa",
-      "title": "Thai Cabinet Approves Startup Act to Unlock Investment and Treasury Stock",
-      "summary": "The Thai Cabinet has approved the principle of the Startup Act to eliminate regulatory and funding bottlenecks for early-stage companies. The draft law allows private companies to hold treasury stock and issue convertible debt, helping prevent local talent drain and encouraging venture capital investment.",
-      "soWhat": "Thai corporate venture capitals and tech firms should update their deal structuring and stock option plans to take full advantage of new equity retention mechanisms.",
-      "category": "Business",
-      "impact": 4,
-      "confidence": 0.95,
-      "timeHorizon": "3-6mo",
-      "tags": [
-        "Startup Act",
-        "Venture Capital",
-        "Equity Structuring",
-        "Regulation"
-      ],
-      "sources": [
-        {
-          "title": "ครม. เห็นชอบหลักการ Startup Act ปลดล็อกข้อจำกัดระดมทุนสตาร์ตอัปไทย อนุญาตให้บริษัทจำกัดถือหุ้นตนเองได้ - Techsauce",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5WQXh1X0xhdTZneFNkdHN5UWM0Y0toTGNaU0xxWk94TDlsUEJ6cm5zWVpibndZSnlvNU5saUQyUVJSZHg2UDd2dUFEQVJ0Qm5JcmJHcUpIeTNMRi1xaHNONjFSdnBwZkhjbjYyUGtHbHg?oc=5",
-          "publisher": "Techsauce",
-          "publishedAt": "Tue, 08 Sep 2026 08:06:47 GMT"
-        },
-        {
-          "title": "ครม.เคาะ “STARTUP ACT” ปลดล็อกสตาร์ทอัพระดมทุน ดันยูนิคอร์นไทยแจ้งเกิด - อมรินทร์ทีวี ช่อง 34",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1GVnJlb09HQWFvQ1FiWmtmTWtqOVdhRHN5a0xWWXF2VE1waVBjY2Yza0Q1ZGV0NHJ1TFBMbkF2Q1h0TnBOcGhXX3JjM21BRy1ZMGNrbGl1WjdvQXZTc0E?oc=5",
-          "publisher": "อมรินทร์ทีวี ช่อง 34",
-          "publishedAt": "Tue, 08 Sep 2026 08:49:00 GMT"
-        },
-        {
-          "title": "ครม. ไฟเขียวร่างพ.ร.บ.สตาร์ทอัพ ปลดล็อกข้อจำกัด-เพิ่มโอกาสเข้าถึงทุน ยกระดับธุรกิจไทย - RYT9",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBEQk1HTi1HNHk2ZUpETFBMOG5QUF9TYVBSb080b3ZFQm5FUldJSEFEeUFOQ3JPekw5eU50X1F5WktjMzdiOFpPelBB?oc=5",
-          "publisher": "RYT9",
-          "publishedAt": "Tue, 08 Sep 2026 08:34:54 GMT"
-        },
-        {
-          "title": "Thai Cabinet backs bill to ease startup fundraising - Nation Thailand",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5neVd1dmFRSW5BZ3ZKSEJ2dUpxQ2N6bHhlVElNcmRMTTFZTEdVb2RLRjhDTjEyTGVlZnJ3UXhGWDI1c29iT1MzY25XTkRPdDVIZFNtTDhDS3NFcHlqU0puMWNtdGgtLWM?oc=5",
-          "publisher": "Nation Thailand",
-          "publishedAt": "Tue, 08 Sep 2026 08:22:00 GMT"
-        },
-        {
-          "title": "ยศชนันชง ครม. เห็นชอบร่าง พ.ร.บ. สตาร์ทอัพ ปลดล็อกกฎหมายแก้ปัญหาระดมทุน-สมองไหล - thestandard.co",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9OYWNNdUdQVkZZNHF6VnFwakRyc1pIOUhPOHZCa19KVEhialUxUThaZVIxekdZa3pxUy03X24yc2pTcW1RTHIxX2NrZWV3aVBvU2l0M0l1YUJ3ckFWOURTMHRMWjItdw?oc=5",
-          "publisher": "thestandard.co",
-          "publishedAt": "Sat, 12 Sep 2026 04:14:13 GMT"
-        },
-        {
-          "title": "“ยศชนัน” เตรียมชง STARTUP ACT เข้า ครม. ปลดล็อกระดมทุน ดันสตาร์ตอัพไทยสู่ยูนิคอร์น - LINE TODAY",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE0yV0k4clRyMHotc1dEcFJoSkV2a3ZOWmI1YWxXbnRSV1NXNWVLTlNDLVJiaTcyUERFSTk5S0d0MlJ6enRKb2JNZXdwTWo2dkY3eFdvb1lLeGs1d1doYXhhUVk0VHZ1bjg4VnYwRFRwOVE?oc=5",
-          "publisher": "LINE TODAY",
-          "publishedAt": "Tue, 08 Sep 2026 04:25:30 GMT"
-        },
-        {
-          "title": "“ยศชนัน” ชง ครม. เคาะร่างพ.ร.บ. สตาร์ทอัพ ปลดล็อกระดมทุน-หุ้นกู้แปลงสภาพ ดึง Talent ปั้นยูนิคอร์นไทย - efin.finance",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBLNXM4YTd3X3plUUF5RnVya3g4OXFKVXAzVkdyb2M0S3ZYODRaMHFVc0FtSk5ZUlh5VnkyZkd0WDBUNk5VZm80ZnBfcGpFQncwdFlZRTJVbl9YWjhRU3JFdG5n?oc=5",
-          "publisher": "efin.finance",
-          "publishedAt": "Tue, 08 Sep 2026 03:16:00 GMT"
-        },
-        {
-          "title": "ครม.ไฟเขียว พ.ร.บ.สตาร์ตอัพฯ ปลดล็อกการระดมทุน-โยก “ณัฐพล รังสิตพล” ปลัดอุตฯนั่งที่ปรึกษานายกฯ - thaipublica.org",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBPYkJ6bFBIZ0lDQXY0WTdvN3B4NkhCempHekRZUjE0b2NHdzU4SUFHY2hKOGxXclNnQ2FtNEl4UnJIaFVQbU1NWVVMUkJ4blVtdkNyVUwwdFdrbDBoMDdpdVBVV1BycEFx?oc=5",
-          "publisher": "thaipublica.org",
-          "publishedAt": "Tue, 08 Sep 2026 14:16:47 GMT"
-        }
-      ]
-    },
-    {
-      "id": "sig-2-mu0l40fa",
-      "title": "Government and BOI Inject Billions to Accelerate AI and Upskilling",
-      "summary": "The Thai government and Board of Investment have allocated over 4.8 billion baht across more than 100 projects to promote AI and automation. The initiative aims to upskill over 76,000 workers to strengthen competitiveness across local industries.",
-      "soWhat": "Enterprise strategy teams should immediately apply for state transformation co-funding to subsidize internal AI integration and workforce retraining.",
-      "category": "Technology",
-      "impact": 4,
-      "confidence": 0.9,
+      "id": "sig-1-mu14u11v",
+      "title": "Thailand EV Board Ties Tax Incentives directly to Localized Production",
+      "summary": "Thailand's EV Board is revising excise tax structures to penalize imported electric vehicles while offering lower rates for automakers increasing local manufacturing. The policy initiative aims to force foreign EV brands to invest in domestic assembly plants and regional supply chain sourcing.",
+      "soWhat": "Automakers and automotive supply chain participants must rapidly accelerate local assembly facilities and part sourcing in Thailand to maintain price competitiveness against localized rivals.",
+      "category": "Industry",
+      "impact": 5,
+      "confidence": 0.85,
       "timeHorizon": "Now",
       "tags": [
-        "BOI",
-        "AI Adoption",
-        "Workforce Upskilling",
-        "Industrial Policy"
-      ],
-      "sources": [
-        {
-          "title": "รัฐบาลไฟเขียว 55 โครงการใหม่ อัด 1,970 ล้านบาท ดันธุรกิจไทยใช้ AI-สร้างแรงงานทักษะสูง - LINE TODAY",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4tR25rM083dG1xdkNSV3NrZE1JdFIxVk9LZTBKeEt0dGdndm5KU25JeXY1QmxyV3RGN1kwSlZuVzJWVjdaZ1dhR1JJZzdjZllxQ2VTMGZB?oc=5",
-          "publisher": "LINE TODAY",
-          "publishedAt": "Thu, 10 Sep 2026 06:35:31 GMT"
-        },
-        {
-          "title": "Thailand Upskills Workforce to Meet an Expanding Tech Economy’s Demands (Part 2) - Electronic Design",
-          "url": "https://news.google.com/rss/articles/CBMigwJBVV95cUxORTRjbl9HcGlQMUh2MmttNWhMMDYtUHFhWjBfX2hleHNuRGtHbEp0bTF2ZkpUcDQ1OUNjR3ZhRnpnZENBVExZcWZESGpPRk1JUmp3MUdoSG1OWmgwcUpySFhxTVB3aWJ1aGw2OHhTVWQyWUM4NlN6cXRYcGhIdk1fLUU2a0FkYzBZb01VaW9BR3FOZnR0MXZzTll2QWV6ek5nWnZuNjJoa0Etal8xVkotLUlqenRZa2pGcjNzcm5WNmpOYnViMzdZY2wzVkxONWlSTlJObjIxblVQSWpHejE1LUV3RkMta3lpckhMTXFSYVVCRFRyVmdnX2hHZ1M1UnR6Zzlj?oc=5",
-          "publisher": "Electronic Design",
-          "publishedAt": "Fri, 11 Sep 2026 18:30:49 GMT"
-        },
-        {
-          "title": "โครงการเสริมศักยภาพ SMEs ไทย ก้าวไวด้วยปัญญาประดิษฐ์ (SMEs AI-Boost) 19-21 ตุลาคม 2569 - TechTalkThai",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1BTU9OdnBZYnFfMUMzbWV3MnAwM3ZfbTM2VlBYMWR6TnFqRDFCY1F0RHdGamxVSlFZN1BLUUx6V0k4UnBTaEkxRGN3X0NNR3IwMG1tdFV4TzdKUzN5?oc=5",
-          "publisher": "TechTalkThai",
-          "publishedAt": "Thu, 10 Sep 2026 13:25:52 GMT"
-        },
-        {
-          "title": "บีโอไอ อัดฉีดกว่า 4,800 ล้านบาท เสริมแกร่งธุรกิจไทย ปั้นบุคลากรทักษะสูงกว่า 7.6 หมื่นคน",
-          "url": "https://techsauce.co/news/boi-business-transformation-skill-bridge-4800-million-baht",
-          "publisher": "Techsauce",
-          "publishedAt": "Fri, 11 Sep 2026 12:02:28 +0700"
-        },
-        {
-          "title": "บีโอไอทุ่ม 4,800 ล้าน ไฟเขียว 108 โครงการ ดันธุรกิจไทยสู้ศึก AI-เทคโนโลยีโลก - Thansettakij",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFA3YnNKeWljcFFYOHlla3p6cUVKTzRFcUNDb1ZoOGdzZmJyTVRjcUZXRDZkNXN0NDdwdGdjbkJSa1BlbGhGM2pCWVRRbGpVdmxOOU5Td2Zn?oc=5",
-          "publisher": "Thansettakij",
-          "publishedAt": "Wed, 09 Sep 2026 10:55:00 GMT"
-        }
-      ]
-    },
-    {
-      "id": "sig-3-mu0l40fa",
-      "title": "Infrastructure and BOI Incentives Ramp Up for Data Centers and Tech IPOs",
-      "summary": "Thailand is speeding up subsea cables, pipeline infrastructure, and energy readiness to position the country as a regional data center hub. Simultaneously, the BOI introduced 'BOI to IPO' tax incentives to encourage tech companies to list locally.",
-      "soWhat": "Telecom and digital infrastructure players must secure power capacity and land rights early to capture incoming cloud provider co-location demand.",
-      "category": "Economic",
-      "impact": 5,
-      "confidence": 0.95,
-      "timeHorizon": "1yr+",
-      "tags": [
-        "Data Center",
-        "Infrastructure",
-        "BOI to IPO",
-        "Foreign Investment"
-      ],
-      "sources": [
-        {
-          "title": "Thailand speeds up a $3.66 billion industrial pipeline project and rolls out tax incentives to boost tech IPOs - thailand-business-news.com",
-          "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxNUnZiSC1VeWFWcDdQM2VwdGlCWlN0YkxGYjJCZmRBR0FiemdJR2ZrUmZTM2Z5SnhpSHJ6elFKcWZjUHotZ21BSS11dmtqZU5VWGF4LWZVMUp2R3JwYXZDeXV1ajBSN2FuTzh1WmVFX2N0bEJwUVlZUTFKYVZBMlcxZW1UZV9XZjRqY1habnZJTXRteXdZWHFoYktYMlVON29BeFUzM1BwN0xDaG01NE1WVnVpYVpMZm9MRG1aRTdzb2lUN1V0TWlDNXBsX3RDU0hIYzdQUHlLRlVYUWp6Y2JkYlVGWnRLOGMyTGNhM3R0UUR6aDZDUXFnTkhn?oc=5",
-          "publisher": "thailand-business-news.com",
-          "publishedAt": "Sun, 13 Sep 2026 20:59:00 GMT"
-        },
-        {
-          "title": "กัลฟ์ ลุยเคเบิลใต้น้ำ เชื่อมไทย-สิงคโปร์ รองรับเศรษฐกิจดิจิทัลภูมิภาค - ข่าวสด",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE43UXhMbHBsd0psWDhVekJwb1JkTEY1a0VweFhlX0doX09LNHdMLWxVaHZJY0twSTYwTzlJYmhOSU9JbGdaRnJkMFgwUk1aS2t0T3I3bi1DaEFQaWVhRWc?oc=5",
-          "publisher": "ข่าวสด",
-          "publishedAt": "Thu, 10 Sep 2026 06:25:00 GMT"
-        },
-        {
-          "title": "บอร์ดบีโอไอไฟเขียวมาตรการ “BOI to IPO” พร้อมปรับใหญ่ทิศทางส่งเสริมลงทุน เร่ง “ลงทุนจริง–สร้างคุณค่า” - Thaigov",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1uZW9MaUhoNmxiSDlJUmY1Z0R4ZUxnc1ItR3FnRTdxYUluQUxGVmVzd3ZIQncxVEMyMkJ0QV8xUVBFMnBKX2FoOG04bmdhUQ?oc=5",
-          "publisher": "Thaigov",
-          "publishedAt": "Fri, 11 Sep 2026 08:11:00 GMT"
-        },
-        {
-          "title": "‘กมธ.พลังงาน สว.’ หนุนไทยลงทุน ‘ดาต้าเซ็นเตอร์’ รับเศรษฐกิจดิจิทัล - เดลินิวส์",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5LUjFKYXd6Njh6MENfMlFkeDRJTEk2WFR6cFFVd2pKNU5zSVpUVE5mSXNtRHNyVnBvX0FpXzI4SDRFYWZyYVdPMFJsNlRIcXdxa193?oc=5",
-          "publisher": "เดลินิวส์",
-          "publishedAt": "Wed, 09 Sep 2026 05:21:00 GMT"
-        },
-        {
-          "title": "‘Data Center’ เดิมพันใหม่เศรษฐกิจไทย สมการเงินลงทุนมหาศาลบนทางแยกเมื่อโอกาสเดินเร็วกว่ากติกาและราคาที่ประเทศต้องจ่าย! - thaipost.net",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9xbjQ2UmdiNTNMS25Od3E3VVphNHhORElMZXZ3alJ6NkIzWlVzclQyV1hlbE1icUpwOWNKODJjbEl1ZER5MDd0eF9nNFpZN2lUQUNnYy1MOFRrZw?oc=5",
-          "publisher": "thaipost.net",
-          "publishedAt": "Mon, 07 Sep 2026 02:57:44 GMT"
-        },
-        {
-          "title": "อุตฯ ดิจิทัลไทยโต 22.66% ทะลุ 3.87 ล้านล้าน ‘ดีป้า’ ชี้ 'AI-ดาต้าเซนเตอร์' ดันฮาร์ดแวร์พุ่ง - bangkokbiznews",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBoc2FBZXhSREhVZ0NsVTcyYm5CbDhPQVZhMzhkMUFHZVlIa2V0dFZXbndDeUstNWJlY1JERVk5QUJya20xWkhVS3FZZ1dRREhicmJ6ZW4zLV9EQQ?oc=5",
-          "publisher": "bangkokbiznews",
-          "publishedAt": "Thu, 10 Sep 2026 04:41:59 GMT"
-        },
-        {
-          "title": "หั่น GDP ไทยปี69 โต2.5% ม.หอการค้าไทย ชี้แรงหนุนลงทุน AI -Data Center - Thai PBS",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9ScXJlUmY0YXB1Y1pLR2V0ZTlFUVBiRmE2LU9CYUd0ZU1OX25zcExNNDY0SmRFeGNfUmN4bkZ0R2xUYmpZRkVMMlFhSHd5VjZBSUp6NGtGSDc?oc=5",
-          "publisher": "Thai PBS",
-          "publishedAt": "Thu, 10 Sep 2026 09:09:13 GMT"
-        },
-        {
-          "title": "Thailand, Singapore exchanges seek tech listings as AI booms - Nikkei Asia",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQQmtrS1U5V2p3anI2LXJWcUYtZDZMR2pOamFDZzUxQ2NTeHNQM1BFbW1Ic3VpWk9hcVcwMVRqUXFLY3hLZ1YyRGg1QjIxUk9leVdpbVRxR0Z6TDd6ZU1hRkRQNTd6aHRXSHpjT3dKR3VFYWJmajNhMThmRWFlVG1pc2NDcTYzNXc0MFlmNWZfdXl5RTd3NDVLM0YtLVB2cVdBSDlzQnZ5WlRBWmhYU2VWS0xwUQ?oc=5",
-          "publisher": "Nikkei Asia",
-          "publishedAt": "Mon, 24 Aug 2026 07:00:00 GMT"
-        }
-      ]
-    },
-    {
-      "id": "sig-4-mu0l40fa",
-      "title": "EV Excise Tax Policy Tightens to Enforce Local Manufacturing Sourcing",
-      "summary": "Thailand's EV Board is proposing a revised excise tax scheme that penalizes imported electric vehicles lacking local factories. Under the new rules, lower tax rates will be strictly tied to higher domestic production volume and local supply chain sourcing.",
-      "soWhat": "Automotive supply chain managers must establish local component partnerships in Thailand quickly to protect pricing power against higher import tariffs.",
-      "category": "Business",
-      "impact": 5,
-      "confidence": 0.7,
-      "timeHorizon": "3-6mo",
-      "tags": [
-        "EV Policy",
+        "EV",
+        "Automotive",
+        "Thailand Policy",
         "Excise Tax",
-        "Local Content",
-        "Supply Chain"
+        "Localization"
       ],
       "sources": [
         {
@@ -214,278 +35,188 @@
       ]
     },
     {
-      "id": "sig-5-mu0l40fa",
-      "title": "E-Commerce Operators Shift Battleground to Ultra-Fast Delivery and Streaming Ecosystems",
-      "summary": "Major e-commerce platforms in Thailand like Shopee and Lazada are introducing instant 1-hour delivery services and cross-platform streaming bundles. Meanwhile, state logistics operators like Thailand Post are partnering with commercial channels to broaden distribution across rural areas.",
-      "soWhat": "Consumer brands must re-architect fulfillment operations around urban micro-hubs to satisfy growing expectations for sub-hour delivery windows.",
-      "category": "Industry",
+      "id": "sig-2-mu14u11v",
+      "title": "Thai BOI Injects Subsidies into Corporate AI Adoption and Talent Reskilling",
+      "summary": "The Board of Investment has approved over 4.8 billion baht across 55 transformation projects to accelerate industrial automation and AI integration. The government program targets upskilling and reskilling over 76,000 high-skilled workers to strengthen national industrial competitiveness.",
+      "soWhat": "Corporate strategy teams at Thai enterprises should immediately leverage state transformation co-funding to de-risk high-capital AI implementation and workforce retraining projects.",
+      "category": "Economic",
       "impact": 4,
-      "confidence": 0.85,
+      "confidence": 0.8,
       "timeHorizon": "Now",
       "tags": [
-        "E-Commerce",
-        "Instant Delivery",
-        "Logistics",
-        "Retail Competition"
+        "BOI",
+        "AI Adoption",
+        "Automation",
+        "Thailand Economy",
+        "Reskilling"
       ],
       "sources": [
         {
-          "title": "ลาซาด้าเผยอินไซต์นักช้อปไทย รับครึ่งปีหลัง 2026 สรุป 3 เทรนด์มาแรง: ช้อปฮีลใจ-ใส่ใจความชัวร์-แชตรัวถาม AI - Marketeer Online",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9pN21LOF9hYU9McHhzQmI0dFBrQVBuWXVVWFJEaE5sLUV1T1ZaWEhSV0otdko1dkFlbjVlS2xoYmhMUVJzTHZWWGpOazdFT0w3dzhVcQ?oc=5",
-          "publisher": "Marketeer Online",
-          "publishedAt": "Tue, 08 Sep 2026 06:20:33 GMT"
-        },
-        {
-          "title": "เจาะลึกเทรนด์ e-Commerce & FinTech สู้ศึกส่งท้ายปี: ถอดรหัสโครงสร้างพื้นฐานดิจิทัลไทยสู่โอกาสใหม่ในปี 2027 - กรมประชาสัมพันธ์",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9RN2hZUE8yRHUwMThETXJMQWYyWWdxU2dkVlFRUGV5WTRQMl9nM3FqenNidHVnRlZYWEpJQmdiUmhzdndtTXlEbFNFQTA1OXhua1d5Mk5SYVpjUExhQjFsaVhDckdWUEV2WlIwbHBGMHpoTW8?oc=5",
-          "publisher": "กรมประชาสัมพันธ์",
-          "publishedAt": "Sun, 13 Sep 2026 02:26:54 GMT"
-        },
-        {
-          "title": "STARM ผนึก\"ไปรษณีย์ไทย\"เพิ่มช่องทางขาย-ขยายสินเชื่อทั่วประเทศ ต่อยอดดิจิทัลแพลตฟอร์ม เจาะ B2B-อีคอมเมิร์ซเพิ่มโอกาสปั๊มรายได้ยาว : อินโฟเควสท์ - สำนักข่าวอินโฟเควสท์",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1iRmxId1VRMnUta3BMUU84bnYxYmV5T3B4Yl9wMU5MWVlnRWQxRXl3eW84dktYZ0E2Mk95N05hNnVWNHp2ejFJeE5yZm9TeXBO?oc=5",
-          "publisher": "สำนักข่าวอินโฟเควสท์",
-          "publishedAt": "Wed, 09 Sep 2026 05:07:00 GMT"
-        },
-        {
-          "title": "ช้อปปี้ ผนึก Netflix เขย่าวงการสตรีมมิง-อีคอมเมิร์ซ เปิดตัว ShopeeVIP+ ดึงความบันเทิงพ่วงส่งฟรี-โค้ดลด เริ่มต้นแค่ 79 บาท - Brand Inside",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE92UjF5cE83MGpFajhpa1ZHNmdWckcxck5lTVNXTk9Qai05VGNsUTJSQUVTd0F4SHVqeXVMX3A0RHFYSFhpUjFFMDA0S3hKVzRJN3c?oc=5",
-          "publisher": "Brand Inside",
-          "publishedAt": "Thu, 10 Sep 2026 16:21:30 GMT"
-        },
-        {
-          "title": "Shopee 9.9 เร่งสปีดการช้อป ส่งเร็วสุด 5 นาที ในวันที่ 9 เดือน 9 พร้อมส่งมอบกว่า 1 ล้านออเดอร์จากร้านค้าไทยผ่าน Express และ Instant Delivery ตลอดแคมเปญ - Positioningmag",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBmd3lkUHplVm9iY2xzMnBPRGI1dzVzMGFwYzdmVDVENVRCRFlKb0xqSnRkYk5aalJNcE5OeFV3UFlEZXpIUU9CQkoyZi1aZF9ZcE84?oc=5",
-          "publisher": "Positioningmag",
-          "publishedAt": "Fri, 11 Sep 2026 09:30:23 GMT"
-        },
-        {
-          "title": "คนไทยใจร้อนมาก? Shopee เปิดตัว ‘ส่งด่วน 1 ชม.’ สั่งของสด-ยา-ของใช้ ได้ 24 ชม. - workpointtoday.com",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9KY1N3bTlFUjE1a1Rqay02MlRoUDNsWUhUSmpCcW9pYjVGQTFOdk11WTBmS0lkQmtQRm9YSVZpM1UtbVFJcjVMa3VOeXE4UQ?oc=5",
-          "publisher": "workpointtoday.com",
-          "publishedAt": "Mon, 07 Sep 2026 12:50:34 GMT"
+          "title": "บีโอไอ อัดฉีดกว่า 4,800 ล้านบาท เสริมแกร่งธุรกิจไทย ปั้นบุคลากรทักษะสูงกว่า 7.6 หมื่นคน",
+          "url": "https://techsauce.co/news/boi-business-transformation-skill-bridge-4800-million-baht",
+          "publisher": "Techsauce",
+          "publishedAt": "Fri, 11 Sep 2026 12:02:28 +0700"
         }
       ]
     },
     {
-      "id": "sig-6-mu0l40fa",
-      "title": "Thai Consumer Spending Tightens Amid Debt, Pivoting Toward Health and Wellness",
-      "summary": "High household debt levels are causing Thai consumers to delay large commitments like houses and cars in favor of strict personal budgeting. However, spending remains resilient in the health sector, with 80% of consumers actively buying functional and health-conscious items.",
-      "soWhat": "Consumer product strategists should resize packaging to lower price points while reformulating daily products around health benefits to defend sales volume.",
+      "id": "sig-3-mu14u11v",
+      "title": "Ambient Audio Recording in Wearables Triggers Enterprise Privacy Concerns",
+      "summary": "Apple's latest product launches feature smartwatch capabilities that continuously record ambient audio for automated AI conversation summarization. While driving workplace productivity, these features introduce significant corporate espionage and consumer privacy risks.",
+      "soWhat": "Corporate legal and security leads must promptly establish guidelines regarding wearable ambient recording tools within confidential business environments.",
       "category": "Consumer",
       "impact": 4,
       "confidence": 0.9,
       "timeHorizon": "Now",
       "tags": [
-        "Household Debt",
-        "Consumer Sentiment",
-        "Wellness Market",
-        "FMCG"
+        "Wearables",
+        "Apple",
+        "On-Device AI",
+        "Privacy",
+        "Enterprise Security"
       ],
       "sources": [
         {
-          "title": "เศรษฐกิจไทยครึ่งปีหลัง 2569 ฟื้นตัวบนความเปราะบาง – วิกฤตต้นทุนพุ่ง – AI พลิกโลก - Marketeer Online",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBHNDBlVDNZeTRzR3lLZnJYTl92SFdzX3FqWDh6MFBvZzR1SHdYTkZEWVVPZjdUTlNfWC02THIyQkNha0JjVTk2VWY0MUwxQnZhOFhqWQ?oc=5",
-          "publisher": "Marketeer Online",
-          "publishedAt": "Fri, 11 Sep 2026 07:00:00 GMT"
+          "title": "สรุปทุกอย่างจาก Apple Event 2026: ซีอีโอคนใหม่ของ Apple พร้อม iPhone จอพับ กล้องปรับรูรับแสงได้ และนาฬิกาที่วัดหัวใจทุก 5 วินาที",
+          "url": "https://techsauce.co/news/apple-event-2026",
+          "publisher": "Techsauce",
+          "publishedAt": "Thu, 10 Sep 2026 16:47:18 +0700"
         },
         {
-          "title": "ความเชื่อมั่นผู้บริโภคไทย เข้าสู่โหมดรัดเข็มขัด ชะลอซื้อบ้าน-รถยนต์ - Marketeer Online",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8yWTJNcFIxMXZHZVlxUzNlUTNUd0ZPUkpNNkx6ZzRIN1VTMV9DRktVSFlpUFdMNVBDNXF3NVBQU1JnanF2a3hGbFZfQ1pnVU9WRnVFOA?oc=5",
-          "publisher": "Marketeer Online",
-          "publishedAt": "Tue, 08 Sep 2026 07:00:00 GMT"
+          "title": "Apple Watch ใหม่ มีฟีเจอร์ Audio Intelligence บันทึกเสียง-ประมวลผลด้วย AI ที่มาพร้อมคำถามความเป็นส่วนตัว",
+          "url": "https://www.blognone.com/node/151628",
+          "publisher": "Blognone",
+          "publishedAt": "Sun, 13 Sep 2026 04:42:00 +0000"
         },
         {
-          "title": "PwC เปิดเทรนด์สุขภาพคนไทย 80% ซื้ออาหารสุขภาพ แต่ 91% ห่วงยาฆ่าแมลง | การเงินธนาคาร - LINE TODAY",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBKNlR4UXBwSFRJRm42dmRlQU15V3RmZU5uU1hTWkZITUcwVkl1Y2FqemMxWU5ZYTIwZEszdUFFVWlZTlNLSlVleU5KSEdvbE4ta0NXR3BB?oc=5",
-          "publisher": "LINE TODAY",
-          "publishedAt": "Fri, 11 Sep 2026 10:04:56 GMT"
-        },
+          "title": "ฟีเจอร์ใหม่ Apple Watch เพิ่ม Siri Recap บันทึกเสียงรอบตัว และใช้ AI ประมวลผล ส่งไปเก็บในแอป Siri",
+          "url": "https://techsauce.co/ai/apple-watch-ai-audio-intelligence-siri-recap-privacy",
+          "publisher": "Techsauce",
+          "publishedAt": "Thu, 10 Sep 2026 12:19:29 +0700"
+        }
+      ]
+    },
+    {
+      "id": "sig-4-mu14u11v",
+      "title": "Escalating Geopolitical AI IP Disputes via Aggressive Model Distillation",
+      "summary": "Anthropic publicly disclosed detailed evidence alleging Chinese technology firms conducted over 200 million unauthorized prompt queries to extract Claude's model intelligence. The report highlights sophisticated translation bypass techniques used to harvest frontier AI model outputs for domestic model training.",
+      "soWhat": "Thai AI developers and enterprise software firms must implement strict API telemetry protection and guardrails to prevent proprietary data extraction by competitors.",
+      "category": "Technology",
+      "impact": 4,
+      "confidence": 0.8,
+      "timeHorizon": "Now",
+      "tags": [
+        "AI Ethics",
+        "Data Scraping",
+        "Anthropic",
+        "IP Protection",
+        "Cybersecurity"
+      ],
+      "sources": [
         {
-          "title": "PwC ชี้ตลาดสุขภาพไทยเข้าสู่กระแสหลัก หลัง 80% ของคนไทยซื้ออาหารและเครื่องดื่มเพื่อสุขภาพ - Share2Trade",
-          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1vcjdUcXNfLTd4YkI2U2VfcWFDTkJpMm9FY19oSzBMeUU3a0hORGRKZmxEYzljdHBIcjRMb2E4bEtUcm5HRksybWlCbC1FVmc?oc=5",
-          "publisher": "Share2Trade",
-          "publishedAt": "Thu, 10 Sep 2026 12:14:18 GMT"
-        },
+          "title": "Anthropic เดือดจนออก Report แฉโมเดลจีนลอกวิชา Claude ผ่านแชทกว่า 200 ล้านชุดในไม่กี่เดือน Alibaba ทำไป 151 ล้านครั้ง หนักสุดในทุกค่าย",
+          "url": "https://techsauce.co/ai/anthropic-report-ai-distillation-china",
+          "publisher": "Techsauce",
+          "publishedAt": "Fri, 11 Sep 2026 13:57:32 +0700"
+        }
+      ]
+    },
+    {
+      "id": "sig-5-mu14u11v",
+      "title": "Corporate Venture Capital Expands Mandate into Regional Wellness Economy",
+      "summary": "Krungsri Finnovate is directing strategic capital into healthcare and wellness ecosystems through dedicated corporate venture capital initiatives. The investment shift capitalizes on accelerating consumer demand for preventive healthcare, longevity, and health tech innovations.",
+      "soWhat": "Consumer tech strategy teams should proactively forge joint ventures or ecosystem partnerships with financial institution-backed wellness funds to monetize preventative health services.",
+      "category": "Business",
+      "impact": 3,
+      "confidence": 0.75,
+      "timeHorizon": "3-6mo",
+      "tags": [
+        "Wellness Economy",
+        "CVC",
+        "Krungsri Finnovate",
+        "Healthcare",
+        "Venture Capital"
+      ],
+      "sources": [
         {
           "title": "Krungsri Finnovate เปิดเกม Wellness Economy ชูสุขภาพสู่การลงทุนแห่งอนาคต ในงาน Future Wellness Economy Forum 2026",
           "url": "https://techsauce.co/news/krungsri-finnovate-wellness-economy",
           "publisher": "Techsauce",
           "publishedAt": "Fri, 11 Sep 2026 18:05:03 +0700"
-        },
-        {
-          "title": "วิจัยกรุงศรีชี้ เศรษฐกิจไทย ยังได้แรงส่ง “ลงทุน-ส่งออก-รัฐ” แต่บริโภคเริ่มแผ่ว - LINE TODAY",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE4xaGlRZXdDUElLNHNsSkZtVkpmeUQ0OWx0T0tERmRTam5wSVVkdHdqOTcxMjBDRnRqTDBEWTVjYkpBZXNEa2JoVnptc1IwbzVuTzlkWl9B?oc=5",
-          "publisher": "LINE TODAY",
-          "publishedAt": "Tue, 08 Sep 2026 07:29:15 GMT"
-        },
-        {
-          "title": "เศรษฐกิจไทย..โจทย์ใหญ่ ‘หนี้ครัวเรือน’ - ข่าวหุ้นธุรกิจออนไลน์",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE95ZzRsQ2E5QjkzVUY3UEtWU1RUbDkzbGZfRXZmTEs5MVZSMTNtYzFKZWpTUmI3dG41ajhVWTBiMW9tb3dIb3U1SXVHWU5Rdw?oc=5",
-          "publisher": "ข่าวหุ้นธุรกิจออนไลน์",
-          "publishedAt": "Thu, 10 Sep 2026 23:30:26 GMT"
         }
       ]
     },
     {
-      "id": "sig-7-mu0l40fa",
-      "title": "Macroeconomic Indicators Diverge as Experts Urge Modernization of Growth Metrics",
-      "summary": "Economic research centers report uneven Thai GDP growth driven by state spending and exports while domestic consumption trails. Leading economists argue that traditional indices like the Manufacturing Production Index fail to reflect new digital service models, distorting economic planning.",
-      "soWhat": "Corporate strategy teams must move beyond official manufacturing indices and incorporate real-time private digital transactional data into market forecasts.",
-      "category": "Economic",
+      "id": "sig-6-mu14u11v",
+      "title": "Rising Consumer Subscription Fatigue Drives Churn in Digital Platforms",
+      "summary": "Consumer research indicates a growing wave of digital subscription cancellations across major gaming platforms due to cumulative monthly price increases. Gamers are increasingly opting out of non-essential recurring fees as discretionary household spending comes under pressure.",
+      "soWhat": "Consumer app and digital content providers in Thailand must re-examine monthly subscription pricing and introduce flexible micro-transactions to combat subscriber churn.",
+      "category": "Consumer",
+      "impact": 3,
+      "confidence": 0.7,
+      "timeHorizon": "Now",
+      "tags": [
+        "Subscription Fatigue",
+        "Gaming",
+        "Consumer Spending",
+        "SaaS Pricing",
+        "Monetization"
+      ],
+      "sources": [
+        {
+          "title": "สมาชิก Game Pass, PS Plus, NSO ยกเลิกเพราะรู้สึกต้นทุนสูง ไม่คุ้มเงิน",
+          "url": "https://www.blognone.com/node/151639",
+          "publisher": "Blognone",
+          "publishedAt": "Mon, 14 Sep 2026 03:40:16 +0000"
+        }
+      ]
+    },
+    {
+      "id": "sig-7-mu14u11v",
+      "title": "Executive False Alignment Threatens Strategic Corporate Transformation Success",
+      "summary": "Management research shows over 70 percent of corporate transformation projects fail because executive teams display superficial agreement without actual operational consensus. Known as False Alignment, this organizational trap causes execution breakdowns when strategy meets departmental reality.",
+      "soWhat": "Strategy officers orchestrating major corporate pivots must incorporate anonymous feedback and rigorous alignment checks to ensure genuine leadership commitment.",
+      "category": "Business",
+      "impact": 3,
+      "confidence": 0.8,
+      "timeHorizon": "Now",
+      "tags": [
+        "Corporate Strategy",
+        "Transformation",
+        "Management",
+        "Change Management"
+      ],
+      "sources": [
+        {
+          "title": "รู้จัก ‘False Alignment’ ภาวะที่ทุกคนคิดว่าเห็นตรงกัน กับดักที่ทำให้องค์กรไปไม่ถึงเป้าหมาย",
+          "url": "https://techsauce.co/saucy-thoughts/false-alignment-trap-why-transformation-fails",
+          "publisher": "Techsauce",
+          "publishedAt": "Sat, 12 Sep 2026 22:10:15 +0700"
+        }
+      ]
+    },
+    {
+      "id": "sig-8-mu14u11v",
+      "title": "SaaS Buyout Aggregators Drive Enterprise Software Market Consolidation",
+      "summary": "Bending Spoons acquired collaborative workflow platform Miro for 1.3 billion dollars, continuing its aggressive strategy of acquiring mature software assets. The acquisition highlights ongoing consolidation across productivity tools as buyout firms seek scale efficiencies.",
+      "soWhat": "IT procurement leaders should closely review vendor lock-in risks and contract pricing terms for enterprise productivity tools acquired by turnaround aggregators.",
+      "category": "Business",
       "impact": 3,
       "confidence": 0.85,
-      "timeHorizon": "3-6mo",
+      "timeHorizon": "Now",
       "tags": [
-        "GDP",
-        "Macroeconomics",
-        "MPI Index",
-        "Economic Indicators"
+        "SaaS",
+        "M&A",
+        "Bending Spoons",
+        "Enterprise Software",
+        "Consolidation"
       ],
       "sources": [
         {
-          "title": "THE STANDARD WEALTH. . มองทิศทางเศรษฐกิจไทยปี 2570 และจับตาดอกเบี้ยและนโยบายการเงิน พูดคุยกับ ดร.ปุณยวัจน์ ศรีสิงห์ นักเศรษฐศาสตร์อาวุโส ศูนย์วิจัยเศรษฐกิจและธุรกิจ ธนาคารไทยพาณิชย์ (SCB EIC) ติดตามรายการ Morning Wealth ทุกวันจันทร์-ศุกร์ เวลา 07.00-08.0 - facebook.com",
-          "url": "https://news.google.com/rss/articles/CBMi4gdBVV95cUxPbW5KZEdOeFA2VWs1N19KM09tU1VsQmVsMkoxNGJxS1d1VVZpTHpoYUY1N0U1dE5mQzlMSC1JRkJsTWVoUVNQclVZZURWN0ZMRTNtQXktaGxiY3hiRzQ4SW14ZHVCN3haMkNsbnZtc1Q0TWRic3FiSWZKV0VmU1BlMGtnM0lTRTA2WFhFUWJUdG12SUxUSlBSaUVndXJOSTdjZU5aZE1icXhYbHM1ZUgwelFSSmhaaDlJbmZrR3llVGhYbUxLaE9Qdy15U0xGUzJ1VVB5UW84SGNpa0ZDT0pfNnhFUk54Skktd3BJV1hCQ3p3X1VxSGFwNjJPaVVjTkR6OWlncFJOWnEzVVVLVHhFUFNGanRYa2t0MzViSy1lYTczVnM4dHZ4bkRPeHRSc1BRVlZjTkFRdTY0VHotcFh5NTZEXzYxd2ktQlI1alRFMHZKZWlRSWUtNk5RRVhRWXlnZEt0a1RIZ1RpejlnWEZHZzNpbHdkY0tUZkF3Z3ZXQWdKMklubHV4YnMtdEV5T2taS0QzYk9BaFdoR0M1TXlnSlBQNm9zNXFsN0JqTGNKS0ZhOXpUYThYTklMRDcwUjIzT1NJOEMybldHbjU3N2NDUTRITjNyMzgwTHNRcmcwdDFmckcxV3pEcDUtdFVsWUNTQUlxRThnNm05TnhkZUFFczBzbncyejdkeU5ITHZRcEhSSFNGbmt1WW5yZkI1bFBmR1FEVy1TWEY4dlFJM3NFYXpyODdJSDVXREpTS1UtNmtFak5GRVlpcnJyc2Z2dmtQWFYwWlFHb043cmFNaDVIMVpQS3hVQ2RsVVJta295M1R1Mzk1ZTB2Z25FWlNqaWFWbUdzdVEzcTkxcmdxcnZnUUpkc1N1bVBydEEzMVVHa2F4VGdHazVicWtEUURuS24zVjZYc2FERjYxSFU2eWFwbzg1UEF2c2gzSFE3eEFKV2dwaF9DeGIwY3d0MFR2QlZFZXNWaHJpcDFSTjl6MGtDeEN4MFRTcDZneFZxbXNXNUJZekdxREdCNzBYWjNMZW8zN0RNQ3AzeDY5NU8ydTF4Z2xHYkF4bGFsc0g5R2NDakY0OTF6V2FPbTFCc183aEVZTl92dmxwd1dKeDNpZnFzZ05VeTRjME0xUWlyU25LSTlaUDZScHdqclpTWFRZVjdtWnRrVnhhX1poS1VoTC0yMFU5VnZvVVNTMFZCV08zYnQ4d2I5ckJsRDljWXFGeFRJS3k2dmNIMnNka1hnTjZ0aXhQVEhOMlgza3hVRHY4N3pUQUFCT1ZkRTBZWmhPNkhscmg4NlpMbWU3and6U0RuUHlB?oc=5",
-          "publisher": "facebook.com",
-          "publishedAt": "Mon, 07 Sep 2026 05:08:45 GMT"
-        },
-        {
-          "title": "‘ดร. พิพัฒน์’ ชี้ตัวเลขเศรษฐกิจไทย ‘ฉายภาพคนละทาง’ แนะปรับดัชนี MPI เหตุวัดแบบเดิมไม่ทันการเปลี่ยนแปลงเศรษฐกิจใหม่ - thestandard.co",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9xVWlqZTBENkwwX3JSVzgzdm1FMEpNWERURDdGaTFRbUlQR1JZN3B4ay1vS0lhWjN2QVdVS0x5R0NNV1FKMmNrUzN0YlpQbUp5ckNGTURCY3lNeTlNV1hlbHFvWQ?oc=5",
-          "publisher": "thestandard.co",
-          "publishedAt": "Sat, 12 Sep 2026 08:27:14 GMT"
-        },
-        {
-          "title": "AMRO ชี้สัญญาณบวกเศรษฐกิจไทย-มั่นใจนโยบายดึงลงทุน ดัน GDP - nationtv.tv",
-          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9OYndaVU1HaE1jaFphUlJTZWtmdy1wSVJDYWZHbXlMWXhhdlROeVI3RjVCWG1Ya0U2OFh3VXlOSVQxUW5SdlM0T3k3RWNHM18xc1hCdk9SYnNCWkpIRGZB?oc=5",
-          "publisher": "nationtv.tv",
-          "publishedAt": "Fri, 11 Sep 2026 14:53:00 GMT"
-        },
-        {
-          "title": "สรุปภาพรวมเศรษฐกิจไทยส่งท้ายปี: ฝ่าคลื่นลมโลกสู่ความยั่งยืน - กรมประชาสัมพันธ์",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBDN1ktRXVLWEhjSkR0STVsSjlYS04wbEFHaTd0dGhwdUhkUldDeUJuVDduc1owYUJIMFFhVnRDdEVreTlITDE2c21mem41am1HaldmbUtWU0gxb2s4ZGJ4TlVTRnhtdW5HbGMydjJxUjFaQVU?oc=5",
-          "publisher": "กรมประชาสัมพันธ์",
-          "publishedAt": "Thu, 10 Sep 2026 02:43:25 GMT"
-        },
-        {
-          "title": "อุตสาหกรรมใหม่กำลังค่อยๆ ก่อตัว เปิดมุมมองประเด็นเศรษฐกิจไทย กับ พิพัฒน์ เหลืองนฤมิตชัย - The Momentum",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5vXzFzVGJEdVVVZXNTRTBFYlZsalZwMG9jdlh2MWtHUGVEZXJpdmVBeXRiMlY3TGlHRU1qeEptMjlCZE1qSEpreGx0Z2kxN2hQZVVwdy13YTJLOThUbGhxaUJOSDd4OTJXRzk4dEpTbDZDVTV3U3VN?oc=5",
-          "publisher": "The Momentum",
-          "publishedAt": "Thu, 10 Sep 2026 13:05:38 GMT"
-        },
-        {
-          "title": "“AMRO” มองเศรษฐกิจไทยพื้นฐานแกร่ง มาถูกทาง ประเมิน GDP ปี 69-70 ขยายตัวต่อเนื่องที่ระดับ 2.4% - news.ch7.com",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5oUHdzSVIyY1I1b0pYUnVTcUV0Tm00QXZoMm9qcVdVMVFTajRibjFhYUltSmJXd09vNDNURUFrWlVOV1lSVmFUVHBR?oc=5",
-          "publisher": "news.ch7.com",
-          "publishedAt": "Fri, 11 Sep 2026 06:41:00 GMT"
-        }
-      ]
-    },
-    {
-      "id": "sig-8-mu0l40fa",
-      "title": "AI Consumer Search Forces Brands to Overhaul Digital Marketing Strategies",
-      "summary": "As Thai consumers increasingly consult AI platforms before making purchasing choices, traditional digital visibility tactics are becoming obsolete. Marketing agencies are restructuring around AI-driven recommendation architectures to ensure client products remain visible in AI responses.",
-      "soWhat": "CMOs must shift digital ad spending from traditional search engine optimization toward Generative Engine Optimization to avoid becoming invisible to AI assistants.",
-      "category": "Consumer",
-      "impact": 4,
-      "confidence": 0.75,
-      "timeHorizon": "3-6mo",
-      "tags": [
-        "AI Search",
-        "GEO",
-        "Digital Marketing",
-        "Consumer Behavior"
-      ],
-      "sources": [
-        {
-          "title": "เมื่อความไม่แน่นอนคือภาวะปกติใหม่ ซีอีโอต้องใช้ AI เพื่อมองเห็นเร็วและตัดสินใจให้เฉียบคมขึ้น - thestandard.co",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5GV3A5eE13ZFpYeU1GODFPS3YtdHItYWNjaWlySHpMem5aMVZVNi0yQk9MQjNMYzBPQkFiVXl1NENlRnBkdEk0dDVMR0Z1NjVvSmJHT0NFa2xwbzlUZjAzQ2luN1RmQzBQ?oc=5",
-          "publisher": "thestandard.co",
-          "publishedAt": "Fri, 11 Sep 2026 03:13:40 GMT"
-        },
-        {
-          "title": "เศรษฐกิจปี 2030 ใน 3 ฉากทัศน์ AI: Anthropic ไล่เรียงอนาคตผ่าน 4 อาชีพ พยาบาล โปรแกรมเมอร์ คอลเซ็นเตอร์ และช่างไฟฟ้า",
-          "url": "https://techsauce.co/ai/ai-economy-2030-four-occupations-anthropic-scenarios",
-          "publisher": "Techsauce",
-          "publishedAt": "Fri, 11 Sep 2026 17:36:03 +0700"
-        },
-        {
-          "title": "เมื่อคนไทยถาม AI ก่อนซื้อ แบรนด์เสี่ยง “ล่องหน” จากสายตาผู้บริโภค — YDM พลิกโฉม สู่ AI-Driven Growth & Experience Agency เปิด 4 บริการใหม่ - Positioningmag",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBVZVVhZkE1ZlVlT2RRYXlyYjhCNkNYbjJ1ejhJTHhwczl0N2FhRFBCSHp3c1VGSkZVRmszNFVjU2lZUk9sbHhjM1F0TlY3Tm4xNXg4?oc=5",
-          "publisher": "Positioningmag",
-          "publishedAt": "Wed, 09 Sep 2026 10:21:54 GMT"
-        }
-      ]
-    },
-    {
-      "id": "sig-9-mu0l40fa",
-      "title": "Thai Banks Roll Out Intelligent Payment Platforms and AI Micro-SME Loans",
-      "summary": "Commercial banks are advancing payments beyond simple cashless transactions into smart, data-integrated payment processing engines. At the same time, institutions like Krungthai Bank are rolling out dedicated AI-driven credit scoring tools to improve lending access for micro-SMEs.",
-      "soWhat": "Fintech and platform players should partner with commercial banks to integrate embedded lending directly at the point of digital purchase.",
-      "category": "Business",
-      "impact": 3,
-      "confidence": 0.75,
-      "timeHorizon": "3-6mo",
-      "tags": [
-        "Fintech",
-        "AI Lending",
-        "Micro-SME",
-        "Payment Tech"
-      ],
-      "sources": [
-        {
-          "title": "Payment Technology ก้าวสู่ยุคอัจฉริยะ ขับเคลื่อนเศรษฐกิจดิจิทัลไทย - ข่าวหุ้นธุรกิจออนไลน์",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTFBYZ2hrYlozVFB4THhkSWVPZ2tKMl83ZWQ1bnBTQzNKdThUcUdQb1BYZnJsSTFQRXlrV1pRLXlpaWJUR0JNNlZmQw?oc=5",
-          "publisher": "ข่าวหุ้นธุรกิจออนไลน์",
-          "publishedAt": "Tue, 08 Sep 2026 12:15:01 GMT"
-        },
-        {
-          "title": "กรุงไทยเปิดตัว “2 สินเชื่อ AI นกกระซิบ” วางรากฐานการเติบโตด้วย AI ให้ Micro SME ไทย - thaipublica.org",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE10M3o2S0dmR1lJTFlNU2JSTGp6VVZZUlhRRmpQVV8wVlg1QldmZzVKT2Ztc2JGMk93U29BZjl3bHB2bDh2Z2oyNEdFdUsyUEdFajNNR0F5MGc3NGQ3RUNDQXYwNEpaemRmbmRGLXBsYm5xNkNOTEE?oc=5",
-          "publisher": "thaipublica.org",
-          "publishedAt": "Fri, 11 Sep 2026 13:30:41 GMT"
-        },
-        {
-          "title": "เปิดเทรนด์ Payment Technology จาก Cashless สู่ Intelligent Payment ขับเคลื่อนการเงินไทยสู่เศรษฐกิจดิจิทัล - wealthythai.com",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE0tYjd4cDUyVTdHcC0tRHU4OEY2SjV2Tk9QWFlKQzdXNDVIbnJ3VXc4VHFpRkhMeDY0dVAxTHpESEdfMWx2T2tpUGU2ZVZlbXJkYVVwaGpxb1NoenJPWEE?oc=5",
-          "publisher": "wealthythai.com",
-          "publishedAt": "Tue, 08 Sep 2026 13:21:07 GMT"
-        }
-      ]
-    },
-    {
-      "id": "sig-10-mu0l40fa",
-      "title": "Venture Capital Pivots Focus From Pure User Growth to Immediate Profitability",
-      "summary": "Venture capital funds operating in Thailand are moving away from growth narrative pitches, demanding solid revenue metrics and short paths to unit profitability. National innovation agencies are aligning with this shift by creating structured bridges to commercialize research projects.",
-      "soWhat": "Corporate innovation units must reprioritize their venture portfolios toward businesses with proven unit economics rather than gross user acquisition metrics.",
-      "category": "Business",
-      "impact": 3,
-      "confidence": 0.75,
-      "timeHorizon": "3-6mo",
-      "tags": [
-        "Venture Capital",
-        "Profitability",
-        "Unit Economics",
-        "Innovation"
-      ],
-      "sources": [
-        {
-          "title": "เจาะเทรนด์ VC ไม่เอา Story ขอเรื่องจริง แค่ ‘เติบโต’ ไม่พอแต่ต้อง ‘มีกำไร’ - Marketeer Online",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE14cDNjMU1zX0s1ckZaVGdiVkI1SWhJTVpBN1o4LWZNV1JpZG9CRENqZzFLc2VibjlaNVpOSWxwYjNxXzNTalppSUUzRFZLY2hMRlRLRQ?oc=5",
-          "publisher": "Marketeer Online",
-          "publishedAt": "Fri, 11 Sep 2026 08:02:42 GMT"
-        },
-        {
-          "title": "ดร.ดอน ยกกระแส AI จุดเปลี่ยนศก.ไทยพลิกฟื้น ไม่ต้องลงสนามแข่ง แค่เป็นซัพพลายเชนสำคัญ - RYT9",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE14SHlyT3Z0U055a0lSZUpRemd3N1B3OTFJTkZDTHQzX1h3cmNNUHZiRXR6T0FCZHNYc0pIWnNzc0JVd0VyQW1sUFpB?oc=5",
-          "publisher": "RYT9",
-          "publishedAt": "Fri, 11 Sep 2026 08:55:40 GMT"
-        },
-        {
-          "title": "NIA and Its Role in Bridging Research to Business: A Key Mechanism to Elevate Thai Innovation in the GII - Media OutReach Newswire",
-          "url": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQaC0zX3hGU3pDTlp5M29uSEpZUThfSGpEOVQ0bHVZeTByOWxieGpwOC1FT3J4QXNPTHF3d2lrbUI5YjRIckdKUU5iV0hPUU9Nc1Vtc3I5Nzd3QzFjRlVoQTBpc1d1WGJoT3VRYkNIaTJzVUxyVmZSTTJrYm5TQU5wbUFxWURPdWtOVnBEZW9SWWRjaDJORzJ4Qi13ekhFU1ByV3VxcGNTTjNmRk9PMnM3WmV5MjAyblF5eEt4YUdqYWd5Q2RuYjBoWXU2NzhTMjFsVVhsWS1wdE9QZ1pHTS1OMnR0SG5NTXpYOE9VNE5fY3BKV2txZlBaNlV1aw?oc=5",
-          "publisher": "Media OutReach Newswire",
-          "publishedAt": "Thu, 10 Sep 2026 11:40:00 GMT"
+          "title": "Bending Spoons ซื้อ Miro บริษัทซอฟต์แวร์ Workflow ทำงานร่วมกัน 1.3 พันล้านดอลลาร์",
+          "url": "https://www.blognone.com/node/151636",
+          "publisher": "Blognone",
+          "publishedAt": "Sun, 13 Sep 2026 23:44:02 +0000"
         }
       ]
     }
