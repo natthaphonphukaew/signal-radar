@@ -21,6 +21,9 @@ const responseSchema = {
           title: { type: SchemaType.STRING, description: 'Short English headline for the signal (max 12 words)' },
           summary: { type: SchemaType.STRING, description: 'Two sentences in English: what is happening.' },
           soWhat: { type: SchemaType.STRING, description: 'One sentence in English: why a corporate strategy team should care.' },
+          titleTh: { type: SchemaType.STRING, description: 'The same headline, in natural Thai.' },
+          summaryTh: { type: SchemaType.STRING, description: 'The same two-sentence summary, in natural Thai.' },
+          soWhatTh: { type: SchemaType.STRING, description: 'The same business implication, in natural Thai.' },
           category: { type: SchemaType.STRING, enum: CATEGORIES, format: 'enum' },
           impact: { type: SchemaType.NUMBER, description: 'Strategic impact 1 (low) to 5 (high)' },
           confidence: { type: SchemaType.NUMBER, description: 'Evidence strength 0.0 to 1.0' },
@@ -32,7 +35,7 @@ const responseSchema = {
             description: 'IDs of the supporting articles, taken ONLY from the provided list.',
           },
         },
-        required: ['title', 'summary', 'soWhat', 'category', 'impact', 'confidence', 'timeHorizon', 'tags', 'sourceIds'],
+        required: ['title', 'summary', 'soWhat', 'titleTh', 'summaryTh', 'soWhatTh', 'category', 'impact', 'confidence', 'timeHorizon', 'tags', 'sourceIds'],
       },
     },
   },
@@ -48,7 +51,11 @@ A signal is a meaningful shift — not a single news item. Merge articles that d
 the same underlying development into ONE signal.
 
 Rules:
-- Write ALL output in ENGLISH, even though most sources are Thai.
+- Write title / summary / soWhat in ENGLISH, even though most sources are Thai.
+- ALSO provide titleTh / summaryTh / soWhatTh: the SAME content written in natural,
+  fluent Thai for a Thai business reader. Do not translate word-for-word — write it
+  the way a Thai analyst would. Keep well-known English terms (AI, e-commerce, data
+  center) as-is rather than forcing awkward Thai.
 - "summary": two sentences on what is happening.
 - "soWhat": ONE sentence on the business implication — what a strategy team at a large
   Thai tech/consumer company should do or watch. Be specific and non-obvious.
@@ -86,15 +93,15 @@ export function statusFromError(err) {
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 
 /** Call the model, retrying transient errors with exponential backoff + jitter. */
-export async function generateWithRetry(model, prompt, attempts = 4, backoffMs = 5000) {
+export async function generateWithRetry(model, prompt, attempts = 6, backoffMs = 5000, capMs = 60000) {
   for (let attempt = 1; ; attempt++) {
     try {
       return await model.generateContent(prompt)
     } catch (err) {
       const status = statusFromError(err)
       if (!TRANSIENT_STATUS.has(status) || attempt >= attempts) throw err
-      // 5s, 15s, 45s (±25% jitter so retries don't sync up with other clients)
-      const base = backoffMs * 3 ** (attempt - 1)
+      // 5s, 15s, 45s, then capped at 60s (±25% jitter so clients do not sync up)
+      const base = Math.min(backoffMs * 3 ** (attempt - 1), capMs)
       const wait = Math.round(base * (0.75 + Math.random() * 0.5))
       console.warn(
         `  ! Gemini returned ${status} (attempt ${attempt}/${attempts}) — retrying in ${Math.round(wait / 1000)}s`,
@@ -141,6 +148,9 @@ export function validateSignals(raw, articles) {
       title,
       summary,
       soWhat,
+      titleTh: String(s.titleTh || '').trim() || title,
+      summaryTh: String(s.summaryTh || '').trim() || summary,
+      soWhatTh: String(s.soWhatTh || '').trim() || soWhat,
       category,
       impact: Math.round(clamp(s.impact ?? 3, 1, 5)),
       confidence: Number(clamp(s.confidence ?? 0.5, 0, 1).toFixed(2)),

@@ -2,6 +2,7 @@ import { forwardRef, useState } from 'react'
 import { motion } from 'framer-motion'
 import { ChevronDown, ExternalLink, ThumbsUp, ThumbsDown, Lightbulb } from 'lucide-react'
 import { catColor, relativeTime } from '../lib/signals'
+import { useLang, catLabel, horizonLabel, pickText } from '../lib/i18n'
 
 function ImpactMeter({ value }) {
   return (
@@ -21,6 +22,7 @@ function ImpactMeter({ value }) {
 // forwardRef is required: AnimatePresence mode="popLayout" attaches a ref to each child.
 const SignalCard = forwardRef(function SignalCard({ signal, index, vote, onVote }, ref) {
   const [open, setOpen] = useState(false)
+  const { lang, t } = useLang()
   const color = catColor(signal.category)
 
   return (
@@ -39,22 +41,22 @@ const SignalCard = forwardRef(function SignalCard({ signal, index, vote, onVote 
             className="rounded-full px-2.5 py-1 text-[11px] font-bold"
             style={{ backgroundColor: `${color}22`, color }}
           >
-            {signal.category}
+            {catLabel(lang, signal.category)}
           </span>
           <span className="text-[11px] font-medium text-zinc-500 dark:text-zinc-400">
-            {signal.timeHorizon}
+            {horizonLabel(lang, signal.timeHorizon)}
           </span>
           <span className="text-[11px] text-zinc-400 dark:text-zinc-500">
-            {Math.round((signal.confidence ?? 0) * 100)}% confidence
+            {Math.round((signal.confidence ?? 0) * 100)}% {t('confidence')}
           </span>
           <div className="ml-auto">
             <ImpactMeter value={signal.impact} />
           </div>
         </div>
 
-        <h3 className="text-lg font-bold leading-snug">{signal.title}</h3>
+        <h3 className="text-lg font-bold leading-snug">{pickText(signal, 'title', lang)}</h3>
         <p className="mt-2 text-sm leading-relaxed text-zinc-600 dark:text-zinc-300">
-          {signal.summary}
+          {pickText(signal, 'summary', lang)}
         </p>
 
         {/* So what — the differentiator */}
@@ -64,8 +66,8 @@ const SignalCard = forwardRef(function SignalCard({ signal, index, vote, onVote 
         >
           <Lightbulb size={16} className="mt-0.5 shrink-0" style={{ color }} />
           <p className="text-sm leading-relaxed text-zinc-700 dark:text-zinc-200">
-            <span className="font-semibold" style={{ color }}>So what: </span>
-            {signal.soWhat}
+            <span className="font-semibold" style={{ color }}>{t('soWhat')} </span>
+            {pickText(signal, 'soWhat', lang)}
           </p>
         </div>
 
@@ -87,15 +89,15 @@ const SignalCard = forwardRef(function SignalCard({ signal, index, vote, onVote 
             aria-expanded={open}
             className="inline-flex items-center gap-1.5 text-xs font-semibold text-zinc-600 transition-colors hover:text-accent-600 dark:text-zinc-300 dark:hover:text-accent-300"
           >
-            {signal.sources.length} source{signal.sources.length > 1 ? 's' : ''}
+            {signal.sources.length} {signal.sources.length > 1 ? t('sources') : t('source')}
             <ChevronDown size={14} className={`transition-transform ${open ? 'rotate-180' : ''}`} />
           </button>
 
           <div className="flex items-center gap-1.5">
-            <span className="mr-1 text-[11px] text-zinc-400 dark:text-zinc-500">Relevant?</span>
+            <span className="mr-1 text-[11px] text-zinc-400 dark:text-zinc-500">{t('relevant')}</span>
             <button
               onClick={() => onVote(signal.id, 1)}
-              aria-label="Mark as relevant"
+              aria-label={t('markRelevant')}
               aria-pressed={vote === 1}
               className={`grid h-7 w-7 place-items-center rounded-full border transition-colors ${
                 vote === 1
@@ -107,7 +109,7 @@ const SignalCard = forwardRef(function SignalCard({ signal, index, vote, onVote 
             </button>
             <button
               onClick={() => onVote(signal.id, -1)}
-              aria-label="Mark as not relevant"
+              aria-label={t('markNotRelevant')}
               aria-pressed={vote === -1}
               className={`grid h-7 w-7 place-items-center rounded-full border transition-colors ${
                 vote === -1
@@ -142,7 +144,7 @@ const SignalCard = forwardRef(function SignalCard({ signal, index, vote, onVote 
                     </span>
                     <span className="text-[11px] text-zinc-500 dark:text-zinc-500">
                       {s.publisher}
-                      {s.publishedAt ? ` · ${relativeTime(s.publishedAt)}` : ''}
+                      {s.publishedAt ? ` · ${relativeTime(s.publishedAt, lang)}` : ''}
                     </span>
                   </span>
                 </a>

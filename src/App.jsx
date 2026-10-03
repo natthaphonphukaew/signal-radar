@@ -2,9 +2,12 @@ import { useEffect, useMemo, useState } from 'react'
 import { motion } from 'framer-motion'
 import { Radar, RefreshCw, AlertTriangle, Github, Sparkles, SearchX } from 'lucide-react'
 import { useTheme } from './hooks/useTheme'
+import { useLangState } from './hooks/useLang'
+import { LangContext, pickText } from './lib/i18n'
 import { useFeedback } from './hooks/useFeedback'
 import { loadSignals, rankSignals, summarise, relativeTime } from './lib/signals'
 import ThemeToggle from './components/ThemeToggle'
+import LangToggle from './components/LangToggle'
 import StatTiles from './components/StatTiles'
 import FilterBar from './components/FilterBar'
 import SignalCard from './components/SignalCard'
@@ -14,6 +17,8 @@ const REPO_URL = 'https://github.com/natthaphonphukaew/signal-radar'
 
 export default function App() {
   const { theme, toggle } = useTheme()
+  const langState = useLangState()
+  const { lang, t } = langState
   const { feedback, vote, reset } = useFeedback()
 
   const [data, setData] = useState(null)
@@ -56,9 +61,10 @@ export default function App() {
       if (q) {
         const hay = [
           s.title, s.summary, s.soWhat, s.category,
+          s.titleTh, s.summaryTh, s.soWhatTh,
           ...(s.tags || []),
           ...(s.sources || []).map((x) => `${x.title} ${x.publisher}`),
-        ].join(' ').toLowerCase()
+        ].filter(Boolean).join(' ').toLowerCase()
         if (!hay.includes(q)) return false
       }
       return true
@@ -68,6 +74,7 @@ export default function App() {
   const votedCount = Object.keys(feedback).length
 
   return (
+   <LangContext.Provider value={langState}>
     <div className="min-h-screen bg-white text-zinc-800 dark:bg-[#0a0a0a] dark:text-zinc-200">
       {/* Header */}
       <header className="relative overflow-hidden border-b border-zinc-200 dark:border-zinc-900">
@@ -76,15 +83,13 @@ export default function App() {
           <div className="flex items-start justify-between gap-4">
             <div>
               <div className="mb-2 inline-flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.2em] text-accent-600 dark:text-accent-400">
-                <Radar size={14} /> Thailand Trend Intelligence
+                <Radar size={14} /> {t('eyebrow')}
               </div>
               <h1 className="text-3xl font-black tracking-tight sm:text-4xl">
                 Signal <span className="text-gradient">Radar</span>
               </h1>
               <p className="mt-2 max-w-2xl text-sm text-zinc-600 dark:text-zinc-400 sm:text-base">
-                An automated pipeline scans Thai news feeds every 6 hours, then an LLM clusters
-                them into strategic signals across economic, business, industry, consumer and
-                social trends — each with a “so what” for a strategy team.
+                {t('tagline')}
               </p>
             </div>
             <div className="flex shrink-0 items-center gap-2">
@@ -97,6 +102,7 @@ export default function App() {
               >
                 <Github size={17} />
               </a>
+              <LangToggle />
               <ThemeToggle theme={theme} toggle={toggle} />
             </div>
           </div>
@@ -104,12 +110,12 @@ export default function App() {
           {data && (
             <div className="mt-5 flex flex-wrap items-center gap-x-4 gap-y-2 text-xs text-zinc-500 dark:text-zinc-400">
               <span className="inline-flex items-center gap-1.5">
-                <RefreshCw size={13} /> Updated {relativeTime(data.generatedAt)}
+                <RefreshCw size={13} /> {t('updated')} {relativeTime(data.generatedAt, lang)}
               </span>
-              {data.stats?.model && <span>Model: {data.stats.model}</span>}
+              {data.stats?.model && <span>{t('model')}: {data.stats.model}</span>}
               {data.stats?.feedsFailed > 0 && (
                 <span className="text-amber-600 dark:text-amber-400">
-                  {data.stats.feedsFailed} feed(s) unavailable this run
+                  {data.stats.feedsFailed} {t('feedsUnavailable')}
                 </span>
               )}
             </div>
@@ -123,9 +129,7 @@ export default function App() {
           <div className="flex items-start gap-3 rounded-2xl border border-amber-300 bg-amber-50 p-4 text-sm text-amber-900 dark:border-amber-500/40 dark:bg-amber-500/10 dark:text-amber-200">
             <Sparkles size={17} className="mt-0.5 shrink-0" />
             <p>
-              <strong>Sample data.</strong> Sources are real articles pulled by the live collector,
-              but the analysis text is placeholder. Add a <code className="rounded bg-black/10 px-1 dark:bg-white/10">GEMINI_API_KEY</code>{' '}
-              and run the pipeline to generate real AI signals.
+              <strong>{t('sampleTitle')}</strong> {t('sampleBody')}
             </p>
           </div>
         )}
@@ -141,7 +145,7 @@ export default function App() {
         {error && !data && (
           <div className="flex items-start gap-3 rounded-2xl border border-rose-300 bg-rose-50 p-4 text-sm text-rose-900 dark:border-rose-500/40 dark:bg-rose-500/10 dark:text-rose-200">
             <AlertTriangle size={17} className="mt-0.5 shrink-0" />
-            <p>Could not load signal data: {error}</p>
+            <p>{t('loadError')} {error}</p>
           </div>
         )}
 
@@ -161,11 +165,11 @@ export default function App() {
             {votedCount > 0 && (
               <div className="flex items-center justify-between rounded-xl border border-accent-500/30 bg-accent-500/5 px-4 py-2.5 text-xs">
                 <span className="text-zinc-600 dark:text-zinc-300">
-                  Ranking personalised from <strong>{votedCount}</strong> rating
-                  {votedCount > 1 ? 's' : ''} you gave.
+                  {t('personalised')} <strong>{votedCount}</strong>{' '}
+                  {votedCount > 1 ? t('ratings') : t('rating')} {t('youGave')}
                 </span>
                 <button onClick={reset} className="font-semibold text-accent-600 hover:underline dark:text-accent-400">
-                  Clear
+                  {t('clear')}
                 </button>
               </div>
             )}
@@ -185,9 +189,9 @@ export default function App() {
             {visible.length === 0 && (
               <div className="card grid place-items-center gap-2 p-12 text-center">
                 <SearchX size={28} className="text-zinc-400" />
-                <p className="font-semibold">No signals match these filters</p>
+                <p className="font-semibold">{t('emptyTitle')}</p>
                 <p className="text-sm text-zinc-500 dark:text-zinc-400">
-                  Try lowering the minimum impact or clearing the search.
+                  {t('emptyBody')}
                 </p>
               </div>
             )}
@@ -197,10 +201,11 @@ export default function App() {
 
       <footer className="border-t border-zinc-200 py-8 dark:border-zinc-900">
         <div className="section flex flex-col items-center justify-between gap-3 text-xs text-zinc-500 dark:text-zinc-500 sm:flex-row">
-          <p>Signal Radar — automated trend intelligence. Built by Natthaphon Phukaew.</p>
-          <p>Data collected from public RSS feeds · analysis by Gemini</p>
+          <p>{t('footerLeft')}</p>
+          <p>{t('footerRight')}</p>
         </div>
       </footer>
     </div>
+   </LangContext.Provider>
   )
 }

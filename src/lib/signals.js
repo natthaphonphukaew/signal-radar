@@ -31,17 +31,18 @@ export async function loadSignals() {
   }
 }
 
-export function relativeTime(iso) {
-  if (!iso) return 'unknown'
+export function relativeTime(iso, lang = 'en') {
+  const L = lang === 'th'
+  if (!iso) return L ? 'ไม่ทราบ' : 'unknown'
   const then = new Date(iso).getTime()
-  if (Number.isNaN(then)) return 'unknown'
+  if (Number.isNaN(then)) return L ? 'ไม่ทราบ' : 'unknown'
   const mins = Math.round((Date.now() - then) / 60000)
-  if (mins < 1) return 'just now'
-  if (mins < 60) return `${mins}m ago`
+  if (mins < 1) return L ? 'เมื่อสักครู่' : 'just now'
+  if (mins < 60) return L ? `${mins} นาทีที่แล้ว` : `${mins}m ago`
   const hrs = Math.round(mins / 60)
-  if (hrs < 24) return `${hrs}h ago`
+  if (hrs < 24) return L ? `${hrs} ชม.ที่แล้ว` : `${hrs}h ago`
   const days = Math.round(hrs / 24)
-  return `${days}d ago`
+  return L ? `${days} วันที่แล้ว` : `${days}d ago`
 }
 
 /**

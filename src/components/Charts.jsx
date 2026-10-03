@@ -1,7 +1,9 @@
 // Hand-rolled inline SVG charts — no chart library, readable in both themes.
 import { CATEGORIES, catColor } from '../lib/signals'
+import { useLang, catLabel } from '../lib/i18n'
 
 function CategoryChart({ byCat }) {
+  const { lang, t } = useLang()
   const rows = CATEGORIES.map((c) => ({ c, n: byCat[c] || 0 })).filter((r) => r.n > 0)
   const max = Math.max(1, ...rows.map((r) => r.n))
   const barH = 22
@@ -13,7 +15,7 @@ function CategoryChart({ byCat }) {
 
   return (
     <div className="card p-5">
-      <h3 className="mb-4 text-sm font-bold">Signals by category</h3>
+      <h3 className="mb-4 text-sm font-bold">{t('chartByCategory')}</h3>
       <svg
         viewBox={`0 0 320 ${height}`}
         width="100%"
@@ -32,7 +34,7 @@ function CategoryChart({ byCat }) {
                 className="fill-zinc-600 dark:fill-zinc-300"
                 style={{ fontSize: 11, fontWeight: 500 }}
               >
-                {r.c}
+                {catLabel(lang, r.c)}
               </text>
               <rect x={labelW} y={y} width={Math.max(w, 2)} height={barH} rx="5" fill={catColor(r.c)} opacity="0.85" />
               <text
@@ -52,6 +54,7 @@ function CategoryChart({ byCat }) {
 }
 
 function ImpactChart({ signals }) {
+  const { t } = useLang()
   const buckets = [1, 2, 3, 4, 5].map((lvl) => ({
     lvl,
     n: signals.filter((s) => s.impact === lvl).length,
@@ -64,7 +67,7 @@ function ImpactChart({ signals }) {
 
   return (
     <div className="card p-5">
-      <h3 className="mb-4 text-sm font-bold">Impact distribution</h3>
+      <h3 className="mb-4 text-sm font-bold">{t('chartImpact')}</h3>
       <svg viewBox={`0 0 ${W} ${H}`} width="100%" height={H} role="img" aria-label="Impact distribution">
         {buckets.map((b, i) => {
           const h = ((H - pad * 2) * b.n) / max
@@ -107,7 +110,7 @@ function ImpactChart({ signals }) {
         })}
         <line x1={pad} y1={H - pad} x2={W - pad} y2={H - pad} className="stroke-zinc-300 dark:stroke-zinc-700" strokeWidth="1" />
       </svg>
-      <p className="mt-1 text-center text-[11px] text-zinc-500 dark:text-zinc-500">impact score (1–5)</p>
+      <p className="mt-1 text-center text-[11px] text-zinc-500 dark:text-zinc-500">{t('chartImpactAxis')}</p>
     </div>
   )
 }

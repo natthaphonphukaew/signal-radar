@@ -1,7 +1,9 @@
 import { Search, RotateCcw } from 'lucide-react'
 import { CATEGORIES, HORIZONS, catColor } from '../lib/signals'
+import { useLang, catLabel, horizonLabel } from '../lib/i18n'
 
 export default function FilterBar({ filters, setFilters, counts, total, shown }) {
+  const { lang, t } = useLang()
   const toggleCat = (c) =>
     setFilters((f) => ({
       ...f,
@@ -25,7 +27,7 @@ export default function FilterBar({ filters, setFilters, counts, total, shown })
         <input
           value={filters.q}
           onChange={(e) => setFilters((f) => ({ ...f, q: e.target.value }))}
-          placeholder="Search signals, tags or sources…"
+          placeholder={t('searchPlaceholder')}
           className="w-full rounded-full border border-zinc-200 bg-white/70 py-2.5 pl-9 pr-4 text-sm outline-none transition-colors placeholder:text-zinc-400 focus:border-accent-400 dark:border-zinc-700 dark:bg-zinc-900/60 dark:placeholder:text-zinc-500"
         />
       </div>
@@ -41,7 +43,7 @@ export default function FilterBar({ filters, setFilters, counts, total, shown })
               className={`chip ${active ? 'chip-active' : ''}`}
               style={!active ? { borderLeft: `3px solid ${catColor(c)}` } : undefined}
             >
-              {c}
+              {catLabel(lang, c)}
               <span className={active ? 'opacity-70' : 'text-zinc-400 dark:text-zinc-500'}>
                 {counts[c] || 0}
               </span>
@@ -53,14 +55,14 @@ export default function FilterBar({ filters, setFilters, counts, total, shown })
       <div className="flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
         {/* Horizon */}
         <div className="flex flex-wrap items-center gap-2">
-          <span className="text-xs font-medium text-zinc-500 dark:text-zinc-400">Horizon</span>
+          <span className="text-xs font-medium text-zinc-500 dark:text-zinc-400">{t('horizon')}</span>
           {['All', ...HORIZONS].map((h) => (
             <button
               key={h}
               onClick={() => setFilters((f) => ({ ...f, horizon: h }))}
               className={`chip ${filters.horizon === h ? 'chip-active' : ''}`}
             >
-              {h}
+              {h === 'All' ? t('all') : horizonLabel(lang, h)}
             </button>
           ))}
         </div>
@@ -68,7 +70,7 @@ export default function FilterBar({ filters, setFilters, counts, total, shown })
         {/* Min impact */}
         <div className="flex items-center gap-3">
           <label htmlFor="minImpact" className="text-xs font-medium text-zinc-500 dark:text-zinc-400">
-            Min impact
+            {t('minImpact')}
           </label>
           <input
             id="minImpact"
@@ -87,11 +89,11 @@ export default function FilterBar({ filters, setFilters, counts, total, shown })
 
       <div className="mt-4 flex items-center justify-between border-t border-zinc-200 pt-3 dark:border-zinc-800">
         <p className="text-xs text-zinc-500 dark:text-zinc-400">
-          Showing <span className="font-semibold text-accent-600 dark:text-accent-400">{shown}</span> of {total} signals
+          {t('showing')} <span className="font-semibold text-accent-600 dark:text-accent-400">{shown}</span> {t('of')} {total} {t('signalsLower')}
         </p>
         {isDirty ? (
           <button onClick={reset} className="inline-flex items-center gap-1.5 text-xs font-medium text-zinc-500 transition-colors hover:text-accent-600 dark:text-zinc-400 dark:hover:text-accent-300">
-            <RotateCcw size={13} /> Reset
+            <RotateCcw size={13} /> {t('reset')}
           </button>
         ) : null}
       </div>
