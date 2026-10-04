@@ -107,3 +107,18 @@ test('drops signals missing the "so what"', () => {
   const out = validateSignals([{ ...base, soWhat: '', sourceIds: [0] }], articles)
   assert.equal(out.length, 0)
 })
+
+// --- model fallback ------------------------------------------------------
+
+test('configured model is tried first, then the fallbacks', async () => {
+  const { modelCandidates } = await import('./analyze.mjs')
+  const list = modelCandidates('gemini-3.6-flash')
+  assert.equal(list[0], 'gemini-3.6-flash')
+  assert.ok(list.includes('gemini-2.5-flash'), 'keeps a fallback')
+  assert.equal(new Set(list).size, list.length, 'no duplicates')
+})
+
+test('falls back to the default list when nothing is configured', async () => {
+  const { modelCandidates, FALLBACK_MODELS } = await import('./analyze.mjs')
+  assert.deepEqual(modelCandidates(undefined), FALLBACK_MODELS)
+})

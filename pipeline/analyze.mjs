@@ -162,33 +162,48 @@ export function validateSignals(raw, articles) {
   return out
 }
 
+// The free tier meters requests per DAY per MODEL (20/day), so one model can be
+// exhausted while the next still has headroom. Try them in order.
+export const FALLBACK_MODELS = ['gemini-2.5-flash', 'gemini-3.6-flash', 'gemini-3.5-flash']
+
+/** Candidate models: the configured one first, then the rest, no duplicates. */
+export function modelCandidates(configured = process.env.GEMINI_MODEL) {
+  return [...new Set([configured, ...FALLBACK_MODELS].filter(Boolean))]
+}
+
 export async function analyze(articles) {
   const key = process.env.GEMINI_API_KEY
   if (!key) throw new Error('GEMINI_API_KEY is not set')
   if (!articles.length) throw new Error('No articles to analyze')
 
-  const modelId = process.env.GEMINI_MODEL || 'gemini-3.6-flash'
   const genAI = new GoogleGenerativeAI(key)
-  const model = genAI.getGenerativeModel({
-    model: modelId,
-    generationConfig: {
-      temperature: 0.3,
-      responseMimeType: 'application/json',
-      responseSchema,
-    },
-  })
+  const candidates = modelCandidates()
+  const prompt = `${PROMPT}\n\nARTICLES:\n${buildInput(articles)}`
+  let lastErr
 
-  const result = await generateWithRetry(model, `${PROMPT}\n\nARTICLES:\n${buildInput(articles)}`)
-  const text = result.response.text()
+  for (const modelId of candidates) {
+    const model = genAI.getGenerativeModel({
+      model: modelId,
+      generationConfig: {
+        temperature: 0.3,
+        responseMimeType: 'application/json',
+        responseSchema,
+      },
+    })
 
-  let parsed
-  try {
-    parsed = JSON.parse(text)
-  } catch {
-    throw new Error(`Model did not return valid JSON (model=${modelId})`)
+    try {
+      const result = await generateWithRetry(model, prompt)
+      const parsed = JSON.parse(result.response.text())
+      const signals = validateSignals(parsed.signals, articles)
+      if (!signals.length) throw new Error('No valid signals survived validation')
+      return { signals, modelId }
+    } catch (err) {
+      lastErr = err
+      const status = statusFromError(err)
+      // 429 = daily quota gone for THIS model; another model may still work.
+      console.warn(`  ! ${modelId} unavailable (${status ?? 'error'}) — trying the next model`)
+    }
   }
 
-  const signals = validateSignals(parsed.signals, articles)
-  if (!signals.length) throw new Error('No valid signals survived validation')
-  return { signals, modelId }
+  throw new Error(`all models failed (${candidates.join(', ')}): ${lastErr?.message || 'unknown'}`)
 }
