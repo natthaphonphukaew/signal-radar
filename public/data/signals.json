@@ -1,41 +1,35 @@
 {
-  "generatedAt": "2026-10-08T03:09:30.162Z",
+  "generatedAt": "2026-10-08T12:22:47.443Z",
   "stats": {
     "feedsScanned": 10,
     "feedsFailed": 0,
     "articlesFetched": 70,
-    "signalsProduced": 11,
-    "durationMs": 320338,
+    "signalsProduced": 13,
+    "durationMs": 348886,
     "model": "gemini-2.5-flash"
   },
   "signals": [
     {
-      "id": "sig-1-muyyjzxu",
-      "title": "Thailand's Economy Faces Mixed Outlook: AI Exports Drive Growth, Domestic Issues Persist",
-      "summary": "Thailand's economy is projected to grow around 2% in 2026, primarily boosted by tech exports, especially AI-related products. However, high energy costs, elevated household debt, and short-term impacts from floods are significant drag factors.",
-      "soWhat": "Corporate strategy teams should balance optimism from tech-driven export growth with cautious planning for domestic demand and consumer spending, considering the ongoing challenges.",
-      "titleTh": "เศรษฐกิจไทยเผชิญภาวะผสม: AI หนุนส่งออก แต่ปัจจัยในประเทศยังฉุดรั้ง",
-      "summaryTh": "เศรษฐกิจไทยปี 2569 คาดการณ์ว่าจะเติบโตประมาณ 2% โดยมีแรงหนุนหลักจากการส่งออกเทคโนโลยี โดยเฉพาะสินค้าที่เกี่ยวข้องกับ AI อย่างไรก็ตาม ต้นทุนพลังงานที่สูง หนี้ครัวเรือนที่เพิ่มขึ้น และผลกระทบระยะสั้นจากน้ำท่วมยังคงเป็นปัจจัยสำคัญที่ฉุดรั้งการเติบโต",
-      "soWhatTh": "ทีมกลยุทธ์องค์กรควรสร้างสมดุลระหว่างความหวังจากการเติบโตของการส่งออกที่ขับเคลื่อนด้วยเทคโนโลยี กับการวางแผนอย่างรอบคอบสำหรับอุปสงค์ภายในประเทศและการใช้จ่ายของผู้บริโภค โดยคำนึงถึงความท้าทายที่ยังคงมีอยู่",
-      "category": "Economic",
+      "id": "sig-1-muzibj4j",
+      "title": "Thailand aims for AI-driven economic growth amidst slow adoption challenges.",
+      "summary": "Thailand is actively promoting AI as a key driver for economic growth and increased productivity, with government plans to establish the country as an AI base. However, current AI adoption rates among Thai businesses remain low, posing a challenge to fully realizing its economic potential.",
+      "soWhat": "Corporate strategy teams should invest in AI integration across operations and upskill their workforce to capitalize on the government's AI push and avoid being left behind in the evolving digital economy.",
+      "titleTh": "ไทยมุ่งขับเคลื่อนเศรษฐกิจด้วย AI ท่ามกลางความท้าทายในการนำไปใช้",
+      "summaryTh": "ประเทศไทยกำลังส่งเสริม AI อย่างจริงจังในฐานะกลไกสำคัญในการขับเคลื่อนการเติบโตทางเศรษฐกิจและเพิ่มผลิตภาพ โดยมีแผนของรัฐบาลที่จะผลักดันให้ไทยเป็นฐาน AI อย่างไรก็ตาม อัตราการนำ AI ไปใช้ในหมู่ธุรกิจไทยยังคงต่ำ ซึ่งเป็นความท้าทายในการดึงศักยภาพทางเศรษฐกิจของ AI ออกมาได้อย่างเต็มที่",
+      "soWhatTh": "ทีมกลยุทธ์องค์กรควรลงทุนในการผสานรวม AI เข้ากับการดำเนินงานและพัฒนาทักษะพนักงาน เพื่อใช้ประโยชน์จากการผลักดัน AI ของภาครัฐและหลีกเลี่ยงการถูกทิ้งไว้ข้างหลังในเศรษฐกิจดิจิทัลที่กำลังเปลี่ยนแปลง",
+      "category": "Technology",
       "impact": 4,
       "confidence": 0.9,
-      "timeHorizon": "3-6mo",
+      "timeHorizon": "1yr+",
       "tags": [
+        "AI",
+        "Digital Economy",
+        "Productivity",
         "Economic Growth",
-        "GDP",
-        "AI Exports",
-        "Household Debt",
-        "Energy Costs",
-        "Floods"
+        "SMEs",
+        "Government Policy"
       ],
       "sources": [
-        {
-          "title": "เศรษฐกิจไทยและต่างประเทศ ประจำเดือนตุลาคม 2569 - kasikornbank.com",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNW9PdW9rUzBlY2RqLWFOMU9WMEhxaDNMNmdUNTVZLUg3YzRQenRrbmxWemlPbWFqdUZUV2NTZC1TYzRYUmlJSzZYemVDcXpRcXB1VDhYQnBoZVhIMjZIWEVvZUIyajh6dlk2R01nM3BVVko5QTdmNE5hVXhzLUlQVEZ6MFlXcGpZWXdlVlMxb1dDNTBuVThTcGJB?oc=5",
-          "publisher": "kasikornbank.com",
-          "publishedAt": "Fri, 02 Oct 2026 09:18:59 GMT"
-        },
         {
           "title": "World Bank ชี้ส่งออก AI หนุนเศรษฐกิจไทย แต่พลังงานแพง-หนี้ครัวเรือน ฉุด GDP ปี 2569 โต 2.0% - ThaiPublica",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5SWG1Mdkdza29uem1HVk5RWnlTd3RpdklaV0pyaVVQQWs5RnVKSFZCaVJreS1jWktfWk5DQUR5UHpaN1M0TXFGQlZiYlFZS1pvNGZhNUhhSnQ0RmtvNDBUNlNYRGg5YkhCMEFhMHp3azRyMnVzOEhv?oc=5",
@@ -43,10 +37,16 @@
           "publishedAt": "Tue, 06 Oct 2026 04:55:52 GMT"
         },
         {
-          "title": "THE STANDARD WEALTH. . เศรษฐกิจไทยอยู่ตรงไหน วันนี้ และอีก 5 ปีข้างหน้า? เศรษฐกิจไทย มีทั้งเรื่องดีและเรื่องที่ยังน่ากังวล หากต้องสรุปภาพเศรษฐกิจไทยวันนี้ในภาพเดียว จะมองอย่างไร? พูดคุยกับ ดร.ฐิติมา ชูเชิด ผู้อำนวยการอาวุโส ผู้บริหารฝ่ายวิจัยเศรษฐกิจมหภาค ศูนย์วิจัยเศรษ - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi9wdBVV95cUxPQlZvR1B0aTh4a1pEbVM3S0NwWndMWjZwbk8tSTZwZV9aaUlmWHNiNkkzZXFRTUxWV085bjFjU3g2QUFLM3JQb3o4Vk14c3JQX2QzTVJkanJzcmpTUFJLSHlFTTI5RUYzZVVEVGR6b1JiYTdfRmxZSE5fNWh1d2RndFB6OGJUYWJrNHN1OUdBYXJPYWpqcUNnd2RNdVJ6WnVMUFo4b3FrOGMtTF9jendqRFRuUmJqOHg4YW0wclllalY2UmZ5M1dxcm9haDdpVTdqVEhuUTZObFRIdHZrVHBianNPZFY5S0VzYjVkcThEQXBGaE1DV0dJWGtKVjFEX1REYmpsZHVHZHhnNjltQUt2T0ZZSV9vQWtqWkpKLXFNZlN4N3ZvNW5UcmQ4LXd0UDB1X29XcHFHalJwNHhrdDVnVHpEcE1qN2lGVlI2bHh1amdObFU4Z2ozYnNlX0ktNEVXTHBQRkRWbFNicXpNeFVfc0ppTURJbDV1aERpdGpnSmFUbm5yOGg5NlhTUXMzcHhGVmxhN0xiMXRBc1drRG1Jc0N2VHdhNllKQ25pXzRyLW9ER3J6MlVFOXZtclBIODd2ZXd2UjFfZjItR0pubDQtZkRmUTNjb21pV1FiQkN5Xy02aGFnMTBXZHFyVXBmaXEzQ21fVWdsSEtuNkxWMS1jcU5EMjRpUmRnMGdQeWpsckpidlRCZjRlUXYzcXJlc3MzZ0Z0bFNZNzZYY0FkMGE5R081ODhlSHFjcmxOUjVaMWE5THlEbmh5TzIxNEtlZVdsb1AtbXd0S2w0UXJWd3h3a2F1Wkc2dTBpLU1KZkRLSVRVQ3VXeXltS0xrZ3BuRThmSGxMemZvQzJha0lKejRYb29NWkFWYVdiQjgtcXRQTk5NREVXVDJ4LUVtSVFkbFNjZEZVTFhvLU1YLVFMLVJQWGJiYkZxQlRQaTBZLWE5YnR1YjF4YWJPR05pMk9NZXpJQWx4ZGtfSTNIYzFESnJkR0c2M0R6R3lJNlhQUHJvbVlXZGotUXRibHV4d3ZKbTcwMTh0U3lJbjBiMDFrdzVHS05VcEZWR3lMeW9IZzVNSmFmOEZpVHVYWWJtaGlQX3dXSDU5TExZeHAxSzRVLWV5VDNFNF8talViYVdzNHNmVWp1MGl3U0RUZDdzeDJBUlJlbzhaejNHc29Nd0xrdjB0bVJ1bE41LV9yNDZCM2FUS0YwZk5vWk9oUUpsbWtRXzBua29YcTA3bE1US3lKdmdTNHhOam40VzJTSW1mNERFNjhxODB0bkptX3F6LW85bVpSbmpfVW13UjRKTjYxdk5hOFZ0dkdVcUtEZkRWdGhnZHFRNGM5cWJF?oc=5",
-          "publisher": "Facebook",
-          "publishedAt": "Mon, 05 Oct 2026 04:53:29 GMT"
+          "title": "ทรูชี้ AI คือ กุญแจเศรษฐกิจไทยโต 5% ดัน SMEs จากผู้ใช้เทคโนโลยี สู่ผู้สร้างเกมธุรกิจ - bangkokbiznews",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBvUUdTRU5pNWFhVlpEamJrLXVBc0VrQWVXNDRnX0Yzakg0V080em1naWQwSzlUTHVaY1lFdS1tUHpJdUNlQU1tM2hWR21sdWhLM2Rkc0Myd3lSUQ?oc=5",
+          "publisher": "bangkokbiznews",
+          "publishedAt": "Thu, 08 Oct 2026 04:55:00 GMT"
+        },
+        {
+          "title": "World Bank ชี้ธุรกิจไทย ใช้ AI แค่ 12% เร่งเพิ่ม Productivity ฝ่ากับดักเศรษฐกิจ - Thansettakij",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1rVmQxS1ZNcWpjZ1NrOC1vM0lNYzd2eC0wdFFUZTBVQjdCTGV0eUVlbWdFU21JMXBubFk5NjBrOXdNb0U5TVZPYUV0NDY1NDdncHFhOG9B?oc=5",
+          "publisher": "Thansettakij",
+          "publishedAt": "Thu, 08 Oct 2026 04:28:00 GMT"
         },
         {
           "title": "AI สู่บทบาทใหม่เศรษฐกิจไทย - ข่าวหุ้นธุรกิจออนไลน์",
@@ -55,104 +55,22 @@
           "publishedAt": "Wed, 07 Oct 2026 23:40:03 GMT"
         },
         {
-          "title": "ADB Raises Thailand’s 2026 Growth Forecast to 2% on Tech Exports - SME & Entrepreneurship Magazine",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaUdlbXp5dXpESkNtODZFNWZoYWZmN2lmOTFPOFBQSm9aSWlzcDNMRlQzRFdIRVZSRmwtYno4YkZmZmRrSlUxTi1XcHBmb3JCUDl2RnlfMXVkNTgtaXBHWHUtS3N5c0h1NlNNeFhBOE9MWDVwVGdHNW94d3JlbVYyMjItcnFZRzg?oc=5",
-          "publisher": "SME & Entrepreneurship Magazine",
-          "publishedAt": "Wed, 07 Oct 2026 05:00:41 GMT"
-        },
-        {
-          "title": "หนทางไกล ‘ประเทศรายได้สูง’ แผน 14 สร้าง ‘บุญใหม่’ เศรษฐกิจไทย - ประชาชาติธุรกิจ",
-          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE0xVkRQX3E1ZzAwSlpIZ3d1T3VoanEtTl9BQy1SamN5TEhFcXNPRHh0N1dPNHJBM2tqdlA1QnhsQlJiUWhBeFJVTHVyekJjQ0hLelI5X2xUTU1rNUsz?oc=5",
-          "publisher": "ประชาชาติธุรกิจ",
-          "publishedAt": "Sun, 04 Oct 2026 10:12:48 GMT"
-        },
-        {
-          "title": "“ดร.ประสาร” ห่วงเศรษฐกิจไทยโตต่ำกว่าอาเซียน ชูใช้ ESG Bond เปลี่ยนผ่านประเทศสู่ความยั่งยืน - efin.finance",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTTJJUGVqUHBFb0Z1aFJWUVNZSW1QR3o3WGRmR1JNMmd5WG1YbzhYc011eHEyWE5kLUhNY05Wd1JVc25BVjMyOXZFQXNDV25JR3Q0UDFncURBSGNsUkI2SXI5SERaM2dsalFkU3d0aVNrZ3BuNkx3VGpROHROUFNWdEJkZU9weFNjQlVkdFY3TWlEdnJ1Q1NVY1diRU1OZ3RiUlV4ZzZn?oc=5",
-          "publisher": "efin.finance",
-          "publishedAt": "Tue, 06 Oct 2026 02:27:00 GMT"
-        },
-        {
-          "title": "หวังว่าจะได้เห็น ‘ขอบฟ้าใหม่’ เศรษฐกิจไทย - bangkokbiznews",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE01cGFEaFY3Xzl0Y2k1dm5KeGE0aVpfdGhVcVpvdS1WUHA4ZEVzMnhQcU5UM1ZiN3B0dkVEZ09LeU1Tb0Qtbm8zMFpoZk44OWQwTnBvaWRZQXRvOGJjVURPUXZEZ0ZSTWc4X3RjSkNpVQ?oc=5",
-          "publisher": "bangkokbiznews",
-          "publishedAt": "Tue, 06 Oct 2026 00:00:00 GMT"
-        },
-        {
-          "title": "เศรษฐกิจไทยอยู่ตรงไหน? ส่องข่าวดีใต้ความเปราะบาง ช็อกน้ำท่วมระยะสั้น และ 'ร่างแผน 14' กับเป้าหมายดัน GDP โต 3% Plus - thestandard.co",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBjbkw3cDRvRmhuUWVEMlo5SVZQNG1CZFV3dkxmd2FnWFNiREwydHFpdWI1Rm9SZS1yOXJSeHNuYW1oa2FSTHBrX2VTeTcxWFZvVVZHMVRBR1FZRnFWbnh3NnJ3?oc=5",
-          "publisher": "thestandard.co",
-          "publishedAt": "Wed, 07 Oct 2026 20:02:11 GMT"
-        },
-        {
-          "title": "PMI โลกพุ่งรอบ 4 ปีครึ่ง หนุนส่งออก-ลงทุนไทยดีด แนะจับตาผลกระทบน้ำท่วมฉุด GDP - Thunhoon",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSkZjQl9BZGpEQk1JeFdWQzlXLW5DWW0tNmFEZEEwWl9kM0QyQ0xudnEydXRqWFkzZTlvZ3loZ1VhbHJUU1FVTXhVWUthTjJ5MUFNdkNVRnlEX2QxX3AxbnkxSDdTTEtMd01Ga3M0OG9ETVN2bVpXeDlsQW9kRUxzU19id2VzbUlUNUxKRzhUSTdOaU9QWnN5N1VXdFZCSWFB?oc=5",
-          "publisher": "Thunhoon",
-          "publishedAt": "Tue, 06 Oct 2026 08:14:54 GMT"
-        },
-        {
-          "title": "35 ปี ไทยเติบโต จากปี 2534 สู่ 2569 (2026 IMF–World Bank Group Annual Meetings) - กรมประชาสัมพันธ์",
-          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5XcGtHNUJJODBYYXFWeWxaN3RxMVNVdklfUGI2bFE4MG1QLWJ6bXJib0VJbmtFUVJKdE1CTWhfSjhtVmlMblhqeFdVakt3ZEUzMWt5enpGRDl0bi1uckhLZTBraGpqOGNxblVlYlk4aEJhT2h5UFZ1ejJfRms?oc=5",
-          "publisher": "กรมประชาสัมพันธ์",
-          "publishedAt": "Fri, 02 Oct 2026 06:41:15 GMT"
-        }
-      ]
-    },
-    {
-      "id": "sig-2-muyyjzxu",
-      "title": "Thailand Aims to Become Regional AI and Digital Hub",
-      "summary": "Thailand is actively pursuing a strategy to establish itself as a leading AI and digital hub in ASEAN, with significant investments in data centers and a focus on AI export capabilities. Despite strong interest from businesses, there's a recognized gap in readiness among local enterprises and the workforce to fully leverage AI's potential.",
-      "soWhat": "Companies should invest in AI infrastructure, talent development, and strategic partnerships to capitalize on government initiatives and avoid being left behind in the evolving digital landscape.",
-      "titleTh": "ไทยมุ่งสู่การเป็นศูนย์กลาง AI และดิจิทัลระดับภูมิภาค",
-      "summaryTh": "ประเทศไทยกำลังดำเนินกลยุทธ์เพื่อก้าวขึ้นเป็นศูนย์กลาง AI และดิจิทัลชั้นนำในอาเซียน ด้วยการลงทุนที่สำคัญใน Data Center และมุ่งเน้นศักยภาพการส่งออก AI แม้ธุรกิจจะมีความสนใจอย่างมาก แต่ก็ยังมีความท้าทายด้านความพร้อมขององค์กรและแรงงานไทยในการใช้ประโยชน์จาก AI อย่างเต็มที่",
-      "soWhatTh": "บริษัทควรลงทุนในโครงสร้างพื้นฐาน AI การพัฒนาบุคลากร และการสร้างพันธมิตรเชิงกลยุทธ์ เพื่อใช้ประโยชน์จากนโยบายภาครัฐและไม่พลาดโอกาสในภูมิทัศน์ดิจิทัลที่กำลังเปลี่ยนแปลงไป",
-      "category": "Technology",
-      "impact": 5,
-      "confidence": 0.8,
-      "timeHorizon": "1yr+",
-      "tags": [
-        "AI Hub",
-        "Digital Hub",
-        "Data Center",
-        "AI Adoption",
-        "Workforce Readiness"
-      ],
-      "sources": [
-        {
-          "title": "เศรษฐกิจไทยกำลังเผชิญหน้ากับความท้าทายครั้งใหญ่ การปลดล็อกศักยภาพต้องมองไกลกว่าโครงข่ายเทคโนโลยี แต่เป็นการวางรากฐานทางเศรษฐกิจรูปแบบใหม่ที่ขับเคลื่อนด้วยความฉลาดของข้อมูลและระบบนิเวศดิจิทัล . พบกับมุมมองวิสัยทัศน์เชิงลึกจาก 🔹 ปรัธนา ลีลพนัง ประธานเจ้าหน้าที่ - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMipwhBVV95cUxOMXkwQlpoNWpsT2xBNG96dERqbWNlb0VjTzdwVFdKbHFsR2NrSUhTX0VXR083SkFJMU16REpMeVpoQy0tV3dmZDhkSVNjbjdLRzFaOXhKazdLNHhSdnZ5SHpTRXFBXzlDYms4SzRMR0RVQ01wSWJXRVd2bGp3a1NiOFkyLUJMYkpWemlwcW5HWXhFS2JmX1hqUEFqNDJBcF9HRTF0TFk5bU5zek9fRFNKbEE1ZVVybElpQlZMZG5ial90ZlQ2aGE5M1JxckZVbkxUOHJYWUcwWXNKLTRucVZOVVZyeVB6U1pmd3hNWGEyaTFtX0VFdnpsNHNQY0hIY2RYUWNYNlo3VWJ5UFlRWXRSeDV1VEpEdC1yWWlNRWhmUzlCMm5jbjhzSW5temIySnhVcFowUEw0RE5zSnNRNDhCUUcyVjd0OHBfODU2bEpyRGtHaXVMbVhham1xSUlteFlvZmUxUXNYb1g2WHN0UldoRkRHc0Zkc0JWak9IVHJyVGRMUDZlVUlQT0Y0YzIwU3VzZmktRHJwTENXbmhCLXozUHhJSDUxYWoyc2xZRkRqZGFteUZUeEpKeFE0ZHdGTW1VNnJOWTVfYW5XM1A5bnU0Z0l6NFZxYUd4SlNaSzdFZzdoSkhaX3ZWdFNZV2I1M1A1ekZ6SGxqTWtrcFd2anVEaHlDOGxGNUdYM1ByTk0tZXdyY2dBM0tsY3UtcW9xTkgtN2k4TWF5T09jZTluRjA5QkgwYlVlME1BX1diSTVsR1g2VGJKUTdYRGhFNmlrR1hPRVByMVFzdUtiRGxkQkNZOWJUQXF3QVpwNExlTm94NW44Z3RsbEFOUkJSLW1XV2FZMXVyRXliTUJ4SjJCMnFPSzlnNktqWFMyOVJLbXJFQWdQNkhkVzgxZE44M25BX3cwY1F1djVqVlpHWjFGWHJ2NE1adWZlMEt4VE9yQ3Bac2Fva0FwdkJYcTdpenAyZlZ2ZjFaaU14ODVvXy1WYzc2QkdVa0ltOGwxSnlFQnp6WXhzczROdTJQblZTQjgxd0ZMUnJtcEd6b0RhT2VVRHBEa05kZWxfdUU5Njc5NDV4U29ac2dLc2ZSTDhneGREZWpJSzh5ZVB1MGNpcVdWQk8xVHBrN0lxQ1JTS0JuR0pjLUpOcmtBZWR6d3JEUkQyMGR2SlNYQkppeXRrcWd0ZHdLcU5CWXlfTmpOdm1xQlVfa2VIYXJBOU44amdUTGNSSVMxb3Rqd1RmNVNfQWhQQkV4bEc5dDdGTGlYd2M3ajU4R053ZzhOdGoxSFBmcHd2dVYyOVUtN1c3c09faU1CWjdlRFJqYnNJczlFMGMtWGxBYm5nMGxYQ0U4dnM5NFFrMUo5eWQyb1A2ZUlkLXJtRXBGSVBkUDQ0Wjl2dlpGZW4zMHl1VTRUMUJv?oc=5",
-          "publisher": "Facebook",
-          "publishedAt": "Thu, 01 Oct 2026 08:00:14 GMT"
-        },
-        {
           "title": "กระแส AI แบ่งเศรษฐกิจไทย 2 ขั้ว รวยจาก “ผลิต AI” ส่งออกพุ่ง แต่ธุรกิจ-แรงงานยังตามไม่ทันกระแส - Thairath.co.th",
           "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1NdjIwMUFVbGR4QmZrYl9rNmVHM1FmZExLczFONGF5RkVFeldlUWxpX20tT3haTGRUZXVOWTRELWpqZGNpVmRRa2V3dkdnaGFKZ2NHSHliVVlSSWdlcEgyVkxoaURyNkxkejNiUWRfMEU0amM?oc=5",
           "publisher": "Thairath.co.th",
           "publishedAt": "Tue, 06 Oct 2026 06:50:59 GMT"
         },
         {
-          "title": "เมื่อ AI โต จีนเร่ง Data Center แล้วไทยจะได้อะไรจากคลื่นลงทุนรอบนี้ - bangkokbiznews",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5DY003UjlOSkJlTWx1QUxlbk4zR2haRXdYUkV1OGZMTmZvRk5FY1dJaEtzbnlmTnl4dmVMNWo0WFRLNlhFNnVTSTBvUDFKOHJ6eXJjcllKRQ?oc=5",
-          "publisher": "bangkokbiznews",
-          "publishedAt": "Fri, 02 Oct 2026 10:10:02 GMT"
+          "title": "Synology ชี้ 3 มิติความพร้อมของธุรกิจไทย เพื่อเปลี่ยน AI ให้เป็นผลลัพธ์ทางธุรกิจ - มิติหุ้น | ชี้ชัดทุกการลงทุน - มิติหุ้น",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1UdmlpRWRqbTVDbXN0aTduZVJqWkNzUW9jNWhobUU4OHpvX3AyS3pvLWJaaGFjNWg4V0RNdmhQRDI3U05FU0NNdUEzWGppQjF3aDlmZ1Bn?oc=5",
+          "publisher": "มิติหุ้น",
+          "publishedAt": "Thu, 08 Oct 2026 08:55:35 GMT"
         },
         {
-          "title": "AI Data Center ลงทุนในไทยแล้ว คนไทยและธุรกิจไทยจะได้ประโยชน์อย่างไร - Thansettakij",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBGaWtRNWVRYmVqWGl6SkVUb0tFMjVhYnJqRXo1QnpibldQNU11QjNILTJTaUtnUWdGMlg3ZlpUS2RrV1lpU3V2bXlYT2VYcWdWbmdxZUhGVWJpVFFZd09wMjcyS0NYSkNWU25fbGlmb1c0MW0x?oc=5",
-          "publisher": "Thansettakij",
-          "publishedAt": "Sun, 04 Oct 2026 23:00:00 GMT"
-        },
-        {
-          "title": "Synology เผยธุรกิจไทยดึงโครงสร้างพื้นฐานกลับมาที่ตัวเองมากขึ้น เพื่อสร้างรากฐาน ‘ข้อมูล’ ให้ AI - TechTalkThai",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPbkJhRW1KMFNlOU9pYlpyTDI3R09ZTmJrRk9OMlZ2Q19fZXYwUnZqSzdackZqVnlQV052Zk1LcmdITzlSQkNlMHFvaDRRa1JxUU9RaXhra2t6SHo2dTUxc3NzWHBScFV2cW1uTjBqa0NNU2lRbi10bGZha3JBZHBuMEJtal9qSUhaTU1SNThmdVZhcHIwTjlGMWJUQldvWjNuc2E1T0xB?oc=5",
+          "title": "บทเรียน AI มูลค่า 33 ล้านบาท! Datadog ชี้ทำไมธุรกิจไทยต้องมองเห็นทั้งต้นทุน ประสิทธิภาพ และความเสี่ยง [PR] - TechTalkThai",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFA2NEdadHdCSWluTWJWTEpBeU1VTjh1UnNFSkZhVTRoYUd3SG1Sbmt0VnVoVDBuX3VZM0pvT1pKNlpma0s0MTJzblJ5ZEl6V0RFM1RYYWt2czZMR2c2U012WUI3c2R4NUFtdkZoY3huWXlvdXYzdGc?oc=5",
           "publisher": "TechTalkThai",
-          "publishedAt": "Wed, 07 Oct 2026 11:44:23 GMT"
-        },
-        {
-          "title": "นักท่องเที่ยวเยอะไม่พอ! Microsoft ชี้ไทยต้องใช้ AI เปลี่ยนวิธีวัดความสำเร็จ จากจำนวนคนเข้าประเทศ สู่มูลค่าที่สร้างได้ต่อคน - Brand Inside",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNamg1ZTF0Q19FSUdsRmJYVHQwMV9jX1NVTFYyM085ZHV0YTE0SDhDOUlpZUJWWjhiRUEwRklXOTNSdllVdmRJUzFTQWs0VjdERTdBSGhaYndRTzUxMzdDcE03VGJEWWFwcVVNNzB1alJHVm56cEpJaEFQRi1qSXRzNWlUbU5BdXA1eUow?oc=5",
-          "publisher": "Brand Inside",
-          "publishedAt": "Tue, 06 Oct 2026 10:09:49 GMT"
+          "publishedAt": "Thu, 08 Oct 2026 11:34:16 GMT"
         },
         {
           "title": "Thailand's digital momentum is real, yet the AI payoff is still to be unlocked | Deloitte Southeast Asia - Deloitte",
@@ -161,44 +79,64 @@
           "publishedAt": "Thu, 06 Aug 2026 07:00:00 GMT"
         },
         {
+          "title": "นักท่องเที่ยวเยอะไม่พอ! Microsoft ชี้ไทยต้องใช้ AI เปลี่ยนวิธีวัดความสำเร็จ จากจำนวนคนเข้าประเทศ สู่มูลค่าที่สร้างได้ต่อคน - Brand Inside",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNamg1ZTF0Q19FSUdsRmJYVHQwMV9jX1NVTFYyM085ZHV0YTE0SDhDOUlpZUJWWjhiRUEwRklXOTNSdllVdmRJUzFTQWs0VjdERTdBSGhaYndRTzUxMzdDcE03VGJEWWFwcVVNNzB1alJHVm56cEpJaEFQRi1qSXRzNWlUbU5BdXA1eUow?oc=5",
+          "publisher": "Brand Inside",
+          "publishedAt": "Tue, 06 Oct 2026 10:09:49 GMT"
+        },
+        {
+          "title": "TRUE ชู 3 กลยุทธ์ หวังปลดล็อกศักยภาพ SMEs ไทย ด้วย AI ก้าวสู่ยุคเศรษฐกิจดิจิทัล - efin.finance",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5KZ0tNY0xFZmdZUFAzV2ZHSnIzMjNCOU1yQWg4WkpHbUEwSm5EaEsxMk1lWGVqR2M2Zk15WjhFU2lidkR2SVZGc2ZYempsTTd4YWpyd1dIeFBwTkQ4enRaOWx3?oc=5",
+          "publisher": "efin.finance",
+          "publishedAt": "Thu, 08 Oct 2026 05:08:00 GMT"
+        },
+        {
           "title": "แผน 14 ชูไทยเป็นฐาน AI รอเจ้าภาพและเส้นตาย - quasa.io",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPQ1RxQkI5VDBXTlJvRlR6d2V5aFZFcDRjS0xFN2tLbUhwTGQycVducEpFblY1aWVjbHZ0cVBOeEtSQjBBcDI2TEJZMU4wajJ4dE9LU0pydEhBM2xhbXhtbmxNWjJobG4zWm5QNnZveGJKdmFfZW1pODlNU1JFMHFjc3YzaUd3XzFoVTBlTmlodjVCMTBXbUdidnZITEpCSERudWc?oc=5",
           "publisher": "quasa.io",
           "publishedAt": "Sun, 04 Oct 2026 20:00:00 GMT"
         },
         {
-          "title": "Synology ชี้ธุรกิจไทย 86% สนใจ AI แต่มีแค่ 9.5% พร้อมรับมือภัยคุกคาม - BiztalkNEWS",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxPMDd4djkzMzFIa1hoY3JCMnZ6aFdHZlNwa1Q1NDZjQS1oaG5fM2ZzbEs3d043UURFTTZ3b1hleXE1TzFEdGV5SThpSjd5a1Z1R3l4MnhIU011VUtrNHFaRWI2cVFHemtnZXMzMENiWWgzaVpPY21zemkzVnNGYnY3c1YwcWdrVVljUTlkSG1LZTBrVVF6U0RyQXFnTlJrZGpiVnU5Mg?oc=5",
-          "publisher": "BiztalkNEWS",
-          "publishedAt": "Wed, 07 Oct 2026 10:41:52 GMT"
+          "title": "เมื่อ AI โต จีนเร่ง Data Center แล้วไทยจะได้อะไรจากคลื่นลงทุนรอบนี้ - bangkokbiznews",
+          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5DY003UjlOSkJlTWx1QUxlbk4zR2haRXdYUkV1OGZMTmZvRk5FY1dJaEtzbnlmTnl4dmVMNWo0WFRLNlhFNnVTSTBvUDFKOHJ6eXJjcllKRQ?oc=5",
+          "publisher": "bangkokbiznews",
+          "publishedAt": "Fri, 02 Oct 2026 10:10:02 GMT"
+        },
+        {
+          "title": "ADB Raises Thailand’s 2026 Growth Forecast to 2% on Tech Exports - SME & Entrepreneurship Magazine",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPaUdlbXp5dXpESkNtODZFNWZoYWZmN2lmOTFPOFBQSm9aSWlzcDNMRlQzRFdIRVZSRmwtYno4YkZmZmRrSlUxTi1XcHBmb3JCUDl2RnlfMXVkNTgtaXBHWHUtS3N5c0h1NlNNeFhBOE9MWDVwVGdHNW94d3JlbVYyMjItcnFZRzg?oc=5",
+          "publisher": "SME & Entrepreneurship Magazine",
+          "publishedAt": "Wed, 07 Oct 2026 05:00:41 GMT"
+        },
+        {
+          "title": "GDP 7% ไม่ใช่ฝัน! GULF ชี้ไทยต้องใช้ AI ทดแทนแรงงานหาย ดัน Productivity กู้เศรษฐกิจ - posttoday",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9fSTdSM2h0NVB4LXhkdFAtaWVIb0FPdktreUVUbC1QZ3A4RGVIdHZKNUZnbUt1Q3NJNk9SaTVSb2xPMWxwbzkySnZQS2JWQ0g5bC0tVk5HVk9uX2JYM0ZqWTZaQQ?oc=5",
+          "publisher": "posttoday",
+          "publishedAt": "Thu, 08 Oct 2026 08:55:00 GMT"
         }
       ]
     },
     {
-      "id": "sig-3-muyyjzxu",
-      "title": "Digital Connectivity and Ecosystem Crucial for Thailand's Digital Economy",
-      "summary": "Thailand is accelerating efforts to become an ASEAN Digital Hub, emphasizing robust digital connectivity as a fundamental pillar. Experts highlight that a comprehensive digital ecosystem, beyond just physical infrastructure, is vital for unlocking the full potential of the digital economy.",
-      "soWhat": "Businesses should prioritize investments in seamless digital integration and collaborative platforms to thrive in an increasingly interconnected and data-driven economic environment.",
-      "titleTh": "การเชื่อมโยงดิจิทัลและระบบนิเวศคือรากฐานเศรษฐกิจดิจิทัลไทย",
-      "summaryTh": "ประเทศไทยกำลังเร่งผลักดันตนเองสู่การเป็น Digital Hub ของอาเซียน โดยเน้นย้ำถึงการเชื่อมโยงดิจิทัลที่แข็งแกร่งเป็นรากฐานสำคัญ ผู้เชี่ยวชาญชี้ว่าระบบนิเวศดิจิทัลที่สมบูรณ์ ซึ่งไม่ใช่แค่โครงสร้างพื้นฐานทางกายภาพเท่านั้น เป็นสิ่งจำเป็นในการปลดล็อกศักยภาพของเศรษฐกิจดิจิทัลอย่างเต็มที่",
-      "soWhatTh": "ธุรกิจควรให้ความสำคัญกับการลงทุนในการบูรณาการดิจิทัลที่ไร้รอยต่อและแพลตฟอร์มการทำงานร่วมกัน เพื่อความสำเร็จในสภาพแวดล้อมทางเศรษฐกิจที่เชื่อมโยงกันมากขึ้นและขับเคลื่อนด้วยข้อมูล",
-      "category": "Technology",
+      "id": "sig-2-muzibj4j",
+      "title": "Thailand's push to become ASEAN Digital Hub through enhanced connectivity.",
+      "summary": "Thailand is actively pursuing its goal of becoming ASEAN's digital hub, emphasizing the critical role of robust connectivity and a comprehensive digital ecosystem. This initiative aims to integrate and strengthen the nation's digital economy beyond mere infrastructure development.",
+      "soWhat": "Businesses should explore opportunities in digital infrastructure, data services, and cross-border digital trade, aligning strategies with the government's vision to leverage enhanced regional connectivity.",
+      "titleTh": "ไทยเร่งผลักดันสู่การเป็นศูนย์กลางดิจิทัลอาเซียนผ่านการเชื่อมโยงที่แข็งแกร่ง",
+      "summaryTh": "ประเทศไทยกำลังเดินหน้าอย่างจริงจังในการเป็นศูนย์กลางดิจิทัลของอาเซียน โดยเน้นย้ำถึงบทบาทสำคัญของการเชื่อมโยงที่แข็งแกร่งและระบบนิเวศดิจิทัลที่ครอบคลุม โครงการนี้มีเป้าหมายที่จะบูรณาการและเสริมสร้างเศรษฐกิจดิจิทัลของประเทศให้ก้าวหน้าเกินกว่าแค่การพัฒนาโครงสร้างพื้นฐาน",
+      "soWhatTh": "ธุรกิจควรสำรวจโอกาสในโครงสร้างพื้นฐานดิจิทัล บริการข้อมูล และการค้าดิจิทัลข้ามพรมแดน โดยปรับกลยุทธ์ให้สอดคล้องกับวิสัยทัศน์ของรัฐบาลเพื่อใช้ประโยชน์จากการเชื่อมโยงระดับภูมิภาคที่เพิ่มขึ้น",
+      "category": "Business",
       "impact": 4,
-      "confidence": 0.9,
+      "confidence": 0.8,
       "timeHorizon": "1yr+",
       "tags": [
-        "Digital Connectivity",
-        "Digital Ecosystem",
         "Digital Hub",
-        "Infrastructure"
+        "ASEAN",
+        "Connectivity",
+        "Digital Economy",
+        "Infrastructure",
+        "Government Policy"
       ],
       "sources": [
-        {
-          "title": "Connectivity: รากฐานสู่อนาคตเศรษฐกิจดิจิทัลไทย - ThaiPR.NET",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5OWExyRWpMN0MxTkVkdXFCNUNTeTgwblNFaXdYWlNWb1VTUUJvZFhLd0FOWmdzYzJTWnFhQUdfeEprVU5nUzBLTmJ6U09DRHp0?oc=5",
-          "publisher": "ThaiPR.NET",
-          "publishedAt": "Thu, 01 Oct 2026 08:19:00 GMT"
-        },
         {
           "title": "ไทยเร่งสู่ Digital Hub อาเซียน ดัน “Connectivity” เชื่อมเศรษฐกิจดิจิทัล - pptvhd36.com",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9xdVluU0dFLVVFcWRXX0VLcmNaaW1VQkNmYXZWWGN6cjRmemNaT1NuM3dMZ01hWHZBdGVUdS0xQTBEb1VvcXUzX0M0My0wcEhJMGNXVWFsR1lfZ1E?oc=5",
@@ -220,82 +158,24 @@
       ]
     },
     {
-      "id": "sig-4-muyyjzxu",
-      "title": "Thailand Positions Itself as Safe Zone for High-Tech Foreign Investment",
-      "summary": "Thailand is actively promoting itself as a secure and attractive destination for foreign investment, particularly in high-tech sectors, through strategic partnerships with countries like Japan. The government is emphasizing \"Quality Investment\" and leveraging international forums to showcase Thailand's potential and soft power.",
-      "soWhat": "Companies should explore opportunities for joint ventures and technology transfer with foreign partners, aligning with government incentives for quality and sustainable investments.",
-      "titleTh": "ไทยวางตำแหน่งเป็นพื้นที่ปลอดภัยดึงดูดการลงทุนต่างชาติในเทคโนโลยีขั้นสูง",
-      "summaryTh": "ประเทศไทยกำลังส่งเสริมตนเองอย่างแข็งขันในฐานะจุดหมายปลายทางที่ปลอดภัยและน่าดึงดูดสำหรับการลงทุนจากต่างประเทศ โดยเฉพาะในภาคเทคโนโลยีขั้นสูง ผ่านความร่วมมือเชิงกลยุทธ์กับประเทศต่างๆ เช่น ญี่ปุ่น รัฐบาลเน้นย้ำ \"Quality Investment\" และใช้เวทีระหว่างประเทศเพื่อแสดงศักยภาพและ Soft Power ของไทย",
-      "soWhatTh": "บริษัทควรสำรวจโอกาสในการร่วมทุนและการถ่ายทอดเทคโนโลยีกับพันธมิตรต่างชาติ โดยสอดคล้องกับมาตรการจูงใจของภาครัฐสำหรับการลงทุนที่มีคุณภาพและยั่งยืน",
-      "category": "Business",
-      "impact": 4,
-      "confidence": 0.9,
-      "timeHorizon": "1yr+",
-      "tags": [
-        "Foreign Direct Investment",
-        "FDI",
-        "High-Tech",
-        "Japan Partnership",
-        "Quality Investment",
-        "Soft Power"
-      ],
-      "sources": [
-        {
-          "title": "“เอกนิติ-บีโอไอ” ผนึกพันธมิตรไทย–ญี่ปุ่น ชูสร้างการเติบโตร่วมกันอย่างยั่งยืน - Techsauce",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB4RFlycDZ3aFdScXRWVmJSMkg4OVJGTzF0LWJzNVhCNFVHeU55OV9Fa2g4cHhJdTlUOHNMUkVTUWFtVnhtbjdUcDdLUlU5ZzZ4Sm4wNnVjU29TZkxHd3ZOa3dpeUcxYjV2UVhIZ09EX2xBNFNk?oc=5",
-          "publisher": "Techsauce",
-          "publishedAt": "Wed, 07 Oct 2026 10:02:57 GMT"
-        },
-        {
-          "title": "Thailand and Japan Cement $11.7 Billion Industrial Alliance in High-Tech Shift - Nation Thailand",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFA4VFExM2ZqM29qWDdOTmZpajhHdDM3Qy1NN1BpS2JFVnlFX21LblA1VFVuS3JvRHJsOFkzOGV6NGp4cFBNZkNncTY1VFdydEh6aDlHQXREMHgyT1B4LVFaUmxUY1hIa2M?oc=5",
-          "publisher": "Nation Thailand",
-          "publishedAt": "Wed, 07 Oct 2026 12:38:00 GMT"
-        },
-        {
-          "title": "“เอกนิติ” ชูไทยเซฟโซนลงทุน ดึงต่างชาติยกระดับศก. - มิติหุ้น | ชี้ชัดทุกการลงทุน - มิติหุ้น",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pMjNqdHpSaVY1QzNkZ2pKUVZ6a0xOc1E2YjJ0UHNmUzJEcS1TZndYd1dGOHU1U3FScTdpTmk1U3JSeXhEbFc4ZTNsdm5uYXY0bFpfS0JB?oc=5",
-          "publisher": "มิติหุ้น",
-          "publishedAt": "Mon, 05 Oct 2026 13:44:57 GMT"
-        },
-        {
-          "title": "“เอกนิติ” กางยุทธศาสตร์หุ้นส่วนการลงทุนไทย-ญี่ปุ่น ชู “Quality Investment” | The Better - LINE TODAY",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9JWUVIbU1BaHVSaDREcGp0UFdReHJtU3g5VWpuNjVVU0tQSlY2SVFHU3F0UVotVFFlWmhFdG1EQVlmQzBzYkdwRWR3SFhkUklXcnRoOWtn?oc=5",
-          "publisher": "LINE TODAY",
-          "publishedAt": "Wed, 07 Oct 2026 08:47:44 GMT"
-        },
-        {
-          "title": "เวที IMF-World Bank 2026 เปิดประตูการค้า-ลงทุน ชู Soft Power สู่สายตาโลก - Thai PBS",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE15R0gyTXZXR285dUpsMWNfekxDMTVMWFJHNUpvQXd1MU1yeXZjSXBBMDY0OTNxRmoxSm5YSzRvblY2dVhRR0ZlWHpqV3lJeDV5dDZHN3ZHRFo?oc=5",
-          "publisher": "Thai PBS",
-          "publishedAt": "Wed, 07 Oct 2026 06:57:07 GMT"
-        },
-        {
-          "title": "เอกนิติ พาศก.ฝ่ายุคโลกผันผวน ชูยุทธศาสตร์ S-T-I วาดอนาคตไทยสู่พื้นที่ปลอดภัยของนักลงทุน - RYT9",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE8teUUxdWZoMWNEYnhSNEVJZFZtT2FPd2x0WGp2SGUybmJ6WlFyYXNOY0pOTF90c200RVB5VUh3cDkzMDljZDROaHln?oc=5",
-          "publisher": "RYT9",
-          "publishedAt": "Tue, 06 Oct 2026 18:14:55 GMT"
-        }
-      ]
-    },
-    {
-      "id": "sig-5-muyyjzxu",
-      "title": "Thai Consumers Evolve Towards \"Savvy Shopping\" and Digital Payments",
-      "summary": "Thai consumers are increasingly becoming \"savvy shoppers,\" prioritizing value over just the lowest price and adopting a \"wait-and-see\" approach to purchases. This shift is accompanied by a strong move towards digital payment methods, indicating a more discerning and digitally-enabled consumer base.",
-      "soWhat": "Brands must adapt marketing strategies to emphasize value, transparency, and digital convenience, moving beyond price wars to capture the attention of these evolving consumers.",
-      "titleTh": "พฤติกรรมผู้บริโภคไทยเปลี่ยนสู่ \"นักช้อปฉลาดซื้อ\" และการชำระเงินดิจิทัล",
-      "summaryTh": "ผู้บริโภคไทยกำลังกลายเป็น \"นักช้อปฉลาดซื้อ\" มากขึ้น โดยให้ความสำคัญกับคุณค่ามากกว่าราคาที่ถูกที่สุด และมีแนวโน้ม \"เดี๋ยวก่อน Era\" ในการตัดสินใจซื้อ การเปลี่ยนแปลงนี้มาพร้อมกับการหันไปใช้ช่องทางการชำระเงินดิจิทัลอย่างแพร่หลาย ซึ่งบ่งชี้ถึงฐานผู้บริโภคที่ชาญฉลาดและเข้าถึงดิจิทัลมากขึ้น",
-      "soWhatTh": "แบรนด์ต่างๆ ต้องปรับกลยุทธ์การตลาดเพื่อเน้นคุณค่า ความโปร่งใส และความสะดวกสบายทางดิจิทัล โดยก้าวข้ามสงครามราคาเพื่อดึงดูดความสนใจของผู้บริโภคที่กำลังเปลี่ยนแปลงไป",
+      "id": "sig-3-muzibj4j",
+      "title": "Thai consumers evolving into \"savvy shoppers\" prioritizing value over lowest price.",
+      "summary": "Thai consumers are increasingly becoming \"savvy shoppers,\" characterized by higher spending and a focus on value beyond just the lowest price, entering a \"เดี๋ยวก่อน Era\" of more considered purchases. This shift requires brands and online retailers to adapt their strategies to meet these evolving expectations.",
+      "soWhat": "Brands must move beyond price-centric strategies, focusing on value proposition, quality, and personalized experiences to capture the spending power of these discerning consumers.",
+      "titleTh": "ผู้บริโภคไทยเปลี่ยนเป็น \"นักช้อปฉลาดซื้อ\" ให้ความสำคัญกับคุณค่ามากกว่าราคาถูกสุด",
+      "summaryTh": "ผู้บริโภคไทยกำลังกลายเป็น \"นักช้อปฉลาดซื้อ\" มากขึ้น โดยมีลักษณะการใช้จ่ายที่สูงขึ้นและเน้นคุณค่ามากกว่าแค่ราคาที่ถูกที่สุด เข้าสู่ยุค \"เดี๋ยวก่อน Era\" ของการตัดสินใจซื้อที่รอบคอบมากขึ้น การเปลี่ยนแปลงนี้ทำให้แบรนด์และร้านค้าออนไลน์ต้องปรับกลยุทธ์เพื่อตอบสนองความคาดหวังที่เปลี่ยนแปลงไปเหล่านี้",
+      "soWhatTh": "แบรนด์ต่างๆ ต้องก้าวข้ามกลยุทธ์ที่เน้นราคาเป็นหลัก โดยหันมาให้ความสำคัญกับคุณค่าของสินค้า คุณภาพ และประสบการณ์ส่วนบุคคล เพื่อดึงดูดกำลังซื้อของผู้บริโภคที่ชาญฉลาดเหล่านี้",
       "category": "Consumer",
       "impact": 3,
-      "confidence": 0.8,
-      "timeHorizon": "3-6mo",
+      "confidence": 0.9,
+      "timeHorizon": "Now",
       "tags": [
         "Consumer Behavior",
-        "Savvy Shopper",
-        "Digital Payments",
         "E-commerce",
-        "Marketing Trends"
+        "Marketing",
+        "Savvy Shopper",
+        "Value Proposition",
+        "Digital Marketing"
       ],
       "sources": [
         {
@@ -317,12 +197,6 @@
           "publishedAt": "Mon, 05 Oct 2026 17:33:02 GMT"
         },
         {
-          "title": "รอบรั้วการตลาด : Paymentology มองไทยก้าวสู่ยุคชำระเงินดิจิทัล ชูนวัตกรรมรับพฤติกรรมผู้บริโภค - Thairath.co.th",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBiVHZZNlNBenBXUUlRaElJdGJ3cUtySERWaGVLNGxIREJHeUg1NzlTTEFpcWpTU1RnR1E0ZDVUbUpMb05qODctd3hYMlBPWEZsM1RlQXBKYzExbkNTUG5uTUN4OFVpMjlZY1pFRUpaNURLeW1B?oc=5",
-          "publisher": "Thairath.co.th",
-          "publishedAt": "Tue, 06 Oct 2026 06:00:00 GMT"
-        },
-        {
           "title": "ลาซาด้าเผยอินไซต์ \"นักช้อปฉลาดซื้อ\" ไทย พบใช้จ่ายสูงกว่านักช้อปทั่วไป 27% - Brand Buffet",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOU2NBT3NVMUlqcG9GVkRtTE9DaGpWbWl5TG1oXzltenNXQzVYVEJYU2lDS01hVjRiSHNmQWFCUF9lcEgwNWwyMHlpbENIem92OGlteWlNWnpxOHRscmZONFJ3ZV94LVpTTk1HQ2hIZTlWYnNMOFZidm1ZOU1rSjRUSjlHMDZyanpaTjRtSzh4X3RkM1U5c3pVY0xpdDFfUWJBcHlMRzF1VUpvNHBheG1UZXk2U1VYcVpaOURYSGRpaw?oc=5",
           "publisher": "Brand Buffet",
@@ -333,38 +207,228 @@
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE54M3IwSXlwMnAydVcwVFJPSjViYTV2VkkyOVNVNW45emcwa1hrU2xnM3BCVGV6M2VPVV9DNDJTYXRHS3h1M2VCREg3U0ROWjB6b1RwSFFQYmc2dUNxNVJj?oc=5",
           "publisher": "Thansettakij",
           "publishedAt": "Sun, 04 Oct 2026 02:41:00 GMT"
-        },
-        {
-          "title": "ลาซาด้า ถอดรหัส Sold Out เปิด 3 กลยุทธ์ ดัน Limited Drop เกลี้ยงใน 1 นาที | การเงินธนาคาร - LINE TODAY",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFB6b0tXR3h3ME9KeFZJYWxtb2lyeG1vcnB6QlZxRDRuNTl1d2t6dmxyX0twcTY4Q3Zuek85QWJ4Y2h2bUNtWDR2X09sMjJVeVNNa1E0XzZB?oc=5",
-          "publisher": "LINE TODAY",
-          "publishedAt": "Thu, 01 Oct 2026 08:46:44 GMT"
-        },
-        {
-          "title": "Gen Y อยาก Work Life Balance แต่เผลอให้รางวัลตัวเองมากไป จนกลายเป็นกับดัก - Marketeer Online",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1UMTNyM2MwRFQ3TkxRU2t3bUV6VnpIVFdUYXNJZmFmQUNPbU5XT2laWkFJbjF0NnNjbW9nRTVNNE1TRjRmOER0bHJvVEV5Z1VPMHdKSw?oc=5",
-          "publisher": "Marketeer Online",
-          "publishedAt": "Fri, 02 Oct 2026 10:16:01 GMT"
         }
       ]
     },
     {
-      "id": "sig-6-muyyjzxu",
-      "title": "Thai Digital Advertising Growth Slows Amidst AI-Driven Attention Economy",
-      "summary": "Thailand's digital advertising market is experiencing significantly slower growth, projected at a mere 0.3% in 2026, the lowest in 14 years. This slowdown is attributed to the intense competition for consumer attention in an increasingly AI-driven digital landscape.",
-      "soWhat": "Marketing and media companies must innovate their strategies, leveraging AI for hyper-personalization and engagement, to cut through the noise and deliver measurable ROI in a saturated market.",
-      "titleTh": "การเติบโตโฆษณาดิจิทัลไทยชะลอตัว ท่ามกลางการแข่งขัน AI ในยุค Attention Economy",
-      "summaryTh": "ตลาดโฆษณาดิจิทัลของไทยกำลังเผชิญกับการเติบโตที่ชะลอตัวลงอย่างมาก โดยคาดการณ์ว่าจะเติบโตเพียง 0.3% ในปี 2569 ซึ่งเป็นอัตราที่ต่ำที่สุดในรอบ 14 ปี การชะลอตัวนี้เป็นผลมาจากการแข่งขันที่รุนแรงเพื่อแย่งชิงความสนใจของผู้บริโภคในภูมิทัศน์ดิจิทัลที่ขับเคลื่อนด้วย AI มากขึ้น",
-      "soWhatTh": "บริษัทการตลาดและสื่อต้องพัฒนากลยุทธ์ใหม่ๆ โดยใช้ประโยชน์จาก AI เพื่อการปรับแต่งเฉพาะบุคคลและการสร้างการมีส่วนร่วม เพื่อให้โดดเด่นและสร้างผลตอบแทนจากการลงทุนที่วัดผลได้ในตลาดที่มีการแข่งขันสูง",
-      "category": "Business",
-      "impact": 3,
-      "confidence": 0.7,
+      "id": "sig-4-muzibj4j",
+      "title": "Mixed outlook for Thai economy with growth drivers and significant vulnerabilities.",
+      "summary": "Thailand's economy faces a mixed outlook, with potential boosts from tech exports and global PMI recovery, but is constrained by high household debt, energy costs, and short-term shocks like floods. Experts express concern about slower growth compared to ASEAN peers and advocate for strategic shifts towards sustainability and AI adoption.",
+      "soWhat": "Companies must navigate a volatile economic landscape by focusing on productivity enhancements, managing financial risks, and aligning with national strategies for sustainable growth and digital transformation.",
+      "titleTh": "เศรษฐกิจไทยมีแนวโน้มผสมผสาน ทั้งปัจจัยหนุนการเติบโตและความเปราะบางสำคัญ",
+      "summaryTh": "เศรษฐกิจไทยเผชิญกับแนวโน้มที่ผสมผสาน โดยมีปัจจัยหนุนที่เป็นไปได้จากการส่งออกเทคโนโลยีและการฟื้นตัวของ PMI ทั่วโลก แต่ถูกจำกัดด้วยหนี้ครัวเรือนที่สูง ต้นทุนพลังงาน และผลกระทบระยะสั้นจากน้ำท่วม ผู้เชี่ยวชาญแสดงความกังวลเกี่ยวกับการเติบโตที่ช้ากว่าประเทศในอาเซียน และสนับสนุนการเปลี่ยนแปลงเชิงกลยุทธ์ไปสู่ความยั่งยืนและการนำ AI มาใช้",
+      "soWhatTh": "บริษัทต่างๆ ต้องรับมือกับภูมิทัศน์ทางเศรษฐกิจที่ผันผวน โดยมุ่งเน้นการเพิ่มผลิตภาพ การบริหารความเสี่ยงทางการเงิน และการปรับกลยุทธ์ให้สอดคล้องกับแผนระดับชาติเพื่อการเติบโตที่ยั่งยืนและการเปลี่ยนแปลงทางดิจิทัล",
+      "category": "Economic",
+      "impact": 5,
+      "confidence": 0.9,
       "timeHorizon": "3-6mo",
       "tags": [
+        "Economic Growth",
+        "GDP",
+        "Household Debt",
+        "Exports",
+        "Investment",
+        "ESG"
+      ],
+      "sources": [
+        {
+          "title": "เศรษฐกิจไทยและต่างประเทศ ประจำเดือนตุลาคม 2569 - kasikornbank.com",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPNW9PdW9rUzBlY2RqLWFOMU9WMEhxaDNMNmdUNTVZLUg3YzRQenRrbmxWemlPbWFqdUZUV2NTZC1TYzRYUmlJSzZYemVDcXpRcXB1VDhYQnBoZVhIMjZIWEVvZUIyajh6dlk2R01nM3BVVko5QTdmNE5hVXhzLUlQVEZ6MFlXcGpZWXdlVlMxb1dDNTBuVThTcGJB?oc=5",
+          "publisher": "kasikornbank.com",
+          "publishedAt": "Fri, 02 Oct 2026 09:18:59 GMT"
+        },
+        {
+          "title": "World Bank ชี้ส่งออก AI หนุนเศรษฐกิจไทย แต่พลังงานแพง-หนี้ครัวเรือน ฉุด GDP ปี 2569 โต 2.0% - ThaiPublica",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5SWG1Mdkdza29uem1HVk5RWnlTd3RpdklaV0pyaVVQQWs5RnVKSFZCaVJreS1jWktfWk5DQUR5UHpaN1M0TXFGQlZiYlFZS1pvNGZhNUhhSnQ0RmtvNDBUNlNYRGg5YkhCMEFhMHp3azRyMnVzOEhv?oc=5",
+          "publisher": "ThaiPublica",
+          "publishedAt": "Tue, 06 Oct 2026 04:55:52 GMT"
+        },
+        {
+          "title": "กรุงเทพธุรกิจ. . ถอดรหัสเงินดองเวียดนาม ดันส่งออก เศรษฐกิจโตแรง! I Money Teller . เจาะเบื้องหลังเงินดองเวียดนามที่แม้มูลค่าต่อหน่วยจะต่ำ แต่กลับมีเสถียรภาพทางเศรษฐกิจ สร้างความได้เปรียบด้านการส่งออกและดึงดูดเม็ดเงิน FDI ไหลเข้าประเทศ . . #เงินดองเวียดนาม #เศรษฐกิจเวียดน - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi_wZBVV95cUxOYjVlUGtDNnVjUTl1T2tkVUlrWEFJbVpfcGFiT2ZLVDd5YWVqSGtVNVdUbGE5SGhYcXc2SkJRSmRVZXRlSVFEYzVVVkZXb3ZQa2FJMFgyN2FDOVk5bWNhOU9ySldzVERsRmFSVzVuTzdyWDQ4dV82Y25FVFdSZ19nQWpXRWNkOG5oV0Z0aUkwU1BSN2tsMHZFckRzdko3ZHlpMHhwZm5yMmtvR3lHZlpGbGpBMnZ3VTZCZHBlYzhOUkZGd2QxbFdhVmROYXdvS0JFMl8zOVB4YU52OEs1cms3cjNWVFY4alcwUzNVbnRVM2FMV2VrMU1PRmF3T2JnalJJQm4wYjE3aV85bURqYWhMc1ZxcjMyMkljY3FYdkV3d2xFSEFTZzZBcnVrdm82bWI4TWhOMnJhUUFieEY1VlByVU5LTTFjb3Q2TEJKeTlhSlZMTldZR2dRcC1TeEp5clNiSnVMaUNaVWVpS2hiSkFiWGcyR0J3dUp4aUJTeFhHc0p6SnZia2FtRTJJdmF3YnVFVXRPWUtuTl9TWjNWbHJQeU8ydFdhQ1NYRWhkTjVmRXdBWkVKU0tUbTFTWjNtaGM1T3pqV2tGeEtzX0VMSEdRRl9EUHNXbnY5QVZKOVNhVWs0c0xHbGFzUXJBUkZhdmJ6a21MN0luZEVXNFNHM3lCemNDaC1iNHBLUXlxZFllVnZxYW0xdEdvNzFQUzdNRHVQUHhieE44clROVzNvWXM0LWRyV2dwd0ptRGNzYk1xd2hkWUhRTzNsRmxpTDhjaXhwOUIyMUl3LTNOS01mYlR2V0x5TlczV1Z1OUNsem5PMk1FY1A3ak0wOEpwNVQ5SVF0d1ZDYlVvT05sUm5wcGdwUlVkODFZek5tMUFBNXpwMWg3a05ZZkR4RXU5ZVd6Z3dTcU1XOXE3dU9DQURJbnRmdWtscGtqT2VhbV95c05kZ19fNEp0SWFyOVhSc1RXekJJV3pLTS1idVVtYWdQbDdENDZHVzFyM2ZUZERaclBBMEhhTHJjWlhSX3BHcTFIOVVGd0tLaUhrNmhHdmVHdG9XYkMtcFlLS0s2NTBjOThwc3cwU0ZhZUFUeHpOQ0ZQTk1vRVdxNWhFUVZycHBRc21kMWRqT1dJbEhFRWUyR3FZbFM5MWQ2Z29NNmQ0cHJIdkFhU0U1ZFlxa3lBNzZYU2ZB?oc=5",
+          "publisher": "Facebook",
+          "publishedAt": "Fri, 02 Oct 2026 10:30:15 GMT"
+        },
+        {
+          "title": "THE STANDARD WEALTH. . เศรษฐกิจไทยอยู่ตรงไหน วันนี้ และอีก 5 ปีข้างหน้า? เศรษฐกิจไทย มีทั้งเรื่องดีและเรื่องที่ยังน่ากังวล หากต้องสรุปภาพเศรษฐกิจไทยวันนี้ในภาพเดียว จะมองอย่างไร? พูดคุยกับ ดร.ฐิติมา ชูเชิด ผู้อำนวยการอาวุโส ผู้บริหารฝ่ายวิจัยเศรษฐกิจมหภาค ศูนย์วิจัยเศรษ - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi9wdBVV95cUxPQlZvR1B0aTh4a1pEbVM3S0NwWndMWjZwbk8tSTZwZV9aaUlmWHNiNkkzZXFRTUxWV085bjFjU3g2QUFLM3JQb3o4Vk14c3JQX2QzTVJkanJzcmpTUFJLSHlFTTI5RUYzZVVEVGR6b1JiYTdfRmxZSE5fNWh1d2RndFB6OGJUYWJrNHN1OUdBYXJPYWpqcUNnd2RNdVJ6WnVMUFo4b3FrOGMtTF9jendqRFRuUmJqOHg4YW0wclllalY2UmZ5M1dxcm9haDdpVTdqVEhuUTZObFRIdHZrVHBianNPZFY5S0VzYjVkcThEQXBGaE1DV0dJWGtKVjFEX1REYmpsZHVHZHhnNjltQUt2T0ZZSV9vQWtqWkpKLXFNZlN4N3ZvNW5UcmQ4LXd0UDB1X29XcHFHalJwNHhrdDVnVHpEcE1qN2lGVlI2bHh1amdObFU4Z2ozYnNlX0ktNEVXTHBQRkRWbFNicXpNeFVfc0ppTURJbDV1aERpdGpnSmFUbm5yOGg5NlhTUXMzcHhGVmxhN0xiMXRBc1drRG1Jc0N2VHdhNllKQ25pXzRyLW9ER3J6MlVFOXZtclBIODd2ZXd2UjFfZjItR0pubDQtZkRmUTNjb21pV1FiQkN5Xy02aGFnMTBXZHFyVXBmaXEzQ21fVWdsSEtuNkxWMS1jcU5EMjRpUmRnMGdQeWpsckpidlRCZjRlUXYzcXJlc3MzZ0Z0bFNZNzZYY0FkMGE5R081ODhlSHFjcmxOUjVaMWE5THlEbmh5TzIxNEtlZVdsb1AtbXd0S2w0UXJWd3h3a2F1Wkc2dTBpLU1KZkRLSVRVQ3VXeXltS0xrZ3BuRThmSGxMemZvQzJha0lKejRYb29NWkFWYVdiQjgtcXRQTk5NREVXVDJ4LUVtSVFkbFNjZEZVTFhvLU1YLVFMLVJQWGJiYkZxQlRQaTBZLWE5YnR1YjF4YWJPR05pMk9NZXpJQWx4ZGtfSTNIYzFESnJkR0c2M0R6R3lJNlhQUHJvbVlXZGotUXRibHV4d3ZKbTcwMTh0U3lJbjBiMDFrdzVHS05VcEZWR3lMeW9IZzVNSmFmOEZpVHVYWWJtaGlQX3dXSDU5TExZeHAxSzRVLWV5VDNFNF8talViYVdzNHNmVWp1MGl3U0RUZDdzeDJBUlJlbzhaejNHc29Nd0xrdjB0bVJ1bE41LV9yNDZCM2FUS0YwZk5vWk9oUUpsbWtRXzBua29YcTA3bE1US3lKdmdTNHhOam40VzJTSW1mNERFNjhxODB0bkptX3F6LW85bVpSbmpfVW13UjRKTjYxdk5hOFZ0dkdVcUtEZkRWdGhnZHFRNGM5cWJF?oc=5",
+          "publisher": "Facebook",
+          "publishedAt": "Mon, 05 Oct 2026 04:53:29 GMT"
+        },
+        {
+          "title": "“ดร.ประสาร” ห่วงเศรษฐกิจไทยโตต่ำกว่าอาเซียน ชูใช้ ESG Bond เปลี่ยนผ่านประเทศสู่ความยั่งยืน - efin.finance",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTTJJUGVqUHBFb0Z1aFJWUVNZSW1QR3o3WGRmR1JNMmd5WG1YbzhYc011eHEyWE5kLUhNY05Wd1JVc25BVjMyOXZFQXNDV25JR3Q0UDFncURBSGNsUkI2SXI5SERaM2dsalFkU3d0aVNrZ3BuNkx3VGpROHROUFNWdEJkZU9weFNjQlVkdFY3TWlEdnJ1Q1NVY1diRU1OZ3RiUlV4ZzZn?oc=5",
+          "publisher": "efin.finance",
+          "publishedAt": "Tue, 06 Oct 2026 02:27:00 GMT"
+        },
+        {
+          "title": "บรรยากาศช่วงบ่ายของงาน Thailand Economic Outlook 2027 | New Horizon Beyond the Trap ร่วมมองอนาคตเศรษฐกิจไทยท่ามกลางระเบียบโลกใหม่ บทบาทของโครงข่ายอัจฉริยะ เศรษฐกิจสุขภาพ และแรงขับเคลื่อนธุรกิจไทยสู่การเติบโตครั้งใหม่ . 🎙 Keynote Speech | Thailand’s - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMixwNBVV95cUxPaGYxMmcwODN5OFVXTWpuNWNOZkgxbjZpajRDcV8tbjVFNW5yVlMzT3E5bzhDVlR2eE5hVm9mNEpsUG5ZbnI5enA3WFk3a1Y4RWl1NFBOcVFoTlNXNnBNS2Zhd2RxSWlPZmJqRUp0Wml2MzduRGstR2RYd29GWTUxc2Z3ZGRWUUZsZUdmcXl2ZDFyMHN4RlZHZjVFbWlVVGhWT2g3OVN3MHQwSlR6WExiclc5ZlhTV0JKVkxrS1RxOE5feHBkN3BxMjVrOWcyRDYwREE4X1lrbllPdk5zWEF6Z0RDc2xENVU5ckNlREptUVU0WTdSYm45ejllSlhyMGllMEF6aG5LaV9lazhPOHE2aUlqZnVZNkpwdTh0cWlKMU9GenBjZkhRdF9fR0ZxYVFManZ1RzIyNjdLVjZYZVprbjBpT0RWSXpXanZQbm1MS3lrZEd1V0sybk5qR1M2VENNVEFlLVRPZlNoeXdlOEZlRE5RdTlnWFJ0U2h5Q1lWcVNxWmcyQXVfbDdSNWNZejI4UDgxaWVfa19sMVZ4SUZkQ09QY2t3dGZ3LW1VblhMN1V5OGNvS3BWNThIVTJBM2x4V0w3MVZtZw?oc=5",
+          "publisher": "Facebook",
+          "publishedAt": "Thu, 08 Oct 2026 11:30:07 GMT"
+        },
+        {
+          "title": "หวังว่าจะได้เห็น ‘ขอบฟ้าใหม่’ เศรษฐกิจไทย - bangkokbiznews",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE01cGFEaFY3Xzl0Y2k1dm5KeGE0aVpfdGhVcVpvdS1WUHA4ZEVzMnhQcU5UM1ZiN3B0dkVEZ09LeU1Tb0Qtbm8zMFpoZk44OWQwTnBvaWRZQXRvOGJjVURPUXZEZ0ZSTWc4X3RjSkNpVQ?oc=5",
+          "publisher": "bangkokbiznews",
+          "publishedAt": "Tue, 06 Oct 2026 00:00:00 GMT"
+        },
+        {
+          "title": "เอกนิติ พาศก.ฝ่ายุคโลกผันผวน ชูยุทธศาสตร์ S-T-I วาดอนาคตไทยสู่พื้นที่ปลอดภัยของนักลงทุน - RYT9",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE8teUUxdWZoMWNEYnhSNEVJZFZtT2FPd2x0WGp2SGUybmJ6WlFyYXNOY0pOTF90c200RVB5VUh3cDkzMDljZDROaHln?oc=5",
+          "publisher": "RYT9",
+          "publishedAt": "Tue, 06 Oct 2026 18:14:55 GMT"
+        },
+        {
+          "title": "เศรษฐกิจไทยอยู่ตรงไหน? ส่องข่าวดีใต้ความเปราะบาง ช็อกน้ำท่วมระยะสั้น และ 'ร่างแผน 14' กับเป้าหมายดัน GDP โต 3% Plus - thestandard.co",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBjbkw3cDRvRmhuUWVEMlo5SVZQNG1CZFV3dkxmd2FnWFNiREwydHFpdWI1Rm9SZS1yOXJSeHNuYW1oa2FSTHBrX2VTeTcxWFZvVVZHMVRBR1FZRnFWbnh3NnJ3?oc=5",
+          "publisher": "thestandard.co",
+          "publishedAt": "Wed, 07 Oct 2026 20:02:11 GMT"
+        },
+        {
+          "title": "ธปท.เปิดจุดเปราะบาง “เศรษฐกิจไทย” เร่งคุม BNPL หวั่นซ้ำเติมหนี้ | การเงินธนาคาร - LINE TODAY",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBKcmV0SlJLLWpkX2NrYndzRmRsTjgzUmNwZ3BCYU96M0o4VHAxdjA0QjZoRUFLamxvSjRLckVsTjZKRW9hVzEtano0MVBqNDdJT3pKMkpn?oc=5",
+          "publisher": "LINE TODAY",
+          "publishedAt": "Fri, 02 Oct 2026 08:02:12 GMT"
+        },
+        {
+          "title": "PMI โลกพุ่งรอบ 4 ปีครึ่ง หนุนส่งออก-ลงทุนไทยดีด แนะจับตาผลกระทบน้ำท่วมฉุด GDP - Thunhoon",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQSkZjQl9BZGpEQk1JeFdWQzlXLW5DWW0tNmFEZEEwWl9kM0QyQ0xudnEydXRqWFkzZTlvZ3loZ1VhbHJUU1FVTXhVWUthTjJ5MUFNdkNVRnlEX2QxX3AxbnkxSDdTTEtMd01Ga3M0OG9ETVN2bVpXeDlsQW9kRUxzU19id2VzbUlUNUxKRzhUSTdOaU9QWnN5N1VXdFZCSWFB?oc=5",
+          "publisher": "Thunhoon",
+          "publishedAt": "Tue, 06 Oct 2026 08:14:54 GMT"
+        }
+      ]
+    },
+    {
+      "id": "sig-5-muzibj4j",
+      "title": "Thailand actively attracts quality foreign investment and boosts startup ecosystem.",
+      "summary": "The Thai government, through agencies like BOI and NIA, is aggressively promoting Thailand as a safe and attractive investment destination, particularly for quality foreign investment and startups. Initiatives include strategic partnerships with countries like Japan and significant increases in startup funding.",
+      "soWhat": "Businesses should monitor and leverage government incentives and partnership opportunities, especially in high-growth sectors and innovation, to secure funding and expand market reach.",
+      "titleTh": "ไทยเร่งดึงดูดการลงทุนต่างชาติคุณภาพและส่งเสริมระบบนิเวศสตาร์ทอัพ",
+      "summaryTh": "รัฐบาลไทยผ่านหน่วยงานอย่าง BOI และ NIA กำลังส่งเสริมประเทศไทยอย่างจริงจังในฐานะแหล่งลงทุนที่ปลอดภัยและน่าดึงดูด โดยเฉพาะอย่างยิ่งสำหรับการลงทุนต่างชาติที่มีคุณภาพและสตาร์ทอัพ โครงการริเริ่มต่างๆ รวมถึงการเป็นหุ้นส่วนเชิงกลยุทธ์กับประเทศอย่างญี่ปุ่น และการเพิ่มเงินทุนสำหรับสตาร์ทอัพอย่างมีนัยสำคัญ",
+      "soWhatTh": "ธุรกิจควรติดตามและใช้ประโยชน์จากมาตรการจูงใจของรัฐบาลและโอกาสในการเป็นหุ้นส่วน โดยเฉพาะในภาคส่วนที่มีการเติบโตสูงและนวัตกรรม เพื่อระดมทุนและขยายการเข้าถึงตลาด",
+      "category": "Business",
+      "impact": 4,
+      "confidence": 0.9,
+      "timeHorizon": "1yr+",
+      "tags": [
+        "Foreign Direct Investment (FDI)",
+        "BOI",
+        "Startups",
+        "Government Policy",
+        "Investment Promotion",
+        "Japan"
+      ],
+      "sources": [
+        {
+          "title": "“เอกนิติ-บีโอไอ” ผนึกพันธมิตรไทย–ญี่ปุ่น ชูสร้างการเติบโตร่วมกันอย่างยั่งยืน - Techsauce",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB4RFlycDZ3aFdScXRWVmJSMkg4OVJGTzF0LWJzNVhCNFVHeU55OV9Fa2g4cHhJdTlUOHNMUkVTUWFtVnhtbjdUcDdLUlU5ZzZ4Sm4wNnVjU29TZkxHd3ZOa3dpeUcxYjV2UVhIZ09EX2xBNFNk?oc=5",
+          "publisher": "Techsauce",
+          "publishedAt": "Wed, 07 Oct 2026 10:02:57 GMT"
+        },
+        {
+          "title": "เปิดเกมลงทุนสตาร์ทอัพ NIA Venture รัฐหนุนลงทุนเพิ่ม 10 เท่า แตะ 150 ล้านต่อราย! เริ่มปี 70 - posttoday",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ncDBZdTNnNUdERDQzRC0xU2I3d25BX3V5ZjU4T2hOZlUwaWxOQ1cwc2pOeXItUFphRG5VU0FZTHRXUFozX2ExTVVPRlVOT1hzVnVtVA?oc=5",
+          "publisher": "posttoday",
+          "publishedAt": "Mon, 05 Oct 2026 04:35:00 GMT"
+        },
+        {
+          "title": "“เอกนิติ” ชูไทยเซฟโซนลงทุน ดึงต่างชาติยกระดับศก. - มิติหุ้น | ชี้ชัดทุกการลงทุน - มิติหุ้น",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5pMjNqdHpSaVY1QzNkZ2pKUVZ6a0xOc1E2YjJ0UHNmUzJEcS1TZndYd1dGOHU1U3FScTdpTmk1U3JSeXhEbFc4ZTNsdm5uYXY0bFpfS0JB?oc=5",
+          "publisher": "มิติหุ้น",
+          "publishedAt": "Mon, 05 Oct 2026 13:44:57 GMT"
+        },
+        {
+          "title": "“เอกนิติ” กางยุทธศาสตร์หุ้นส่วนการลงทุนไทย-ญี่ปุ่น ชู “Quality Investment” | The Better - LINE TODAY",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9JWUVIbU1BaHVSaDREcGp0UFdReHJtU3g5VWpuNjVVU0tQSlY2SVFHU3F0UVotVFFlWmhFdG1EQVlmQzBzYkdwRWR3SFhkUklXcnRoOWtn?oc=5",
+          "publisher": "LINE TODAY",
+          "publishedAt": "Wed, 07 Oct 2026 08:47:44 GMT"
+        },
+        {
+          "title": "เวที IMF-World Bank 2026 เปิดประตูการค้า-ลงทุน ชู Soft Power สู่สายตาโลก - Thai PBS",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE15R0gyTXZXR285dUpsMWNfekxDMTVMWFJHNUpvQXd1MU1yeXZjSXBBMDY0OTNxRmoxSm5YSzRvblY2dVhRR0ZlWHpqV3lJeDV5dDZHN3ZHRFo?oc=5",
+          "publisher": "Thai PBS",
+          "publishedAt": "Wed, 07 Oct 2026 06:57:07 GMT"
+        }
+      ]
+    },
+    {
+      "id": "sig-6-muzibj4j",
+      "title": "Thailand embraces diverse emerging technologies and digital payment transformation.",
+      "summary": "Thailand is actively identifying and developing a range of emerging technologies beyond AI, including drone and autonomous tech, quantum computing, and semiconductor industry participation, to drive future growth. Concurrently, the nation is rapidly transitioning towards a digital payment era, necessitating innovation to meet evolving consumer behaviors.",
+      "soWhat": "Businesses should explore diversification into identified emerging tech sectors and integrate advanced digital payment solutions to stay competitive and capture opportunities in Thailand's evolving digital landscape.",
+      "titleTh": "ไทยเปิดรับเทคโนโลยีเกิดใหม่หลากหลายและการเปลี่ยนผ่านสู่การชำระเงินดิจิทัล",
+      "summaryTh": "ประเทศไทยกำลังระบุและพัฒนาเทคโนโลยีเกิดใหม่หลากหลายนอกเหนือจาก AI อย่างจริงจัง รวมถึงเทคโนโลยีโดรนและระบบอัตโนมัติ ควอนตัมคอมพิวติ้ง และการมีส่วนร่วมในอุตสาหกรรมเซมิคอนดักเตอร์ เพื่อขับเคลื่อนการเติบโตในอนาคต ขณะเดียวกัน ประเทศกำลังเปลี่ยนผ่านสู่ยุคการชำระเงินดิจิทัลอย่างรวดเร็ว ซึ่งจำเป็นต้องมีนวัตกรรมเพื่อตอบสนองพฤติกรรมผู้บริโภคที่เปลี่ยนแปลงไป",
+      "soWhatTh": "ธุรกิจควรสำรวจการกระจายความเสี่ยงไปยังภาคเทคโนโลยีเกิดใหม่ที่ระบุไว้ และบูรณาการโซลูชันการชำระเงินดิจิทัลขั้นสูง เพื่อรักษาความสามารถในการแข่งขันและคว้าโอกาสในภูมิทัศน์ดิจิทัลที่กำลังพัฒนาของประเทศไทย",
+      "category": "Technology",
+      "impact": 4,
+      "confidence": 0.7,
+      "timeHorizon": "1yr+",
+      "tags": [
+        "Emerging Technologies",
+        "Drones",
+        "Autonomous Tech",
+        "Quantum Computing",
+        "Digital Payments",
+        "Semiconductors"
+      ],
+      "sources": [
+        {
+          "title": "DronTech Asia 2026 Brings Global Drone and Autonomous Technology Companies to Thailand - Asian Military Review",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQQ3lyU3RESllDMHBGaWNIeHJ0eWVnZFI4LTFPVHN5V3NGeVZEbWVnRkRYcHNid0tEeGQyS0pKczZlNjRJMmc1OHg1THNVWV9OcHdPMjRUSXk2ZWZKaHEyVVE1Wl9WYjZoV1QzVXBCOXQ4bVNrbl9NckNNMjJlVVcxUGRaa2FidUZCMFVpSGtfNjFDRUJwZmoxOUVIUW9icDdmM08wUkM5eUN4QUgyUXA1YkQzVy1ickhfUmVpYzBBbENkejVraUVjNS1SUQ?oc=5",
+          "publisher": "Asian Military Review",
+          "publishedAt": "Thu, 08 Oct 2026 03:19:27 GMT"
+        },
+        {
+          "title": "รอบรั้วการตลาด : Paymentology มองไทยก้าวสู่ยุคชำระเงินดิจิทัล ชูนวัตกรรมรับพฤติกรรมผู้บริโภค - Thairath.co.th",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBiVHZZNlNBenBXUUlRaElJdGJ3cUtySERWaGVLNGxIREJHeUg1NzlTTEFpcWpTU1RnR1E0ZDVUbUpMb05qODctd3hYMlBPWEZsM1RlQXBKYzExbkNTUG5uTUN4OFVpMjlZY1pFRUpaNURLeW1B?oc=5",
+          "publisher": "Thairath.co.th",
+          "publishedAt": "Tue, 06 Oct 2026 06:00:00 GMT"
+        },
+        {
+          "title": "Thai Business Leaders Warned to Overhaul Operating Models or Risk Extinction as Global Shocks Become the New Normal - Nation Thailand",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBQVGpERURIRHdkNGJLUE5oN0tPOTd1ZF9Vc0k0WFJLVmFiU3ZPUXl2VjRZS3I4NzY0QXpGek5GVGFVUkFZS3FXbVJPSUJNd3ZvcjIwMlZfYk9tb2w5MzFsUXoxYW9KMFU?oc=5",
+          "publisher": "Nation Thailand",
+          "publishedAt": "Thu, 08 Oct 2026 11:58:28 GMT"
+        },
+        {
+          "title": "Thailand identifies 10 emerging technologies for future growth - Nation Thailand",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5fZE1VWldfTlpxNFpHV3hEUkh4dmZscnNvWkRvNjVYNDVBaHB4bnljUmpLXzNDdjZ6aURXODlYX2FQa1FqLTZvYTZwQUZyd1JnWVBTQ2Z3WDIzeXllVW1PQzRWZw?oc=5",
+          "publisher": "Nation Thailand",
+          "publishedAt": "Thu, 08 Oct 2026 04:44:00 GMT"
+        },
+        {
+          "title": "ไทยอยู่ตรงไหนในสมรภูมิชิปโลก? สรุป 12 เรื่องจากดีล Infineon - thestandard.co",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ZREthLU1KellxYTJ2aFBfbTZEb2hvNmhpUjZRM1QtUkY4RnpSMFlaNHFRNWV0LWpjODVZOTJsSGdOdl9CaGJnY2U0aWllMHBVdTJ6c2pwZHg5d05hdWJLaU9mU0p2QVY5dndvdnltaDB4MVViSklV?oc=5",
+          "publisher": "thestandard.co",
+          "publishedAt": "Tue, 06 Oct 2026 08:10:35 GMT"
+        },
+        {
+          "title": "Thailand Launches Quantum Club Thailand to Support Quantum Technology Development - The Quantum Insider",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYlZ3bGttS1RIb3BVS2o5UHdyU0lySzhqdUN5cVhST0NWR1B5Z2k1a1lMT3pmVUpBRnFlaDdsalhlblBLUU5XdHFFeGdUaHZURERWNTVaMkdJOXFqNkM2M1pIN2pvQmwxVHlBM3VqbElkX1ZMX1MwNUNQZmZ0ZmxCanJHcWJTd2E1dndqZnJZSDEyTWwwTld0MnRRYjNXc3Bi?oc=5",
+          "publisher": "The Quantum Insider",
+          "publishedAt": "Wed, 05 Aug 2026 07:00:00 GMT"
+        }
+      ]
+    },
+    {
+      "id": "sig-7-muzibj4j",
+      "title": "Thai digital advertising market experiences significant slowdown amidst AI competition.",
+      "summary": "The Thai digital advertising market is experiencing its slowest growth in 14 years, with projections for 2026 showing only a 0.3% increase. This stagnation is attributed to the increasing competition from AI for consumer attention and evolving market dynamics.",
+      "soWhat": "Marketing and advertising firms must re-evaluate their strategies, focusing on AI-driven personalization, new engagement models, and diversified channels to overcome the slowdown and maintain effectiveness.",
+      "titleTh": "ตลาดโฆษณาดิจิทัลไทยชะลอตัวอย่างมีนัยสำคัญ ท่ามกลางการแข่งขันจาก AI",
+      "summaryTh": "ตลาดโฆษณาดิจิทัลของไทยกำลังประสบกับการเติบโตที่ช้าที่สุดในรอบ 14 ปี โดยคาดการณ์ว่าในปี 2569 จะเพิ่มขึ้นเพียง 0.3% การชะลอตัวนี้เกิดจากการแข่งขันที่เพิ่มขึ้นจาก AI ในการดึงดูดความสนใจของผู้บริโภคและพลวัตของตลาดที่เปลี่ยนแปลงไป",
+      "soWhatTh": "บริษัทการตลาดและโฆษณาต้องประเมินกลยุทธ์ใหม่ โดยมุ่งเน้นการปรับแต่งส่วนบุคคลด้วย AI รูปแบบการมีส่วนร่วมใหม่ๆ และช่องทางที่หลากหลาย เพื่อเอาชนะการชะลอตัวและรักษาประสิทธิภาพ",
+      "category": "Business",
+      "impact": 3,
+      "confidence": 0.8,
+      "timeHorizon": "Now",
+      "tags": [
         "Digital Advertising",
+        "Marketing",
         "AI",
-        "Attention Economy",
-        "Marketing"
+        "Consumer Attention",
+        "Market Slowdown"
       ],
       "sources": [
         {
@@ -382,181 +446,184 @@
       ]
     },
     {
-      "id": "sig-7-muyyjzxu",
-      "title": "Rapid Advancements and Increased Accessibility in Global AI Models",
-      "summary": "Major tech companies are continuously launching more powerful and accessible AI models, such as Anthropic's Claude Haiku 5.5 with significant price reductions and Google's multi-modal EmbeddingGemma 2. These advancements include improved image generation, AI detection tools, and integration into productivity suites like Google Workspace.",
-      "soWhat": "Businesses should actively explore and integrate these increasingly sophisticated and affordable AI tools into their operations to enhance efficiency, innovation, and competitive advantage.",
-      "titleTh": "ความก้าวหน้าอย่างรวดเร็วและการเข้าถึงที่เพิ่มขึ้นของโมเดล AI ทั่วโลก",
-      "summaryTh": "บริษัทเทคโนโลยีชั้นนำกำลังเปิดตัวโมเดล AI ที่ทรงพลังและเข้าถึงได้ง่ายขึ้นอย่างต่อเนื่อง เช่น Claude Haiku 5.5 ของ Anthropic ที่ลดราคาลงอย่างมาก และ EmbeddingGemma 2 แบบ Multi-modal ของ Google ความก้าวหน้าเหล่านี้รวมถึงการสร้างภาพที่ดีขึ้น เครื่องมือตรวจจับ AI และการผสานรวมเข้ากับชุดโปรแกรมเพิ่มประสิทธิภาพการทำงานอย่าง Google Workspace",
-      "soWhatTh": "ธุรกิจควรสำรวจและนำเครื่องมือ AI ที่ซับซ้อนและราคาเข้าถึงได้เหล่านี้มาปรับใช้ในการดำเนินงาน เพื่อเพิ่มประสิทธิภาพ นวัตกรรม และความได้เปรียบในการแข่งขัน",
-      "category": "Technology",
-      "impact": 4,
-      "confidence": 0.9,
-      "timeHorizon": "Now",
+      "id": "sig-8-muzibj4j",
+      "title": "Thai exporters must adapt logistics for faster cross-border e-commerce, especially to China.",
+      "summary": "Thai exporters are facing increasing pressure to accelerate logistics and delivery times, particularly for the Chinese e-commerce market, where customer expectations for speed are rising. This necessitates significant adjustments in supply chain management and operational efficiency.",
+      "soWhat": "Export-oriented businesses, especially those in e-commerce, must invest in optimizing their logistics networks, exploring new shipping technologies, and partnering with efficient fulfillment providers to remain competitive in key markets.",
+      "titleTh": "ผู้ส่งออกไทยต้องปรับโลจิสติกส์เพื่ออีคอมเมิร์ซข้ามพรมแดนที่รวดเร็วขึ้น โดยเฉพาะกับจีน",
+      "summaryTh": "ผู้ส่งออกไทยกำลังเผชิญกับแรงกดดันที่เพิ่มขึ้นในการเร่งเวลาการขนส่งและจัดส่ง โดยเฉพาะอย่างยิ่งสำหรับตลาดอีคอมเมิร์ซของจีน ซึ่งความคาดหวังของลูกค้าด้านความเร็วเพิ่มสูงขึ้น สิ่งนี้จำเป็นต้องมีการปรับเปลี่ยนที่สำคัญในการจัดการห่วงโซ่อุปทานและประสิทธิภาพการดำเนินงาน",
+      "soWhatTh": "ธุรกิจที่มุ่งเน้นการส่งออก โดยเฉพาะอย่างยิ่งในอีคอมเมิร์ซ ต้องลงทุนในการเพิ่มประสิทธิภาพเครือข่ายโลจิสติกส์ สำรวจเทคโนโลยีการขนส่งใหม่ๆ และเป็นพันธมิตรกับผู้ให้บริการจัดส่งที่มีประสิทธิภาพ เพื่อรักษาความสามารถในการแข่งขันในตลาดหลัก",
+      "category": "Industry",
+      "impact": 3,
+      "confidence": 0.7,
+      "timeHorizon": "3-6mo",
       "tags": [
-        "AI Models",
-        "Generative AI",
-        "AI Tools",
-        "Productivity",
-        "Anthropic",
-        "Google"
+        "E-commerce",
+        "Exports",
+        "Logistics",
+        "Supply Chain",
+        "China",
+        "Cross-border Trade"
       ],
       "sources": [
         {
-          "title": "Anthropic เปิดตัว Claude Haiku 5.5 ลดราคา 90% เหลือเท่า GPT-6 Luna",
-          "url": "https://www.blognone.com/node/151849",
-          "publisher": "Blognone",
-          "publishedAt": "Thu, 08 Oct 2026 00:59:55 +0000"
+          "title": "ส่งของไปจีนปี 2026: เมื่อลูกค้าจีนต้องการของเร็วขึ้น ผู้ส่งออกไทยต้องปรับอะไร - กรมส่งเสริมการค้าระหว่างประเทศ (DITP)",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBCTFAzdV9vMFRpVjNmX1NVRDJENHJtcmVXZjc0aUh5Rm1MTFNibDJhMTFKbTZJdkpPRzQ2RXozVGpGc1VidkJjdXBETDVBMjRaX1NMTlNmekZEdVJVTnowZm1B?oc=5",
+          "publisher": "กรมส่งเสริมการค้าระหว่างประเทศ (DITP)",
+          "publishedAt": "Thu, 08 Oct 2026 02:01:00 GMT"
         },
         {
-          "title": "กูเกิลเปิดตัว SynthID Detector ตรวจรูปว่าสร้างด้วย AI หรือไม่ ตรวจรูปจาก OpenAI ได้",
-          "url": "https://www.blognone.com/node/151847",
-          "publisher": "Blognone",
-          "publishedAt": "Wed, 07 Oct 2026 14:22:22 +0000"
-        },
-        {
-          "title": "Google เปิดตัวโมเดลค้นหาใหม่ ‘EmbeddingGemma 2’ ค้นได้ทั้งข้อความ โค้ด ภาพ วิดีโอ เสียง ในโมเดลเดียว",
-          "url": "https://techsauce.co/ai/google-embeddinggemma-2-multimodal-embedding-model",
-          "publisher": "Techsauce",
-          "publishedAt": "Wed, 07 Oct 2026 12:53:36 +0700"
-        },
-        {
-          "title": "Google อัปเดต Nano Banana 2.1 พื้นฐาน Gemini 3.6 Flash ออกแบบภาพได้ดีขึ้น",
-          "url": "https://www.blognone.com/node/151845",
-          "publisher": "Blognone",
-          "publishedAt": "Wed, 07 Oct 2026 10:35:00 +0000"
-        },
-        {
-          "title": "Google เปิดตัว Nano Banana 2.1 AI วาดรูปสุดแม่น ดึงข้อมูล Google Image Search ก่อนวาด",
-          "url": "https://techsauce.co/ai/google-nano-banana-2-1-image-search-ai",
-          "publisher": "Techsauce",
-          "publishedAt": "Wed, 07 Oct 2026 12:33:41 +0700"
-        },
-        {
-          "title": "Anthropic เปิดตัว ‘Claude for Google Workspace’ ดึงพลัง AI สู่ Docs, Sheets และ Slides",
-          "url": "https://techsauce.co/ai/claude-google-workspace-integration",
-          "publisher": "Techsauce",
-          "publishedAt": "Wed, 07 Oct 2026 11:17:38 +0700"
+          "title": "ผู้เปิดพื้นที่ให้กาแฟไทยจากดอยปางขอน เชียงราย เติบโตไกลในโลกอีคอมเมิร์ซ | BrandStory Exclusive EP.31 - Thairath.co.th",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE0tVVdMWnQ2X2h3amotRjJkR045ZkttS2J5bzI3UHhkbTh5VVlRRlpEd0JSTnhGVVd4eDdZOVM5NFR1UG9iN3I0SXNXTUpuUUpuQ2pZeFptYm15MVE3b3ppS0dqTUszS0d2dEMzMkZOMUEzMXpsaXdoUzhyZnVNTEE?oc=5",
+          "publisher": "Thairath.co.th",
+          "publishedAt": "Wed, 07 Oct 2026 18:16:00 GMT"
         }
       ]
     },
     {
-      "id": "sig-8-muyyjzxu",
-      "title": "Thai Government Significantly Increases Startup Investment Support",
-      "summary": "The Thai government, through initiatives like NIA Venture, is dramatically increasing its support for startup investments, aiming to boost funding tenfold to 150 million baht per startup starting in 2027. This move is designed to foster innovation and strengthen the local startup ecosystem.",
-      "soWhat": "Startups should prepare to leverage these enhanced funding opportunities, while larger corporations should explore partnerships or acquisitions within a more robust and well-funded startup landscape.",
-      "titleTh": "รัฐบาลไทยเพิ่มการสนับสนุนการลงทุนในสตาร์ทอัพอย่างมีนัยสำคัญ",
-      "summaryTh": "รัฐบาลไทย โดยผ่านโครงการ NIA Venture กำลังเพิ่มการสนับสนุนการลงทุนในสตาร์ทอัพอย่างมาก โดยมีเป้าหมายที่จะเพิ่มเงินทุนเป็นสิบเท่าเป็น 150 ล้านบาทต่อสตาร์ทอัพ เริ่มตั้งแต่ปี 2570 การเคลื่อนไหวนี้มีขึ้นเพื่อส่งเสริมนวัตกรรมและเสริมสร้างระบบนิเวศสตาร์ทอัพในประเทศ",
-      "soWhatTh": "สตาร์ทอัพควรเตรียมพร้อมที่จะใช้ประโยชน์จากโอกาสการระดมทุนที่เพิ่มขึ้นเหล่านี้ ในขณะที่บริษัทขนาดใหญ่ควรสำรวจการเป็นพันธมิตรหรือการเข้าซื้อกิจการภายในระบบนิเวศสตาร์ทอัพที่แข็งแกร่งและมีเงินทุนสนับสนุนมากขึ้น",
+      "id": "sig-9-muzibj4j",
+      "title": "Thai ice cream market poised for significant growth, maintaining Asia's top exporter status.",
+      "summary": "The Thai ice cream market is projected to reach 12.6 billion baht by 2026, driven by evolving consumer trends and its strong position as Asia's leading exporter. This growth indicates robust domestic demand and international competitiveness.",
+      "soWhat": "Food and beverage companies should explore innovation in ice cream products, leverage export opportunities, and adapt to emerging consumer preferences to capitalize on this expanding market.",
+      "titleTh": "ตลาดไอศกรีมไทยพร้อมเติบโตอย่างมีนัยสำคัญ รักษาตำแหน่งผู้ส่งออกอันดับหนึ่งของเอเชีย",
+      "summaryTh": "ตลาดไอศกรีมไทยคาดว่าจะสูงถึง 1.26 หมื่นล้านบาทภายในปี 2569 โดยได้รับแรงหนุนจากแนวโน้มผู้บริโภคที่เปลี่ยนแปลงไปและสถานะที่แข็งแกร่งในฐานะผู้ส่งออกชั้นนำของเอเชีย การเติบโตนี้บ่งชี้ถึงอุปสงค์ภายในประเทศที่แข็งแกร่งและความสามารถในการแข่งขันระดับนานาชาติ",
+      "soWhatTh": "บริษัทอาหารและเครื่องดื่มควรสำรวจนวัตกรรมในผลิตภัณฑ์ไอศกรีม ใช้ประโยชน์จากโอกาสในการส่งออก และปรับตัวให้เข้ากับความต้องการของผู้บริโภคที่เกิดขึ้นใหม่ เพื่อใช้ประโยชน์จากตลาดที่กำลังขยายตัวนี้",
+      "category": "Industry",
+      "impact": 2,
+      "confidence": 0.8,
+      "timeHorizon": "3-6mo",
+      "tags": [
+        "Ice Cream",
+        "Food & Beverage",
+        "Exports",
+        "Consumer Trends",
+        "Market Growth"
+      ],
+      "sources": [
+        {
+          "title": "ตลาดไอศกรีมไทย 1.26 หมื่นล้าน จับ 4 เทรนด์ผู้บริโภค เบอร์1 ส่งออกเอเชีย - Thai PBS",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9Ga3k0TUpseGJtUWRWT29GbmNCUUYwbllUeDU0RVppczM1M1ZfUk1xZmxXcUx4QWljVENxNXBNdnZScVgwLUxuTW1MeVNQTjBCTG9uMHRXVG8?oc=5",
+          "publisher": "Thai PBS",
+          "publishedAt": "Fri, 02 Oct 2026 04:56:46 GMT"
+        },
+        {
+          "title": "สนค. กางสถิติ “ไอศกรีมไทย” แชมป์ส่งออกเอเชีย คาดปี 69 ตลาดโตแตะ 1.26 หมื่นล้าน | ข่าวหุ้นธุรกิจ - LINE TODAY",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9mcXZSallndURxTjlyN01OUUVwNTNnelVXN2N1SUdpWXhiMktKR1h0WXpvRWlQNlJRT3d3VmRNa2pZdGI3VGYyT21yRExzY0pSMTA5elR3?oc=5",
+          "publisher": "LINE TODAY",
+          "publishedAt": "Fri, 02 Oct 2026 09:22:23 GMT"
+        }
+      ]
+    },
+    {
+      "id": "sig-10-muzibj4j",
+      "title": "Thai SMEs raise concerns over e-commerce platform practices and market fairness.",
+      "summary": "The Thai SME Federation is urging the Trade Competition Commission to review a case involving Shopee, expressing significant concern about the potential negative impact on small businesses nationwide. This highlights growing anxieties among SMEs regarding fair competition and platform dominance in the e-commerce sector.",
+      "soWhat": "E-commerce platforms and large retailers should proactively engage with SME associations and regulators to ensure fair practices and foster a supportive ecosystem, mitigating potential regulatory backlash and reputational risks.",
+      "titleTh": "SME ไทยแสดงความกังวลต่อแนวปฏิบัติของแพลตฟอร์มอีคอมเมิร์ซและความเป็นธรรมของตลาด",
+      "summaryTh": "สมาพันธ์ SME ไทยกำลังเรียกร้องให้คณะกรรมการการแข่งขันทางการค้าทบทวนกรณีที่เกี่ยวข้องกับ Shopee โดยแสดงความกังวลอย่างมากเกี่ยวกับผลกระทบเชิงลบที่อาจเกิดขึ้นกับธุรกิจขนาดเล็กทั่วประเทศ สิ่งนี้เน้นย้ำถึงความกังวลที่เพิ่มขึ้นในหมู่ SME เกี่ยวกับการแข่งขันที่เป็นธรรมและการครอบงำของแพลตฟอร์มในภาคอีคอมเมิร์ซ",
+      "soWhatTh": "แพลตฟอร์มอีคอมเมิร์ซและผู้ค้าปลีกรายใหญ่ควรมีส่วนร่วมเชิงรุกกับสมาคม SME และหน่วยงานกำกับดูแล เพื่อให้มั่นใจถึงแนวปฏิบัติที่เป็นธรรมและส่งเสริมระบบนิเวศที่สนับสนุน ลดความเสี่ยงจากข้อจำกัดทางกฎหมายและผลกระทบต่อชื่อเสียง",
       "category": "Business",
+      "impact": 3,
+      "confidence": 0.7,
+      "timeHorizon": "Now",
+      "tags": [
+        "SMEs",
+        "E-commerce",
+        "Market Competition",
+        "Regulation",
+        "Shopee"
+      ],
+      "sources": [
+        {
+          "title": "สมาพันธ์ SME ไทย จี้ กขค.ทบทวนคดี Shopee ห่วงกระทบรายย่อยทั่วประเทศ - bangkokbiznews",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFA3bzRJZTNzMnFrUkdwdUxfd0YwdklEWXlkcVZ1RWhrOV9jR0kwYzNlYzhMWDlLLWpXOHF2dkE4U2J4MnRWR0RkWmJpRlBVNE40dDFZQW9KVkJ4NXNK?oc=5",
+          "publisher": "bangkokbiznews",
+          "publishedAt": "Mon, 05 Oct 2026 03:46:11 GMT"
+        }
+      ]
+    },
+    {
+      "id": "sig-11-muzibj4j",
+      "title": "Gen Y's pursuit of work-life balance leads to increased self-reward spending.",
+      "summary": "Generation Y in Thailand, while seeking work-life balance, often falls into a \"trap\" of excessive self-reward spending. This behavior indicates a consumer segment willing to spend on personal gratification despite financial goals.",
+      "soWhat": "Brands targeting Gen Y should develop products and services that align with self-care, experiential rewards, and convenience, while also considering financial wellness solutions to address their spending habits.",
+      "titleTh": "การแสวงหาสมดุลชีวิตการทำงานของ Gen Y นำไปสู่การใช้จ่ายเพื่อรางวัลตัวเองที่เพิ่มขึ้น",
+      "summaryTh": "คน Gen Y ในประเทศไทย แม้จะแสวงหาสมดุลชีวิตการทำงาน แต่ก็มักจะตกอยู่ใน \"กับดัก\" ของการใช้จ่ายเพื่อรางวัลตัวเองที่มากเกินไป พฤติกรรมนี้บ่งชี้ถึงกลุ่มผู้บริโภคที่เต็มใจใช้จ่ายเพื่อความพึงพอใจส่วนบุคคล แม้จะมีเป้าหมายทางการเงินก็ตาม",
+      "soWhatTh": "แบรนด์ที่มุ่งเป้าไปที่ Gen Y ควรพัฒนาผลิตภัณฑ์และบริการที่สอดคล้องกับการดูแลตนเอง รางวัลจากประสบการณ์ และความสะดวกสบาย พร้อมทั้งพิจารณาโซลูชันด้านสุขภาพทางการเงินเพื่อจัดการกับพฤติกรรมการใช้จ่ายของพวกเขา",
+      "category": "Consumer",
+      "impact": 2,
+      "confidence": 0.6,
+      "timeHorizon": "Now",
+      "tags": [
+        "Gen Y",
+        "Work-Life Balance",
+        "Consumer Spending",
+        "Self-Reward",
+        "Marketing"
+      ],
+      "sources": [
+        {
+          "title": "Gen Y อยาก Work Life Balance แต่เผลอให้รางวัลตัวเองมากไป จนกลายเป็นกับดัก - Marketeer Online",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1UMTNyM2MwRFQ3TkxRU2t3bUV6VnpIVFdUYXNJZmFmQUNPbU5XT2laWkFJbjF0NnNjbW9nRTVNNE1TRjRmOER0bHJvVEV5Z1VPMHdKSw?oc=5",
+          "publisher": "Marketeer Online",
+          "publishedAt": "Fri, 02 Oct 2026 10:16:01 GMT"
+        }
+      ]
+    },
+    {
+      "id": "sig-12-muzibj4j",
+      "title": "Thai businesses urged to overhaul models for resilience against global shocks.",
+      "summary": "Thai business leaders are being warned that global shocks are the new normal, necessitating a fundamental overhaul of operating models to avoid extinction. This emphasizes the critical need for adaptability and resilience in an increasingly volatile international environment.",
+      "soWhat": "Corporate strategy teams must prioritize agility, supply chain diversification, and digital transformation to build resilience and mitigate risks from unforeseen global economic and geopolitical disruptions.",
+      "titleTh": "ธุรกิจไทยเร่งปรับรูปแบบการดำเนินงานเพื่อรับมือกับวิกฤตโลก",
+      "summaryTh": "ผู้นำธุรกิจไทยได้รับการเตือนว่าวิกฤตการณ์ระดับโลกได้กลายเป็นเรื่องปกติใหม่ ซึ่งจำเป็นต้องมีการปรับปรุงรูปแบบการดำเนินงานขั้นพื้นฐานเพื่อหลีกเลี่ยงการล่มสลาย สิ่งนี้เน้นย้ำถึงความจำเป็นเร่งด่วนในการปรับตัวและความยืดหยุ่นในสภาพแวดล้อมระหว่างประเทศที่ผันผวนมากขึ้น",
+      "soWhatTh": "ทีมกลยุทธ์องค์กรต้องให้ความสำคัญกับความคล่องตัว การกระจายความเสี่ยงของห่วงโซ่อุปทาน และการเปลี่ยนแปลงทางดิจิทัล เพื่อสร้างความยืดหยุ่นและลดความเสี่ยงจากความปั่นป่วนทางเศรษฐกิจและภูมิรัฐศาสตร์โลกที่ไม่คาดฝัน",
+      "category": "Business",
+      "impact": 4,
+      "confidence": 0.7,
+      "timeHorizon": "Now",
+      "tags": [
+        "Business Resilience",
+        "Global Shocks",
+        "Operating Models",
+        "Digital Transformation",
+        "Risk Management"
+      ],
+      "sources": [
+        {
+          "title": "Thai Business Leaders Warned to Overhaul Operating Models or Risk Extinction as Global Shocks Become the New Normal - Nation Thailand",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBQVGpERURIRHdkNGJLUE5oN0tPOTd1ZF9Vc0k0WFJLVmFiU3ZPUXl2VjRZS3I4NzY0QXpGek5GVGFVUkFZS3FXbVJPSUJNd3ZvcjIwMlZfYk9tb2w5MzFsUXoxYW9KMFU?oc=5",
+          "publisher": "Nation Thailand",
+          "publishedAt": "Thu, 08 Oct 2026 11:58:28 GMT"
+        }
+      ]
+    },
+    {
+      "id": "sig-13-muzibj4j",
+      "title": "Vietnam's stable Dong and export-driven growth attract FDI.",
+      "summary": "Vietnam's currency, the Dong, despite its low unit value, demonstrates economic stability, providing a significant advantage for exports and attracting substantial Foreign Direct Investment (FDI). This robust performance positions Vietnam as a strong economic competitor in the region.",
+      "soWhat": "Thai businesses should closely monitor Vietnam's economic policies and competitive advantages, considering potential shifts in regional supply chains and investment destinations.",
+      "titleTh": "เงินดองเวียดนามมีเสถียรภาพและการเติบโตจากการส่งออกดึงดูด FDI",
+      "summaryTh": "เงินดองของเวียดนาม แม้จะมีมูลค่าต่อหน่วยต่ำ แต่ก็แสดงให้เห็นถึงเสถียรภาพทางเศรษฐกิจ ซึ่งเป็นข้อได้เปรียบที่สำคัญสำหรับการส่งออกและดึงดูดการลงทุนโดยตรงจากต่างประเทศ (FDI) จำนวนมาก ผลการดำเนินงานที่แข็งแกร่งนี้ทำให้เวียดนามเป็นคู่แข่งทางเศรษฐกิจที่แข็งแกร่งในภูมิภาค",
+      "soWhatTh": "ธุรกิจไทยควรติดตามนโยบายเศรษฐกิจและข้อได้เปรียบทางการแข่งขันของเวียดนามอย่างใกล้ชิด โดยพิจารณาถึงการเปลี่ยนแปลงที่อาจเกิดขึ้นในห่วงโซ่อุปทานระดับภูมิภาคและแหล่งลงทุน",
+      "category": "Economic",
       "impact": 3,
       "confidence": 0.7,
       "timeHorizon": "1yr+",
       "tags": [
-        "Startup Investment",
-        "Government Support",
-        "Innovation",
-        "Startup Ecosystem"
+        "Vietnam",
+        "Economic Growth",
+        "Exports",
+        "FDI",
+        "Regional Competition",
+        "Currency Stability"
       ],
       "sources": [
         {
-          "title": "เปิดเกมลงทุนสตาร์ทอัพ NIA Venture รัฐหนุนลงทุนเพิ่ม 10 เท่า แตะ 150 ล้านต่อราย! เริ่มปี 70 - posttoday",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9ncDBZdTNnNUdERDQzRC0xU2I3d25BX3V5ZjU4T2hOZlUwaWxOQ1cwc2pOeXItUFphRG5VU0FZTHRXUFozX2ExTVVPRlVOT1hzVnVtVA?oc=5",
-          "publisher": "posttoday",
-          "publishedAt": "Mon, 05 Oct 2026 04:35:00 GMT"
-        }
-      ]
-    },
-    {
-      "id": "sig-9-muyyjzxu",
-      "title": "Thailand Explores Emerging Technologies Beyond Core AI",
-      "summary": "Beyond mainstream AI, Thailand is actively engaging with other cutting-edge technologies, evidenced by hosting DronTech Asia 2026 for drone and autonomous tech companies and launching the Quantum Club Thailand to support quantum technology development. These initiatives signal a broader strategic interest in future tech.",
-      "soWhat": "Corporate strategy teams should monitor these emerging tech fields for potential disruptive applications and long-term investment opportunities that could reshape various industries.",
-      "titleTh": "ไทยสำรวจเทคโนโลยีเกิดใหม่นอกเหนือจาก AI หลัก",
-      "summaryTh": "นอกเหนือจาก AI กระแสหลัก ประเทศไทยกำลังมีส่วนร่วมอย่างแข็งขันกับเทคโนโลยีล้ำสมัยอื่นๆ ดังเห็นได้จากการเป็นเจ้าภาพ DronTech Asia 2026 สำหรับบริษัทโดรนและเทคโนโลยีอัตโนมัติ และการเปิดตัว Quantum Club Thailand เพื่อสนับสนุนการพัฒนาเทคโนโลยีควอนตัม โครงการริเริ่มเหล่านี้บ่งชี้ถึงความสนใจเชิงกลยุทธ์ในเทคโนโลยีแห่งอนาคตที่กว้างขึ้น",
-      "soWhatTh": "ทีมกลยุทธ์องค์กรควรติดตามสาขาเทคโนโลยีเกิดใหม่เหล่านี้เพื่อค้นหาแอปพลิเคชันที่อาจสร้างการเปลี่ยนแปลงและโอกาสการลงทุนระยะยาวที่สามารถปรับเปลี่ยนอุตสาหกรรมต่างๆ ได้",
-      "category": "Technology",
-      "impact": 2,
-      "confidence": 0.6,
-      "timeHorizon": "1yr+",
-      "tags": [
-        "Drones",
-        "Autonomous Technology",
-        "Quantum Technology",
-        "Emerging Tech"
-      ],
-      "sources": [
-        {
-          "title": "DronTech Asia 2026 Brings Global Drone and Autonomous Technology Companies to Thailand - PR Newswire",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxOX3Z5VWpGV1puT25JVmVzTW1EM0lJS3FWQmRROHpuYUt1N3NxX2pGT0hBcEw0WnZPQkNqbmlLdF9VVWJQVnFYd2JfNmgxbWw1WXRCcGxwN3pnUENZQ29pYWhSek95WTFKb0JheVp6Zk1reDJIaEpUUHJTbkpJNUNOTFNrLUZiN21QeWJHUlk4VVdiXzJQWkJPM3RKc1hqd0RjUHRZQ3BCbXJGLXl1bVFQUHhBeUMwenRPVkhUbkRSMFRrOC1Sbi1EQ1J5MlhpakNMNElhc281V3F4Y3V3UDdkbw?oc=5",
-          "publisher": "PR Newswire",
-          "publishedAt": "Wed, 12 Aug 2026 07:00:00 GMT"
-        },
-        {
-          "title": "Thailand Launches Quantum Club Thailand to Support Quantum Technology Development - The Quantum Insider",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPYlZ3bGttS1RIb3BVS2o5UHdyU0lySzhqdUN5cVhST0NWR1B5Z2k1a1lMT3pmVUpBRnFlaDdsalhlblBLUU5XdHFFeGdUaHZURERWNTVaMkdJOXFqNkM2M1pIN2pvQmwxVHlBM3VqbElkX1ZMX1MwNUNQZmZ0ZmxCanJHcWJTd2E1dndqZnJZSDEyTWwwTld0MnRRYjNXc3Bi?oc=5",
-          "publisher": "The Quantum Insider",
-          "publishedAt": "Wed, 05 Aug 2026 07:00:00 GMT"
-        }
-      ]
-    },
-    {
-      "id": "sig-10-muyyjzxu",
-      "title": "Thailand's Role in the Evolving Global Semiconductor Industry",
-      "summary": "Thailand's position in the global semiconductor supply chain is being re-evaluated amidst major industry deals and geopolitical shifts. The country seeks to enhance its role, moving beyond assembly to potentially higher-value segments, as the world grapples with chip independence and supply security.",
-      "soWhat": "Businesses in manufacturing and tech should assess their supply chain resilience and explore opportunities to integrate into or benefit from Thailand's strategic efforts to strengthen its semiconductor capabilities.",
-      "titleTh": "บทบาทของไทยในอุตสาหกรรมเซมิคอนดักเตอร์โลกที่กำลังเปลี่ยนแปลง",
-      "summaryTh": "ตำแหน่งของประเทศไทยในห่วงโซ่อุปทานเซมิคอนดักเตอร์ทั่วโลกกำลังถูกประเมินใหม่ท่ามกลางข้อตกลงสำคัญในอุตสาหกรรมและการเปลี่ยนแปลงทางภูมิรัฐศาสตร์ ประเทศไทยพยายามที่จะยกระดับบทบาทของตน โดยก้าวข้ามจากการประกอบไปสู่ส่วนที่มีมูลค่าสูงขึ้น ในขณะที่โลกกำลังเผชิญกับความท้าทัยด้านความเป็นอิสระของชิปและความมั่นคงของอุปทาน",
-      "soWhatTh": "ธุรกิจในภาคการผลิตและเทคโนโลยีควรประเมินความยืดหยุ่นของห่วงโซ่อุปทานและสำรวจโอกาสในการบูรณาการหรือได้รับประโยชน์จากความพยายามเชิงกลยุทธ์ของประเทศไทยในการเสริมสร้างขีดความสามารถด้านเซมิคอนดักเตอร์",
-      "category": "Industry",
-      "impact": 4,
-      "confidence": 0.7,
-      "timeHorizon": "1yr+",
-      "tags": [
-        "Semiconductor",
-        "Supply Chain",
-        "Chip Industry",
-        "Manufacturing"
-      ],
-      "sources": [
-        {
-          "title": "ไทยอยู่ตรงไหนในสมรภูมิชิปโลก? สรุป 12 เรื่องจากดีล Infineon - thestandard.co",
-          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5ZREthLU1KellxYTJ2aFBfbTZEb2hvNmhpUjZRM1QtUkY4RnpSMFlaNHFRNWV0LWpjODVZOTJsSGdOdl9CaGJnY2U0aWllMHBVdTJ6c2pwZHg5d05hdWJLaU9mU0p2QVY5dndvdnltaDB4MVViSklV?oc=5",
-          "publisher": "thestandard.co",
-          "publishedAt": "Tue, 06 Oct 2026 08:10:35 GMT"
-        }
-      ]
-    },
-    {
-      "id": "sig-11-muyyjzxu",
-      "title": "Global Warnings on AI Bubble and Geopolitical Competition Emerge",
-      "summary": "Warnings are surfacing about the potential for an \"AI boom\" to turn into a \"bubble burst,\" with AMRO cautioning ASEAN+3 regions about severe economic impacts if AI demand slows. Concurrently, geopolitical competition in AI is intensifying, with instances of AI agents from one country mimicking others and scraping data.",
-      "soWhat": "Companies heavily invested in AI should conduct scenario planning for potential market corrections and be vigilant about data security and the ethical implications of AI development amidst global competition.",
-      "titleTh": "คำเตือนทั่วโลกเกี่ยวกับฟองสบู่ AI และการแข่งขัน AI ทางภูมิรัฐศาสตร์",
-      "summaryTh": "มีคำเตือนเกี่ยวกับศักยภาพของ \"AI boom\" ที่อาจกลายเป็น \"ฟองสบู่แตก\" โดย AMRO เตือนภูมิภาคอาเซียน+3 เกี่ยวกับผลกระทบทางเศรษฐกิจที่รุนแรงหากความต้องการ AI ชะลอตัว ในขณะเดียวกัน การแข่งขัน AI ทางภูมิรัฐศาสตร์ก็ทวีความรุนแรงขึ้น โดยมีกรณีที่ AI agent จากประเทศหนึ่งเลียนแบบอีกประเทศและขูดข้อมูล",
-      "soWhatTh": "บริษัทที่ลงทุนใน AI อย่างหนักควรวางแผนสถานการณ์สำหรับการปรับฐานตลาดที่อาจเกิดขึ้น และระมัดระวังเกี่ยวกับความปลอดภัยของข้อมูลและผลกระทบทางจริยธรรมของการพัฒนา AI ท่ามกลางการแข่งขันระดับโลก",
-      "category": "Technology",
-      "impact": 4,
-      "confidence": 0.7,
-      "timeHorizon": "1yr+",
-      "tags": [
-        "AI Bubble",
-        "Geopolitical AI",
-        "Data Security",
-        "Market Risk"
-      ],
-      "sources": [
-        {
-          "title": "กรุงเทพธุรกิจ. . 'เอเชีย' เสี่ยงโดมิโน่ หากจบ 'AI บูม' กลายเป็น 'ฟองสบู่แตก' | Highlights กรุงเทพธุรกิจ INSIGHT . AMRO เตือนภูมิภาคอาเซียน+3 เสี่ยงรับผลกระทบทางเศรษฐกิจหนักสุด หากความต้องการ AI ชะลอตัว ชี้อาจฉุดการเติบโตปี 2570 ร่วง 1.5% ขณะที่ตลาดหุ้นเอเชียเตรียมรับแรงก - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMiyAZBVV95cUxQVWNwclZkVW44eHdIZmc1NVlfeEV4U0dqTXJCY1JSYW1kQVA4TXI2S09SOFU0a1g3V1FmUG9CamlXUC0wQmVzcUk1Q0lLR09ER3R0LTFfeHN1bE9UMURod1p5bXFGNGo2MnE2bmNodlFjSWVVNXJLRDZsTlRrZVU0R09tQmt5bW1oRUdfVXcxdGFZZWg2WFh6NWZpV1NqSmlPLUxNYXdZRmUtRF9jYmNIV01KSXFQcWZwb0V6dlVmNTRBSHk1QndIQVhmYWswUkFnUzJxOGpaNUhNUUtLemt5VVU2cW5zRXVoMU5DMUhIblJUNDdLTjZqSjh4R1czR0ZMdG04ZnlQN2tURFVXdXV4NTl2TkctRGtzX1M3bFpzOWVlSF9RZEhrRFQ2ZjB3LVQtQk9DaHI2LUZOYWE4VFltUDdaRWVJSkoyUHl6LU9tdVNIYjJ3NzZSdXgzSWRSMkMwTEMzSHRteEZpRFJHSFdsYVVQY2dwQnhPdzdyRUF3MVJIZW80dFJTaFI1SU0xVlhVRFFSVG5PaEFuOUhxandJM0h3Tld4UEFid2c4cFBMcHN1bXk0M2FXZ09TeklEd01qTEJTcWFWYUwtSWJjUG9Jd29nRGRuVXVyakhSSnVSU0ttcGF5eS0yRVRqZ1dVZGFXZUtuMzhOTnV6R1BCTVhOZWRBN1BLX0I3OWEwTllpZzlTcnZ1TU5pUWoxT1BuaE5PcVRJRHJrQWJ6bzJxeTQtZG9fa2FnNEZjVUFHQVJUeHQ3dXA2QzlVaDFaVU9fVGZycjJKZ3pjZ0lBS0tKSmlCUk5naWhYNWhCTm9McldiY0pkRVk0Y0tibGp1RDJ4ZzluZUw2MXlINXQzQlRESmRDdXVObTVOeHlRM0xLVFpKWlRNUVRqNDJMYUF1ekdiZDFsWU5SazQ3b1JQOUozUmJFWmdsQ2hBbGNaMXdFd0UtQzlNb0JoMk5pMHJFaDNCN0hIS1BWMTFrempXVzBsb2FhaFhqX3lOSXVYbVQ4NFo1QWtpTmlNRlE5QWxyYU9wTjllTF9QemluVzZvd1c0NFVQUHNDWS0xSS04ZkRpM3BwX09GSFdHVU1BdTVVVHV1Q213YVdVcTZ2MU8?oc=5",
+          "title": "กรุงเทพธุรกิจ. . ถอดรหัสเงินดองเวียดนาม ดันส่งออก เศรษฐกิจโตแรง! I Money Teller . เจาะเบื้องหลังเงินดองเวียดนามที่แม้มูลค่าต่อหน่วยจะต่ำ แต่กลับมีเสถียรภาพทางเศรษฐกิจ สร้างความได้เปรียบด้านการส่งออกและดึงดูดเม็ดเงิน FDI ไหลเข้าประเทศ . . #เงินดองเวียดนาม #เศรษฐกิจเวียดน - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi_wZBVV95cUxOYjVlUGtDNnVjUTl1T2tkVUlrWEFJbVpfcGFiT2ZLVDd5YWVqSGtVNVdUbGE5SGhYcXc2SkJRSmRVZXRlSVFEYzVVVkZXb3ZQa2FJMFgyN2FDOVk5bWNhOU9ySldzVERsRmFSVzVuTzdyWDQ4dV82Y25FVFdSZ19nQWpXRWNkOG5oV0Z0aUkwU1BSN2tsMHZFckRzdko3ZHlpMHhwZm5yMmtvR3lHZlpGbGpBMnZ3VTZCZHBlYzhOUkZGd2QxbFdhVmROYXdvS0JFMl8zOVB4YU52OEs1cms3cjNWVFY4alcwUzNVbnRVM2FMV2VrMU1PRmF3T2JnalJJQm4wYjE3aV85bURqYWhMc1ZxcjMyMkljY3FYdkV3d2xFSEFTZzZBcnVrdm82bWI4TWhOMnJhUUFieEY1VlByVU5LTTFjb3Q2TEJKeTlhSlZMTldZR2dRcC1TeEp5clNiSnVMaUNaVWVpS2hiSkFiWGcyR0J3dUp4aUJTeFhHc0p6SnZia2FtRTJJdmF3YnVFVXRPWUtuTl9TWjNWbHJQeU8ydFdhQ1NYRWhkTjVmRXdBWkVKU0tUbTFTWjNtaGM1T3pqV2tGeEtzX0VMSEdRRl9EUHNXbnY5QVZKOVNhVWs0c0xHbGFzUXJBUkZhdmJ6a21MN0luZEVXNFNHM3lCemNDaC1iNHBLUXlxZFllVnZxYW0xdEdvNzFQUzdNRHVQUHhieE44clROVzNvWXM0LWRyV2dwd0ptRGNzYk1xd2hkWUhRTzNsRmxpTDhjaXhwOUIyMUl3LTNOS01mYlR2V0x5TlczV1Z1OUNsem5PMk1FY1A3ak0wOEpwNVQ5SVF0d1ZDYlVvT05sUm5wcGdwUlVkODFZek5tMUFBNXpwMWg3a05ZZkR4RXU5ZVd6Z3dTcU1XOXE3dU9DQURJbnRmdWtscGtqT2VhbV95c05kZ19fNEp0SWFyOVhSc1RXekJJV3pLTS1idVVtYWdQbDdENDZHVzFyM2ZUZERaclBBMEhhTHJjWlhSX3BHcTFIOVVGd0tLaUhrNmhHdmVHdG9XYkMtcFlLS0s2NTBjOThwc3cwU0ZhZUFUeHpOQ0ZQTk1vRVdxNWhFUVZycHBRc21kMWRqT1dJbEhFRWUyR3FZbFM5MWQ2Z29NNmQ0cHJIdkFhU0U1ZFlxa3lBNzZYU2ZB?oc=5",
           "publisher": "Facebook",
-          "publishedAt": "Mon, 05 Oct 2026 21:01:10 GMT"
-        },
-        {
-          "title": "AI อ้างตัวเป็น Claude แต่ตัวจริงคือ ‘โมเดลจีน’ ขบวนการ AI Agent จีน รันบน Tencent นักวิจัยพบแอบไปดูดข้อมูลจาก Alibaba",
-          "url": "https://techsauce.co/ai/chinese-ai-agent-fleet-tencent-cloud-alibaba-amap",
-          "publisher": "Techsauce",
-          "publishedAt": "Wed, 07 Oct 2026 10:38:59 +0700"
+          "publishedAt": "Fri, 02 Oct 2026 10:30:15 GMT"
         }
       ]
     }
