@@ -1,34 +1,39 @@
 {
-  "generatedAt": "2026-11-20T04:34:04.100Z",
+  "generatedAt": "2026-11-20T14:27:23.542Z",
   "stats": {
     "feedsScanned": 10,
-    "feedsFailed": 1,
+    "feedsFailed": 0,
     "articlesFetched": 70,
     "signalsProduced": 10,
-    "durationMs": 38814,
+    "durationMs": 121942,
     "model": "gemini-3.6-flash"
   },
   "signals": [
     {
-      "id": "sig-1-mwohidok",
-      "title": "ASEAN DEFA Accord Set to Standardize Regional Digital Trade",
-      "summary": "ASEAN member states have advanced the Digital Economy Framework Agreement (DEFA) to establish unified digital trade standards across the region. This initiative aims to streamline cross-border digital transactions, reduce compliance costs, and expand market access for Thai SMEs.",
-      "soWhat": "Strategy teams should align their digital architecture and cross-border payment flows with upcoming ASEAN-wide standards to capture seamless regional e-commerce growth.",
-      "titleTh": "อาเซียนดันข้อตกลง DEFA เชื่อมมาตรฐานการค้าดิจิทัลภูมิภาค",
-      "summaryTh": "ประเทศสมาชิกอาเซียนได้ผลักดันกรอบความตกลงเศรษฐกิจดิจิทัลอาเซียน (DEFA) เพื่อสร้างมาตรฐานการค้าดิจิทัลร่วมกันในภูมิภาค โครงการนี้มุ่งลดขั้นตอนและต้นทุนทางการค้าข้ามพรมแดน พร้อมเปิดโอกาสให้ SME ไทยขยายตลาดได้อย่างมีประสิทธิภาพ",
-      "soWhatTh": "ทีมกลยุทธ์ควรเร่งปรับโครงสร้างระบบดิจิทัลและการชำระเงินข้ามพรมแดนให้รองรับมาตรฐานใหม่ของอาเซียนเพื่อชิงความได้เปรียบในการขยายตลาดภูมิภาค",
+      "id": "sig-1-mwp2pedy",
+      "title": "ASEAN DEFA Accord Streamlines Cross-Border Digital Commerce and Payments",
+      "summary": "ASEAN member states have finalized key negotiations for the Digital Economy Framework Agreement (DEFA) to standardize regional digital trade protocols. The agreement unifies cross-border e-payments, digital identities, and paperless customs procedures across member nations.",
+      "soWhat": "Thai enterprise strategy teams must audit cross-border data governance and upgrade local payment integrations to capture emerging regional market opportunities before full implementation in 2027.",
+      "titleTh": "กรอบความตกลง DEFA ยกระดับการค้าและการชำระเงินดิจิทัลข้ามพรมแดนในอาเซียน",
+      "summaryTh": "ประเทศสมาชิกอาเซียนบรรลุข้อตกลงกรอบ DEFA เพื่อสร้างมาตรฐานเดียวกันสำหรับการค้าดิจิทัลในภูมิภาค ข้อตกลงนี้ครอบคลุมการเชื่อมโยงระบบชำระเงิน ลายมือชื่อดิจิทัล และระบบศุลกากรแบบไร้กระดาษระหว่างประเทศสมาชิก",
+      "soWhatTh": "ทีมกลยุทธ์องค์กรในไทยต้องเร่งปรับปรุงการกำกับดูแลข้อมูลข้ามพรมแดนและระบบชำระเงินเพื่อเตรียมพร้อมขยายตลาดระดับภูมิภาคก่อนข้อตกลงมีผลบังคับใช้เต็มรูปแบบในปี 2570",
       "category": "Business",
-      "impact": 4,
-      "confidence": 0.9,
+      "impact": 5,
+      "confidence": 0.95,
       "timeHorizon": "3-6mo",
       "tags": [
         "DEFA",
         "ASEAN",
-        "Digital Economy",
-        "Cross-Border Trade",
-        "SME"
+        "Digital Trade",
+        "Cross-Border Payments"
       ],
       "sources": [
+        {
+          "title": "DEFA คือ อะไร เศรษฐกิจดิจิทัลไทยได้อะไร - spacebar.th",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNcVNjQ2pTZHhvUjBKTUtPclZGU0J1RzBLOHJKT3Zoc1JqWUYyZEFkeW9hZTdmTkRWazROVHZSYkZ3ZGVvbVgzMkhHZlBBX0Nna29YY2ZKdTZJNVhHOWZsWGRyMEl5VzZnVE9IeXBlVnRNU3lVRTFyUThDMkpQMVBlNFp3eTRFZw?oc=5",
+          "publisher": "spacebar.th",
+          "publishedAt": "Fri, 20 Nov 2026 04:30:00 GMT"
+        },
         {
           "title": "DEFA ปั้นตลาดดิจิทัลอาเซียน เชื่อมระบบการค้า หนุนธุรกิจไทยแข่งขัน - Thai PBS",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFByTUVyeUMyR0VabWM4V2k5ZmZ3MThpX040QWJ2dUVnZzUwQWNHVHkzT1ZlX1BRUGo3d05LWi1pQWtmTVJoRFhKVEVSSzBreVFfcFEzcXpmSng?oc=5",
@@ -48,50 +53,120 @@
           "publishedAt": "Mon, 16 Nov 2026 04:25:42 GMT"
         },
         {
-          "title": "DEFA คืออะไร? ความตกลงดิจิทัลอาเซียน ที่ประเทศไทยเจรจาสำเร็จ - Techsauce",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQV1l5QnBoNERleXlDdzN6R3M5Z25HaW42cjJ5aU5iMWNSSTZjRHFHaHdIdDZydlBtQ1NQaWxOVkt1elhVTVVpSmVTSGFTVXBGRkliRFJXTURPVHo4NG5yRDc0VkdMYk1GV2JDNjdJOHJTNThDSFNXUWh6dDVSSGZPUnE3UXpjZTRlZjBqWUFaUQ?oc=5",
+          "title": "“อนุทิน” โชว์อุตฯใหม่ไทย สู่เศรษฐกิจดิจิทัลอาเซียน 2 ลล.ดอลลาร์ - มิติหุ้น",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1zZGIydDZDellXREtmMlhFMUxIcTFTdGtCR19FSFdubnd4UkhqYUFhZjNKNWFYM1pyZDFCWlJweVo2UU9HMENtUXlRVWVBdXBTWEgzR2l3?oc=5",
+          "publisher": "มิติหุ้น",
+          "publishedAt": "Wed, 18 Nov 2026 09:24:46 GMT"
+        },
+        {
+          "title": "DEFA คืออะไร? ความตกลงดิจิทัลอาเซียน ที่ประเทศไทยเจรจาสำเร็จ",
+          "url": "https://techsauce.co/news/asean-defa-digital-economy-framework-agreement-thai-business",
           "publisher": "Techsauce",
-          "publishedAt": "Thu, 19 Nov 2026 04:57:37 GMT"
+          "publishedAt": "Thu, 19 Nov 2026 11:55:30 +0700"
+        },
+        {
+          "title": "ไทย เดินหน้าขับเคลื่อนเศรษฐกิจดิจิทัล–การค้าเสรีในเวทีอาเซียน-เอเปค - TNN Thailand",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9LNFRZM1NyVEx0Nkc2ZmRsTDVHZVgydUZFSlVSNkhtVThrX0RIN3VTZVhlOFlsaVowWE01SGVQZEVkdEJNT1lzSmtUVkpaeEJNZEItUA?oc=5",
+          "publisher": "TNN Thailand",
+          "publishedAt": "Fri, 20 Nov 2026 11:36:24 GMT"
         },
         {
           "title": "นายกฯ ชู DEFA ช่วยเปิดประตูธุรกิจไทยสู่ตลาดอาเซียน เชื่อมโยงเศรษฐกิจดิจิทัล เพิ่มโอกาส SME ไทย : อินโฟเควสท์ - สำนักข่าวอินโฟเควสท์",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5sUjc0d29GWHRzR0FFRjRIS1N6ZUV2V3RsLW5KTDEySXRUaWJudHJNMTVnOVV1bUJuSmpBbHlLSFZoZkF4VmxnZ3FIWlkzWnVI?oc=5",
           "publisher": "สำนักข่าวอินโฟเควสท์",
           "publishedAt": "Mon, 16 Nov 2026 05:40:00 GMT"
-        },
-        {
-          "title": "นายกฯ ปลื้มผลประชุมอาเซียน ดัน DEFA เชื่อมเศรษฐกิจดิจิทัล ลุยแก้ฝุ่นพิษ-ยินดี IMF อวดผ้าไหมไทย - thestandard.co",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1qMjhUWDF3bWF4U2NGcER0SU9iMktlYS1SeENqUUY4RTdXRXJDNzhJQU40QWJNRTVuT19XMlNVRlNFSml2aXVRSUlRTWhwb3psandIV2pHNW8xS1NBOTVvUXVscnN0M1U?oc=5",
-          "publisher": "thestandard.co",
-          "publishedAt": "Thu, 19 Nov 2026 02:51:35 GMT"
         }
       ]
     },
     {
-      "id": "sig-2-mwohidok",
-      "title": "Thailand Imposes Up to 30% Tax on Imported E-Commerce Goods",
-      "summary": "The Thai government has approved new tax measures imposing up to 30% taxes on imported e-commerce products. This policy aims to curb low-cost foreign goods inflows and foster fair competition for local SMEs.",
-      "soWhat": "Retail and FMCG players should re-evaluate product pricing strategies and local supply chain advantages as low-cost imported competition faces tighter margins.",
-      "titleTh": "ไทยเคาะภาษีสินค้าออนไลน์นำเข้าสูงสุด 30% ปกป้อง SME ในประเทศ",
-      "summaryTh": "ครม. มีมติเห็นชอบการจัดเก็บภาษีสินค้าออนไลน์นำเข้าในอัตราสูงสุด 30% เพื่อควบคุมการทะลักของสินค้าราคาถูกจากต่างประเทศ มาตรการนี้ช่วยสร้างสนามแข่งขันที่เป็นธรรมและปกป้องผู้ประกอบการ SME ในประเทศ",
-      "soWhatTh": "ผู้ประกอบการค้าปลีกและสินค้าอุปโภคบริโภคควรทบทวนโครงสร้างราคาและห่วงโซ่อุปทานในประเทศเพื่อชิงเปรียบในช่วงที่สินค้าสินค้านำเข้าราคาถูกเริ่มเสียเปรียบด้านต้นทุน",
-      "category": "Industry",
-      "impact": 5,
+      "id": "sig-2-mwp2pedy",
+      "title": "Thailand Overhauls Economic Partnership with Japan Under Made with Thailand Strategy",
+      "summary": "Thai government delegations met with Japanese financial and trade leaders to renegotiate JTEPA and tax conventions. The strategic update aims to pivot Japanese investments toward high-tech sectors including semiconductors, electric vehicles, AI, and circular economy.",
+      "soWhat": "Industrial conglomerates should align capital expenditure with high-tech supply chain co-creation programs to secure prospective tax incentives and Japanese joint-venture capital.",
+      "titleTh": "ไทยยกเครื่องความร่วมมือเศรษฐกิจกับญี่ปุ่นดันยุทธศาสตร์ Made with Thailand",
+      "summaryTh": "คณะผู้แทนรัฐบาลไทยเสนอปรับปรุงความตกลง JTEPA และอนุสัญญาภาษีระหว่างหารือกับผู้นำกระทรวงการคลังและ JETRO ของญี่ปุ่น ความร่วมมือระลอกใหม่เน้นดึงดูดการลงทุนไฮเทค ทั้งเซมิคอนดักเตอร์ ยานยนต์ไฟฟ้า AI และเศรษฐกิจหมุนเวียน",
+      "soWhatTh": "กลุ่มอุตสาหกรรมในไทยควรปรับแผนงบลงทุนให้สอดคล้องกับซัพพลายเชนเทคโนโลยีขั้นสูงเพื่อรับสิทธิประโยชน์ทางภาษีและดึงดูดทุนร่วมมือจากญี่ปุ่น",
+      "category": "Economic",
+      "impact": 4,
       "confidence": 0.95,
-      "timeHorizon": "Now",
+      "timeHorizon": "3-6mo",
       "tags": [
-        "E-Commerce Tax",
-        "Trade Regulation",
-        "SME Protection",
-        "Retail"
+        "Japan",
+        "JTEPA",
+        "FDI",
+        "Semiconductors",
+        "EV"
       ],
       "sources": [
         {
-          "title": "รัฐเร่งปลดล็อก ขึ้นภาษี EV นำเข้าอีคอมเมิร์ซ ช่วย SME ไทยรอด | กรุงเทพธุรกิจ InFocus . ภาคเอกชนส่งสัญญาณ \"กองกลาง\" ทีมเศรษฐกิจพร้อมลงมือ “เอกนิติ” ดันปลดล็อกเศรษฐกิจไทย ขึ้นภาษีสรรพสามิตรถนำเข้าดึงค่ายรถย้ายฐานมาไทย เก็บภาษีสินค้าออนไลน์สูงสุด 30% ช่วย SME ไทย - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMi8wZBVV95cUxPcmVqeW9pb09lNHQzZEJXOW5qTTh4RmQ1ZGFqdnM1YTRSQVIzLVBhTFA0dHFFU3pPZ1ItbkF4R21vTE5TVUw4TUNQLTlnbEdyN0lBTXVoZ1REVkNwWnVaSkVSVG85LVRPeG83ODZPbWNYVnhRM3pLejZjM3hUem9QR3FFVnUwVi1sYk9QZnhBaVI4X2p2NVZaNnFsUks3RmJQOWVtdzFSOUtwQWhnX0hIcGJGVWViRWVOMk01N19sVjZEQnBvYkNmOE01c0lhcWhoejVXOTNjbmducy1uRm55cS02d0lVLVFRbXpwWUxySUF5aFRkLXgwY1Fsc1RYendjQTZ4cXFRU2hPUzg4Mm9vYWF2UzZGRHFxaW1fcGhGY2c2WEtSSHF2MHFKbEFweWFJcmpJaHNDY3hOS3JaeUZPSWVhbTMwakg3Ri0yeFFxSk9uejhfMWEyWFJuY19jbTUtMHZNbG9LNmRDaEtIdHJad0pnVGhWR3NRNVA3VU54aTBSX3R0cWh2NVJodXJlYUtBWE91VlZDdXJkNHNReFNtOUlIWFVzVkdvYzZXMEJNeTlNUkZtUzI0bml3MG51bFJBa3Jlb1BUTjJPSmp6dHA4eENIZHZWUDNPd3pJdUc1a045U2NIWlpkaDJaMnl6VlNoSzBCTnFDX19Rd3NWNmdLQl9mbl8yMWoxX0gyZUJfeGppUVZ5aERONVg4dWRQcURhNDdOUVJNWE5SVjVuWG9rbHY2TzJoYXBwb0ZRbDc0VUdVV2FqLW5HN2NIMzRKeHFVOTFLQVcwZEdjeS0wclZZUjFFV19CWUlMbEZqVEFlUE15eGIxNU0yLUdUb3ViYlZ1RFlSbTJKYy0zT1hMSVBJd19zQUVWNHNlX0V3NkE2Tmw1aFZtMWVVSjJvQzVqWFNvWEF3VFNqa1RqRWRueGN0LVZNekMyVU8yS1pnU1hWSUhaOHJqdzJHUXZkTk1jaWtLbXVQNFNCcm02Zm0yME1maTZ0ZUNEMHl6UlNFTER1LXZZYkh2Vm1oR3NDVzY1QnpvUnI2Nl9QSFZnWGJ5SFIxMDU1UHQ1VTNHY2F0aWVwRnk0UXI4bklzM2xNU3NvYjQ0THNYMWI1SlFOc0xBYzJjZ1NUMTRlaDN0bkdFVE85M0JuMC1vRXAxRnVPekFySUJSOWI0?oc=5",
+          "title": "‘เอกนิติ’ หารือคลังญี่ปุ่น ดันปรับความตกลง JTEPA-ทบทวนภาษี ลดอุปสรรคลงทุน ชูอุตสาหกรรมอนาคต ปั้นเศรษฐกิจไทยเติบโตรอบใหม่ ‘เอกนิติ’ หารือรัฐมนตรีคลังญี่ปุ่น เดินหน้ายกระดับความร่วมมือเศรษฐกิจไทย-ญี่ปุ่น เสนอปรับปรุงความตกลง JTEPA และทบทวนอนุสัญญาภาษี ลดอุปสรรคก - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMiuwdBVV95cUxNbmNPTWJ0Q3dsSWRBUUdRZGM2QkJyNVlNRmxkMmZ4WXNzX3Z4dkxvZ3ZrLWZkSlVYUDZyeGVsSkE2aXpHTG1RVVVvbXpMOHV2REFXajlOMEhmZ3BRY2JPRFpOam44LWNKY3d4VFc1VUhjTnQ4dnI0MXZONmU0VFR3S0QyODQ4VEE0Uk9INWxxeVFEZTZadE9leTlIVl9FVFpMNHlGXzBJSTJoZlpZRG5zQ2FVN3RmdzQ2cnotc0dURDZMbXJiaHA3YXFjdTJYOHNTa2pIM3VlQXJXdkRFSlJSZnFLTmpPN3hOenhmZUVkNmhKWmlIVHdqVDh2VzlYUnBJZXRvSHlQa2oxUXRVMHRJc1gyU1FpeUZ0RWN2MmpZSi1FdGZEMEZ5eUJuQVZZQjZaRnZxUE1aWDFNbDVQQ2hoQU13U1JRVFNtZVdkbndIM0NIbGFxVm1iblh5NnFtY1ZWbEktUWFNbHpKT3ZLbVBNcHFjbFplME5SR1lqS3hZZVR4WTJ0YWlQc2VMWDZyZENuNkMtN2N5czd6SFZ6WGtBYWt2WG1OMXhzenJKc3hZX2E1eTJhNG9uWFhBWFZ4eFE3NnRVLUFZYzd3dDdFZWJzM0pfVVBKOFVxazJXNkg1Zi1RZHlTcktnTkh3SnlQS3pKV1lvb2w0d3VjVG1QRWdneWQ4bHM0ckk1bWhMQmZtX3VWMW8tdnlHQ3lVeTR4ZEVuejZxTUJCRmZrS2IzOGRzNjZGQjl5cWNva1g1dW85ak1ua0JsTVBnOFNHSjZVbTlQbENrR0Jkd3lEdno5ckZHenNYVVgycUY4Y2w2Sld0T2s3TnB0ZHhRVXo3azdsckswRUtPTXppRWtDUk10OW4zd0xQNG5OUlJBc2NpLWUtVUZWc3E2UjZsV2U4YncxVjlrdTNxa1l5aE9VMXhZMVlhWGMtRjExaGlTUDNtWmF2NnRXYnNuUmFjc2dBZ183ODdQaFNIOFVIa3BVVWw3SGlMd3ZOMGg3anhlVUhGMkhGbTlpNmZNQkVqeGpFOWg3Z2xVeEdtTmRzV1ZYbEJ2NnVqdmU1QVIzaHB3SGV3UmRicDRnRVVPYUdhQXV4RnZOcXZxN0xSRDBJQlNBeGdyS285bVI5YUc0MGxFeEFsLVVPRVJHbmRyd0dJYmZ1eEt5T083OWgxSGNXS0lBSzlBSjN2d1ZWaDBLUEtXc3I5Wnk2U0tVcmFzWkZCb251NHAwdEIzNFE4N3prWWJ0YlRnNDc2ZGQ5dGJ4MG1jZHVF?oc=5",
           "publisher": "Facebook",
-          "publishedAt": "Fri, 13 Nov 2026 14:16:24 GMT"
+          "publishedAt": "Fri, 20 Nov 2026 11:14:08 GMT"
         },
+        {
+          "title": "รองนายกฯ​ เอกนิติ ผนึก METI–JETRO ดันซัพพลายเชนไทย–ญี่ปุ่นสู่อนาคต",
+          "url": "https://techsauce.co/news/ekniti-meti-jetro-thailand-japan-supply-chain",
+          "publisher": "Techsauce",
+          "publishedAt": "Thu, 19 Nov 2026 20:46:19 +0700"
+        },
+        {
+          "title": "ส.อ.ท. ชี้โอกาสลงทุนร่วมไทย–ญี่ปุ่น หนุน Co-Creation สู่ Made with Thailand ขับเคลื่อนเศรษฐกิจไทยเติบโตรอบใหม่ - สภาอุตสาหกรรมแห่งประเทศไทย",
+          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY0szcHFGUlJLVld1NmtYV3NDdjFjYWNCek12NTV3bHJzd0E1R1hodDRzTjF6SlE0Qm85T3h3S0t6ejh2SXhIN2w2TWtaWmwtd0dLVlYxRXJ5R0FJY210Sk5XVlVSSDRkMlVtbDEtZHB4VVZSZjFhWHFSSzJPY2N6QzlLdFFPYUJidmUzQQ?oc=5",
+          "publisher": "สภาอุตสาหกรรมแห่งประเทศไทย",
+          "publishedAt": "Thu, 19 Nov 2026 11:11:35 GMT"
+        },
+        {
+          "title": "ไทยปรับเกมดึงญี่ปุ่นลงทุน ดัน ‘Made with Thailand’ ลุยเซมิคอนดักเตอร์-xEV - ไทยโพสต์",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5na1RnSE9WYi1nLU5RbXcxaGhWOXRjMmJnQjI3eWtMdktLcGUxb01NLUNBRng3c3NWYmJ3VTduVm94clU3aGxTelBPemxJT3FyRkJtU1YtRjNuZw?oc=5",
+          "publisher": "ไทยโพสต์",
+          "publishedAt": "Tue, 17 Nov 2026 09:54:04 GMT"
+        },
+        {
+          "title": "“เอกนิติ” บุกกระทรวงคลังญี่ปุ่นยกระดับความร่วมมือการค้า–ลงทุน พร้อมจับมือ LINE ใช้ AI ปั้น SME ไทย - Businesstoday",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1rMFBHWmZ5WFE4RVRpVFk4b0I1NTB0QnVRMjJPbkczN1FLNjJlWG55N2QtZlBoeFJKYi1rbWt5ZVB3Nnd5eEtaUVJWRzZhbms4M1FjY2hNc0ZYZV9rVHNyOHBEVGdXdmM?oc=5",
+          "publisher": "Businesstoday",
+          "publishedAt": "Fri, 20 Nov 2026 06:43:14 GMT"
+        },
+        {
+          "title": "ไทย–ญี่ปุ่นต่อยอดหุ้นส่วนเศรษฐกิจ หนุนอุตสาหกรรมแห่งอนาคต–ความมั่นคงพลังงาน พร้อมร่วมปราบสแกมเมอร์ - Thaigov",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hcWwzNHVHYmZEVjZxd0M0SVBlSXg2VUttOHREeGRBSDlfUERfY0xGU0Z6OTktOGVxTHRUSXctOWhQNlY5Y2YtSWZCVnFjQXUxSEE?oc=5",
+          "publisher": "Thaigov",
+          "publishedAt": "Tue, 17 Nov 2026 10:51:11 GMT"
+        },
+        {
+          "title": "'เอกนิติ' หารือคลังญี่ปุ่น ปรับ JTEPA ดึงลงทุนอุตสาหกรรมอนาคต หนุนเศรษฐกิจไทยโตระลอกใหม่ - Thaipost.net",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1mSTZMMnAxbTlZaDJKWEVybXdXQWhBVGNOaEd4TzV4emVNdnJQYXFOTFk2Yk9KVVVTaU9ZVFNqbnBkd3E2eERuUXI2QjJvY2ptNXJMX3g0MzNGUQ?oc=5",
+          "publisher": "Thaipost.net",
+          "publishedAt": "Fri, 20 Nov 2026 11:04:47 GMT"
+        },
+        {
+          "title": "“เอกนิติ” ถึงญี่ปุ่น จัด Roadshow ครั้งใหญ่ ดึงลงทุนคุณภาพขับเคลื่อนเศรษฐกิจไทย - thairath.co.th",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJbXRoTXpJU0lKZDZYYmNrVllncTdrMlR3bWNQdTlRQXlyTElMdkFzdC1oZDdWQk9xWWhtbTd6ckpUeEFCbEg3Q0NaSmJZbkgtR0RiN2REOWQ3YWs?oc=5",
+          "publisher": "thairath.co.th",
+          "publishedAt": "Tue, 17 Nov 2026 11:39:02 GMT"
+        }
+      ]
+    },
+    {
+      "id": "sig-3-mwp2pedy",
+      "title": "Thailand Approves Import Taxes Up to 30 Percent on E-Commerce Shipments",
+      "summary": "The Thai Cabinet has approved tariff increases of up to 30 percent on imported online goods effective by 2027. The regulatory change aims to curb the dumping of low-cost foreign inventory and create fair competition for local commerce.",
+      "soWhat": "E-commerce platforms and retail distributors need to recalibrate pricing strategies and shift toward local supplier sourcing ahead of the tariff implementation.",
+      "titleTh": "ครม. ไฟเขียวขึ้นภาษีสินค้าออนไลน์นำเข้าสูงสุด 30% สกัดสินค้าต่างชาติ",
+      "summaryTh": "คณะรัฐมนตรีอนุมัติการปรับขึ้นภาษีนำเข้าสินค้าอีคอมเมิร์ซสูงสุด 30% ซึ่งจะมีผลบังคับใช้ภายในปี 2570 มาตรการนี้มีเป้าหมายเพื่อสกัดการทุ่มตลาดของสินค้าราคาถูกจากต่างประเทศและสร้างสนามแข่งขันที่เป็นธรรมให้ผู้ค้าไทย",
+      "soWhatTh": "แพลตฟอร์มอีคอมเมิร์ซและธุรกิจค้าปลีกต้องเร่งปรับโครงสร้างราคาและเพิ่มการจัดหาสินค้าจากผู้ผลิตในประเทศเพื่อลดผลกระทบจากมาตรการภาษีใหม่",
+      "category": "Industry",
+      "impact": 4,
+      "confidence": 0.9,
+      "timeHorizon": "3-6mo",
+      "tags": [
+        "E-Commerce Tax",
+        "Regulation",
+        "Retail",
+        "Trade Barrier"
+      ],
+      "sources": [
         {
           "title": "สมาคมผู้ค้าปลีกไทย ขานรับภาษีสินค้าออนไลน์นำเข้า สร้างสนามแข่งขันที่เป็นธรรม แนะค้าปลีกไทยเร่งปรับตัว ย้ำรัฐสกัดสินค้าไร้มาตรฐาน - Marketeer Online",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xekxvMkwwdktwOEZIMG5ieW5aWkZDNkhiVFAydnMtOWR3VnhXeUpGSDZqUGtTdHVnX1Uwejc0TU9SOEVXWDBsenVhUERfNS1tRTd4WA?oc=5",
@@ -113,86 +188,54 @@
       ]
     },
     {
-      "id": "sig-3-mwohidok",
-      "title": "Thailand and Japan Expand High-Tech Partnership in Semiconductors and xEV",
-      "summary": "Thailand and Japan are strengthening economic cooperation to build high-tech industrial supply chains under the Made with Thailand framework. The partnership focuses on co-investments in semiconductors, xEV components, photonics, and clean energy technologies.",
-      "soWhat": "Industrial and tech conglomerates should explore joint ventures with Japanese suppliers to secure priority access to emerging high-tech supply chains in Thailand.",
-      "titleTh": "ไทย-ญี่ปุ่นผนึกกำลังลงทุนเทคโนโลยีขั้นสูง ดันยุทธศาสตร์ Made with Thailand",
-      "summaryTh": "ไทยและญี่ปุ่นเดินหน้ากระชับความร่วมมือทางเศรษฐกิจเพื่อสร้างฐานการผลิตเทคโนโลยีขั้นสูงภายใต้วิสัยทัศน์ Made with Thailand การร่วมมือเน้นการลงทุนร่วมในอุตสาหกรรมเซมิคอนดักเตอร์ ชิ้นส่วน xEV และพลังงานสะอาด",
-      "soWhatTh": "องค์กรอุตสาหกรรมและเทคโนโลยีควรพิจารณาจัดตั้งบริษัทร่วมทุนกับพันธมิตรญี่ปุ่นเพื่อเข้าถึงห่วงโซ่อุปทานเทคโนโลยีขั้นสูงที่กำลังเติบโตในไทย",
-      "category": "Industry",
-      "impact": 5,
-      "confidence": 0.95,
-      "timeHorizon": "1yr+",
-      "tags": [
-        "Semiconductors",
-        "EV",
-        "Thailand-Japan Partnership",
-        "Deep Tech"
-      ],
-      "sources": [
-        {
-          "title": "รองนายกฯ​ เอกนิติ ผนึก METI–JETRO ดันซัพพลายเชนไทย–ญี่ปุ่นสู่อนาคต",
-          "url": "https://techsauce.co/news/ekniti-meti-jetro-thailand-japan-supply-chain",
-          "publisher": "Techsauce",
-          "publishedAt": "Thu, 19 Nov 2026 20:46:19 +0700"
-        },
-        {
-          "title": "ส.อ.ท. ชี้โอกาสลงทุนร่วมไทย–ญี่ปุ่น หนุน Co-Creation สู่ Made with Thailand ขับเคลื่อนเศรษฐกิจไทยเติบโตรอบใหม่ - สภาอุตสาหกรรมแห่งประเทศไทย",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPY0szcHFGUlJLVld1NmtYV3NDdjFjYWNCek12NTV3bHJzd0E1R1hodDRzTjF6SlE0Qm85T3h3S0t6ejh2SXhIN2w2TWtaWmwtd0dLVlYxRXJ5R0FJY210Sk5XVlVSSDRkMlVtbDEtZHB4VVZSZjFhWHFSSzJPY2N6QzlLdFFPYUJidmUzQQ?oc=5",
-          "publisher": "สภาอุตสาหกรรมแห่งประเทศไทย",
-          "publishedAt": "Thu, 19 Nov 2026 11:11:35 GMT"
-        },
-        {
-          "title": "ไทยปรับเกมดึงญี่ปุ่นลงทุน ดัน ‘Made with Thailand’ ลุยเซมิคอนดักเตอร์-xEV - ไทยโพสต์",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5na1RnSE9WYi1nLU5RbXcxaGhWOXRjMmJnQjI3eWtMdktLcGUxb01NLUNBRng3c3NWYmJ3VTduVm94clU3aGxTelBPemxJT3FyRkJtU1YtRjNuZw?oc=5",
-          "publisher": "ไทยโพสต์",
-          "publishedAt": "Tue, 17 Nov 2026 09:54:04 GMT"
-        },
-        {
-          "title": "ไทย–ญี่ปุ่นต่อยอดหุ้นส่วนเศรษฐกิจ หนุนอุตสาหกรรมแห่งอนาคต–ความมั่นคงพลังงาน พร้อมร่วมปราบสแกมเมอร์ - Thaigov",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1hcWwzNHVHYmZEVjZxd0M0SVBlSXg2VUttOHREeGRBSDlfUERfY0xGU0Z6OTktOGVxTHRUSXctOWhQNlY5Y2YtSWZCVnFjQXUxSEE?oc=5",
-          "publisher": "Thaigov",
-          "publishedAt": "Tue, 17 Nov 2026 10:51:11 GMT"
-        },
-        {
-          "title": "เอกนิติ เปิดโต๊ะถกผู้นำชิปญี่ปุ่นถึงประธาน Rapidus ชวนลงทุนโฟโตนิกส์ ชิปควบคุมพลังงาน เซนเซอร์ ปูทาง ‘ชิปเมดอินไทยแลนด์’",
-          "url": "https://techsauce.co/news/thailand-japan-semiconductor-roundtable-tokyo",
-          "publisher": "Techsauce",
-          "publishedAt": "Wed, 18 Nov 2026 17:10:10 +0700"
-        }
-      ]
-    },
-    {
-      "id": "sig-4-mwohidok",
-      "title": "Enterprise AI Integration Drives Workforce Restructuring and Enterprise Tool Adoption",
-      "summary": "Thai enterprises are accelerating the adoption of AI tools for operations and customer workflows, driving significant workforce adjustments. Meanwhile, local telecom and tech firms are rolling out AI-native corporate solutions to automate processes and integrate directly with CRM systems.",
-      "soWhat": "Corporate strategy leaders must pair AI deployment with active workforce reskilling programs while adopting specialized local AI solutions to streamline business processes.",
-      "titleTh": "องค์กรไทยเร่งใช้ AI ขับเคลื่อนธุรกิจ กระทบโครงสร้างแรงงานพร้อมกำเนิดบริการใหม่",
-      "summaryTh": "ภาคธุรกิจไทยเร่งนำเทคโนโลยี AI มาใช้ปรับปรุงกระบวนการทำงานและการดูแลลูกค้า ส่งผลให้เกิดการปรับโครงสร้างบุคลากรและการจัดโปรแกรมเกษียณก่อนกำหนด ในขณะเดียวกันผู้ให้บริการเทเลคอมและเทคต่างเปิดตัวโซลูชัน AI สำหรับองค์กรเพื่อช่วยเพิ่มประสิทธิภาพการทำงาน",
-      "soWhatTh": "ฝ่ายกลยุทธ์องค์กรต้องวางแผนการปรับทักษะแรงงานควบคู่ไปกับการเร่งนำโซลูชัน AI เฉพาะทางมาใช้เพื่อเพิ่มขีดความสามารถในการแข่งขัน",
+      "id": "sig-4-mwp2pedy",
+      "title": "Enterprise Shift Towards Agent-Native Infrastructure and Localized AI Integration",
+      "summary": "Major enterprise operators, telecom providers, and software ecosystems in Thailand are accelerating the adoption of specialized AI agents. Platforms like LINE and Microsoft are launching dedicated agent frameworks designed to automate customer workflows and measure corporate productivity.",
+      "soWhat": "Chief Technology Officers must transition from broad generative AI trials toward ROI-measured agent architectures integrated directly into corporate CRM systems.",
+      "titleTh": "องค์กรไทยเร่งเปลี่ยนผ่านสู่ Agent-Native Architecture และ AI ประมวลผลในประเทศ",
+      "summaryTh": "บิ๊กคอร์ปอเรต โอเปอเรเตอร์ และแพลตฟอร์มรายใหญ่ในไทยเร่งนำ AI Agent และโซลูชันเฉพาะทางเข้ามาใช้งานจริง ค่ายเทคโนโลยีอย่าง LINE และ Microsoft ได้เปิดตัวเฟรมเวิร์ก AI ช่วยถอดเสียงและวัดผล ROI การทำงานอัตโนมัติ",
+      "soWhatTh": "ผู้บริหารฝ่ายเทคโนโลยีต้องเปลี่ยนจากการทดลองใช้ Generative AI ทั่วไป มาเป็นการติดตั้งระบบ AI Agent ที่วัดผลสัมฤทธิ์ ROI และเชื่อมต่อกับระบบ CRM ได้โดยตรง",
       "category": "Technology",
-      "impact": 5,
+      "impact": 4,
       "confidence": 0.95,
       "timeHorizon": "Now",
       "tags": [
-        "Enterprise AI",
-        "Workforce Transformation",
-        "Telecom",
-        "CRM Integration"
+        "AI Agents",
+        "Enterprise Tech",
+        "CRM",
+        "LINE",
+        "Automation"
       ],
       "sources": [
         {
-          "title": "🎯คลื่น AI แห่งอนาคต! ลูกใหญ่ที่พลิกธุรกิจไม่เหมือนเดิม ⛳️ถ้า AI ไม่ใช่แค่เทคโนโลยี แต่คือ “อาวุธสำคัญ” ที่จะพลิกโฉมโลกธุรกิจ! 📣มาร่วมกันปั้นเศรษฐกิจไทย ด้วยทรัพยากรที่มีค่า \"มนุษย์\" ให้ก้าวเดินสู่เศรษฐกิจอุตสาหกรรมใหม่ ในเวทีใหญ่ ส่งท้ายปี “AI ปั้นคนพันธุ์ใหม่ สู่ธุรกิจอัจฉริยะ” Key N - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMivwdBVV95cUxPZ2EtcDhBRUFsWENiVThYMXl0UTVxS2FfYWNRR1FPR2R2VG15TXdFLXd3U19ncXZQWUtZUkJvLUJvSGVkRDlBYmNGdE9MOHRuMm1PU2xVbmNjQVpaMHlDeFVudER4cVl5ZVlTdzBzdlRmb2F1TFBtNnlMNUxKZUlmSDEyS0l4c0tvQU1FM01LUTlfOFdMeGxYUUdXSlZqbVhjQy1PdTRXSWgyZmlITy0ybmpUeUhYT0haX2pocnNTRGRIWC1lUkxhVTE5RHNGV3NhRjdMaG1QcHZiWVY1c3ZlNE1haEhLcFFtV0Y2WmdHdkl6WE9XbmZtZ254ODBpVERXZjdMVEFCQ2FaclpuWEVyUzlTWS02X3BuRXlwdl9BZlhMRnN5aHpaWm1HdUc4cmRIZE83Z0w5MWFGMXNtRE1tcHZhWm5FOVFBNnFFd0JxM2ZuMUFRbXI5dl9OR1pJVlpTOHo1OVE4N0JRd211TDlLX25xbnhYTTZPVk9laUpGcWJLVUsyOUw4Sm02bTFvMlA2WlphRWZvZk1DYzdpWVFLTU11ekxkaFBIS29VYk5ESmptbnNRQTYtMmdMd3FqalBweDhIMjFBZXVWa21ET241aVhxY25NYkpxRUE4R2lQWVpsRWVEcy1SNTdRLVZRU2dXWU5qNE16NHVxRVp4dU5reVk5QnJIZlFPUHAyNEJzNUItZF9GNEI0LTNjU2taSWFod3AxTkRzN3Zmb25HanEtMG9NMktmMG8xMG43Y1RWdzQwaEVoS3JnRVJMbFdxR1I0WXh1RmNCMzdGSmFlZlM0RjBMa1VUY1djbWYtR1U0LWx6WV9NWk9vR096a2hMNjY3SjlLeXJxTThvSzBSTHBhMkFiSjNEal9sNlV0aDJHTlZ3d1dNdkRlOWJwc1pSdkVFNXdReTR2aU83cFNNSF94VGNHSHYxbWMxdXpwRldJUlBoTUFJazk0TlhIUEJUQXdYYk9RX0NRTC1ib05McEljMTNGdnNlVTN2WlRtY1RMN1RxOFFUdkpnN01rMUQ0X0dMWVV6UUdTTEJzV2czaVhVRXAxdElqZVZaZXNTaGVoS3hpb19hMTB1RzdudWMyUnVfdkJ4NHZZR21kZ3ZrcmZhUlJzNlZ5MkxESGVFYTBUTXZXNTExT3BldFZuNmVnWnVWeGZ2bHFXbi1iWGt6b01vQWxXM2FBakxTaWk5VFdISTZJeWJlcmhndWFyZWhzNUtqa2lpcHVFcjNEcml5UE9PUlJBN2RjX2tOYlJzRDEwYw?oc=5",
+          "title": "AI เครื่องมือเดียว พลิกไทย ต้องคิดให้สุด-ทำให้สุด | กรุงเทพธุรกิจ_InFocus . ดร.สมคิด อ้างมุมมอง Elon Musk อีก 5 ปี AI จะทำงานแทนมนุษย์ มอง AI คือเครื่องมือตัวเดียวพลิกประเทศไทย แต่ต้อง “คิดให้สุด และทำให้สุด” เพราะหากทำครึ่ง ๆ กลาง ๆ ภัยที่ตามมาจะมหาศาล . . #AIเปลี่ยนโลก # - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMiiAdBVV95cUxQVkl3SHhDXy1sdmpyR2pkZktrNVNMVFducjhoLTUtMTVPNDJ4WG1CbXdUQk1XQXFQR1pITDd3cXJsVEVJR3d5bHVrcUwtYmI4RFl1V2VvVUJaRjZMRTY0Q2RjeWNiaFBQMS1SQWp3Wkwta21lOXFqOEVOYmM5YXdBVGdodDUwOUNyS2s2LUpNUkxmWnJwRDJpYXFpcm1BNHc3WVMzdG9ySk05Z2Fxckx5N2JTaUxsaVFPVVJtQ09GVTJNQ1A0T2wtTUJSaEdiejlQeW03aHltZVY5MXZ6Sy0waFNnMXpRRWpkUWliQmI1X2dwSkx2LU9BRlJoUVl6OFc4eXZTbGVrZEpMRjB4SHFpbG9DN1lDeEJ2enEtcmdfc2NxUENYeUxLQkQ3VzUxaFdxMWZlQ3hySkZFSlQzSUhnaVBBMkppZG5PSG9TR0M1dkZrcXpPbFctVFBlZFcwUWY5U0RwNTJfdFN2X2tKMVNENG1zM2FvTUlIY3Q5cWo4eS1XVVhrYThiMzdyRXpHWEtkTHNKNUFWSHF0Sy1DR1pvaXQwQXJnNktDMElKbF9WQTkwMjRsclhpTGctR1Z2OVphdEswakJROXo4LUVDMUxHZm1oZ0h4ek9QN2M5aEd2cFNjdEFXZVhfN0lvSmYtZ2drd0NfeEFsSWgxRnhQZGJ6cEJ3Y1MxdFBCX0JWNkVTeXhLUkJJQkpKaUlLb0RvZTNTT2xMU1VNSERFbWZJX1hXempaUG5NbFdyLWU5aXJjcHh4RmVHT194YV9fTkVRbGt4NF8zSXMzVEQ3a0EtdlBBdURrd0d3SmZHZWFUZlExQ0NhQXFJWDFEQV9FM1pzRDJULVRwV3hmNUg5Yk9tVWplbm1sZnhzdXROOEo1R1JPWTF1WElpcURvNjdyY2NxMmxIX3oxZ0FMR0xpSVZqY20wRkFEaFJTb3p5TEJsV1V6aUNoSTRkWmRkeWdWbE5sSWRlTF9aa0w2bGNBZVhrSTNoRldsWmx5YnVoZHRubER4WTMxaEc3Ti1xR25sbXBzaXhSTDg5aWxOem0tZXp5YktRVnhYaWV6V0pEX3NnQjhCd2FGNzc3aWFTTG9ScW5Ub2hUNXZjcnFZdXF0LXFtZ0RCUjVKeFRjRk9mVW1PYkhDZjRGVm1SRFBGMTlLMDN5RTRsT2VYaVNyQWhlQnBkbEJNN0c1bXV0Z3pK?oc=5",
           "publisher": "Facebook",
-          "publishedAt": "Wed, 18 Nov 2026 06:22:08 GMT"
+          "publishedAt": "Fri, 20 Nov 2026 07:00:31 GMT"
+        },
+        {
+          "title": "LINE unveils three major plans to support Thailand’s 56 million accounts - Nation Thailand",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBrZGlUWGVsdHdyMnhwTk1FYWFfTlRGSlN1MGNyTnBMSzJmeEhiNDdlbk1zQTdEaHRmMkppV0ppSEpkYkdTSFJzY3hNZk9iN0lJMmtFNjhYS3JwRHBRVEJkajJWZw?oc=5",
+          "publisher": "Nation Thailand",
+          "publishedAt": "Fri, 20 Nov 2026 02:44:00 GMT"
+        },
+        {
+          "title": "จากเขียนโค้ดด้วย AI สู่การสร้าง Agent-Native Architecture เจาะลึกเนื้อหา Deep Tech จากงาน LINE THAILAND DEVELOPER CONFERENCE 2026",
+          "url": "https://www.blognone.com/node/152161",
+          "publisher": "Blognone",
+          "publishedAt": "Fri, 13 Nov 2026 04:00:56 +0000"
         },
         {
           "title": "โอเปอเรเตอร์รายที่ 4 ของประเทศไทยมาถึงแล้ว 1-TO-ALL เปิดตัวซิมธุรกิจที่มี AI ช่วยจดและสรุปทุกการคุยกับลูกค้า",
           "url": "https://techsauce.co/news/1-to-all-4th-telecom-operator-super-sim-ai-note-taker",
           "publisher": "Techsauce",
           "publishedAt": "Thu, 19 Nov 2026 21:56:15 +0700"
+        },
+        {
+          "title": "Influencer Marketing ยุคนี้ ต้องมี AI มาช่วยงาน Data ด้าน AnotherDot เลยเปิดตัวแพลตฟอร์มใหม่ ใช้ AI ช่วยแคมเปญต้ั้งแต่นัดหมาย ถึงสรุปผล",
+          "url": "https://www.blognone.com/node/152095",
+          "publisher": "Blognone",
+          "publishedAt": "Wed, 04 Nov 2026 10:35:43 +0000"
         },
         {
           "title": "แรงงานไทยจะไปทางไหน เมื่อ AI เปลี่ยนทั้งงาน คน และเกมธุรกิจ - thestandard.co",
@@ -219,48 +262,42 @@
           "publishedAt": "Tue, 17 Nov 2026 09:31:55 GMT"
         },
         {
-          "title": "‘45 is the new 60’: Thailand’s Kasikornbank is paying staff to retire early as it prepares for AI - Yahoo Finance",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPc3VTbTJkZE1CU0MyUXJ2VURWdHIzaVZnNXE3bVF4dTUzM0oxYUdYTjlpSGlQS2tLNnFQZUJkRnpUZzVZdmlrTTdaeGtpblI0QU1sN1QwV1RGWmZxR3RKclpLQmVLdldGSHlYOEh3Vmx6c2hMMG9Ma0hSN0d5S1JZY2d3ZjAwX1NRN0xGRmlwQ29TQjc5QW45MjZqWW1BVEk?oc=5",
-          "publisher": "Yahoo Finance",
-          "publishedAt": "Thu, 19 Nov 2026 08:00:00 GMT"
-        },
-        {
           "title": "‘ยศชนัน’ ชี้ ไทยต้องเร่งเครื่อง AI สร้าง New Growth Engine AI พลิกเศรษฐกิจไทย - bangkokbiznews",
           "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE5MUk1YYUlFVTJOREprRnlEMnQwQ2NEdDU5NmdCR3VHYmZ3ZzlhSWRoS0xLemE0aXhia2NoamNFaHlldE1uczBMc29zeE1ZY0NtSDhFeTBpOFpfLTFo?oc=5",
           "publisher": "bangkokbiznews",
           "publishedAt": "Sat, 14 Nov 2026 07:34:31 GMT"
         },
         {
-          "title": "Supporting Thailand’s next generation of AI startups - OpenAI",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9tRm9iT0h5ZzlndHdoZGxMSGNhX2RtanVQd3ZVS045V19fQ3d6NThoNzNxdGt1d3VqYU40VmtCTktiU3FTMnJ5TWN3NHVhRnczcW0tSGQ2cUNIVlpSN0QwQVd0Q1JpNUUtTE9hZVVqVE9XUjlOdzVjT3FMYkF2dw?oc=5",
-          "publisher": "OpenAI",
-          "publishedAt": "Fri, 28 Aug 2026 07:00:00 GMT"
+          "title": "ผลสำรวจชี้ 95% ธุรกิจไทยเชื่อ AI หนุนบริหารการเงิน HSBC เปิดตัว HSBCnio ตอบโจทย์ - วารสารการเงินธนาคาร",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBidEtuOFZvbVBYeHRxVkhJS1NvZ3Z3dlQxUnVySE5XaU9mSkVDb1RLTG0xamNhVTFwUFA4cmJ6dHJIcjk4eXp5amNhRHJBbjFoTmJvNw?oc=5",
+          "publisher": "วารสารการเงินธนาคาร",
+          "publishedAt": "Fri, 20 Nov 2026 09:04:00 GMT"
         },
         {
-          "title": "1-TO-ALL ประกาศจุดยืนผู้ให้บริการโทรคมนาคมรายที่ 4 ของไทยสำหรับธุรกิจ ขับเคลื่อนด้วยวิสัยทัศน์ “Beyond the Call — ต่อติด คิดได้” - Positioningmag",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1yd001dGEycFNzeW5WMklJT0t0V2d6dFVDYTkwdVg0NjVUMzJ1RlRrOHN3VTAxY0RRYmhwUjNsS0xsb2hUVzNKZTg0VXpWTWxKSnhR?oc=5",
-          "publisher": "Positioningmag",
-          "publishedAt": "Thu, 19 Nov 2026 13:21:31 GMT"
+          "title": "Google เปิดตัว Gemini 4 Neon โมเดล AI ใหม่ ฉลาดเท่ารุ่นท็อปแต่ตอบไวกว่าเดิม",
+          "url": "https://techsauce.co/ai/google-launches-gemini-4-neon",
+          "publisher": "Techsauce",
+          "publishedAt": "Thu, 19 Nov 2026 11:17:11 +0700"
         }
       ]
     },
     {
-      "id": "sig-5-mwohidok",
-      "title": "Thailand Upgrades Growth Forecasts Amid Accelerating Foreign Direct Investment",
-      "summary": "Economic institutions have revised Thailand's growth forecasts upward following a stronger-than-expected GDP expansion in the third quarter. Foreign direct investment has risen sharply, led by substantial capital commitments from Singapore and China.",
-      "soWhat": "Strategy teams should capitalize on the short-term macroeconomic tailwinds to expand capital expenditure while hedging against structural long-term growth limitations.",
-      "titleTh": "เศรษฐกิจไทยฟื้นตัวโตเกินคาด ดันยอด BOI-FDI ต่างชาติพุ่งสูง",
-      "summaryTh": "สถาบันเศรษฐกิจหลายแห่งปรับเพิ่มเป้าหมายการเติบโต GDP ของไทยหลังผลประกอบการไตรมาสสามฟื้นตัวได้ดีกว่าคาด ขณะเดียวกันมูลค่าการขอรับส่งเสริมการลงทุนจากต่างประเทศ (FDI) ปรับตัวสูงขึ้นอย่างต่อเนื่องโดยมีสิงคโปร์และจีนเป็นผู้นำ",
-      "soWhatTh": "ทีมกลยุทธ์ควรฉวยโอกาสจากจังหวะการฟื้นตัวทางเศรษฐกิจในระยะสั้นเพื่อขยายการลงทุน พร้อมวางแผนบริหารความเสี่ยงต่อข้อจำกัดเชิงโครงสร้างในระยะยาว",
+      "id": "sig-5-mwp2pedy",
+      "title": "Thai Macroeconomic Outlook Shows Moderate Growth Amid Structural Challenges",
+      "summary": "Economic planning agencies updated GDP projections to between 2.5 and 2.9 percent following a Q3 rebound driven by private investment. However, economists warn that structural weaknesses could cause long-term growth to trail regional competitors without aggressive industrial reforms.",
+      "soWhat": "Corporate planning teams should build conservative scenario models that plan for persistent low macroeconomic growth while focusing on market share expansion.",
+      "titleTh": "เศรษฐกิจไทยโตฟื้นตัวระยะสั้น แต่ต้องรับมือแรงกดดันเชิงโครงสร้างระยะยาว",
+      "summaryTh": "สภาพัฒน์และสถาบันวิจัยปรับเพิ่มประมาณการ GDP ไทยเป็น 2.5-2.9% ตามการฟื้นตัวในไตรมาส 3 อย่างไรก็ตาม นักเศรษฐศาสตร์เตือนว่าปัญหาเชิงโครงสร้างอาจกดดันให้เศรษฐกิจไทยโตต่ำกว่าคู่แข่งในอาเซียนในระยะยาว",
+      "soWhatTh": "ฝ่ายวางแผนยุทธศาสตร์องค์กรควรจัดทำแบบจำลองธุรกิจแบบระมัดระวังเพื่อรับมือสภาวะ GDP โตต่ำเรื้อรัง โดยมุ่งเน้นการชิงส่วนแบ่งตลาดในกลุ่มที่มีกำลังซื้อสูง",
       "category": "Economic",
       "impact": 4,
-      "confidence": 0.95,
+      "confidence": 0.9,
       "timeHorizon": "Now",
       "tags": [
-        "GDP",
-        "FDI",
-        "Macroeconomy",
-        "BOI"
+        "GDP Growth",
+        "Macroeconomics",
+        "Thailand Economy",
+        "NESDC"
       ],
       "sources": [
         {
@@ -268,6 +305,12 @@
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFB4Tmpmc1lKdzdPcVdOTmwyOWFZZlpjYk1FZTRIZDlWTjNUUlRETzVFd3FZZWJrZU4tSFg2TXZsY0hfUzM2R3c2RDg2cmRPMVdPWEQ3dVl2Z1c?oc=5",
           "publisher": "Thai PBS",
           "publishedAt": "Mon, 16 Nov 2026 05:11:01 GMT"
+        },
+        {
+          "title": "TDRI คาด GDP ไทยปี 70 โตชะลอลง พฤติกรรมผู้บริโภคเปลี่ยนเน้นความคุ้มค่า-ภัยไซเบอร์เพิ่มโจทย์ท้าทายใหม่ : อินโฟเควสท์ - สำนักข่าวอินโฟเควสท์",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1QMC1iblAxcFJ3akZJUEh0LVNkVjF2NTlQWDhUdU5YbWstZ2Jxc256SEFmRmwtcWtWQW1qdWlNTUJqQ0lzYWlqeFlMRWw5WUhX?oc=5",
+          "publisher": "สำนักข่าวอินโฟเควสท์",
+          "publishedAt": "Fri, 20 Nov 2026 09:15:00 GMT"
         },
         {
           "title": "ขยับเพิ่มเป้าเศรษฐกิจไทย 2569 ขยายตัว 2.6% หลังไตรมาส 3 ฟื้นตัวดีขึ้น | Economic Watch | ส.อ.ท. | ส.อ.ท. FTI - สภาอุตสาหกรรมแห่งประเทศไทย",
@@ -294,10 +337,10 @@
           "publishedAt": "Thu, 19 Nov 2026 06:00:08 GMT"
         },
         {
-          "title": "ต่างชาติลงทุนไทย 10 เดือนทะลุ 3.2 แสนล้าน โต 16% สิงคโปร์ครองแชมป์ จีนลงทุนมากสุด - Businesstoday",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85bHhXYW56d0ZRbTBoNFFURHNKY3Vnb29VOWJFcTF1dXFsbmNuR2RkT285akxsb3R0VHBIcUVhV0oxalB2dnJsbzZKalpoUE1TdnB6ZWRMcjVwX0RvRkZTQW1sNk1oTWc?oc=5",
-          "publisher": "Businesstoday",
-          "publishedAt": "Thu, 19 Nov 2026 06:24:21 GMT"
+          "title": "KTAM มองเศรษฐกิจไทยปี 2570 รับแรงหนุนลงทุนเอกชน ลุ้น SET แตะ 1,700 จุด ชี้ - thestandard.co",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRd3QtbkN2czg3TmFvRWphVlM3SmtXTzNoazNsaEJBMWxLNWJXd3hENTVxTTc1N2g0NTNKVHMyU2ZWQklHNTY2cWNhS1RWTm9KVVdqWFFvVXBVeHJKWEVkaWFpdXlqVW5r?oc=5",
+          "publisher": "thestandard.co",
+          "publishedAt": "Thu, 19 Nov 2026 19:08:54 GMT"
         },
         {
           "title": "โบรกฯ ชี้เศรษฐกิจไทยขยายตัวดี หนุนแบงก์ชาติดอกเบี้ยไตรมาส 1/70 ดันกำไร BBL-KTB เพิ่มมากสุด - Share2Trade",
@@ -306,34 +349,10 @@
           "publishedAt": "Tue, 17 Nov 2026 04:43:20 GMT"
         },
         {
-          "title": "KTAM มองเศรษฐกิจไทยปี 2570 รับแรงหนุนลงทุนเอกชน ลุ้น SET แตะ 1,700 จุด ชี้ - thestandard.co",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTFBRd3QtbkN2czg3TmFvRWphVlM3SmtXTzNoazNsaEJBMWxLNWJXd3hENTVxTTc1N2g0NTNKVHMyU2ZWQklHNTY2cWNhS1RWTm9KVVdqWFFvVXBVeHJKWEVkaWFpdXlqVW5r?oc=5",
-          "publisher": "thestandard.co",
-          "publishedAt": "Wed, 18 Nov 2026 07:36:28 GMT"
-        },
-        {
-          "title": "เศรษฐกิจไทยกลับไปโต ตามศักยภาพหรือยัง? หลัง GDP ในไตรมาส 3 ปี 2569 ขยายตัวเฉียด 3% เปิดความเปราะบางที่ซุกซ่อนอยู่ - thestandard.co",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE93bzJRWERSZVctRXhZcGc1bXNDVVpkMnB0bE0yZFJya1hqc0NuNWtkeUVsUVAwcUx3cFZPNjF4Ylp4MUpOMk5zRFhZcUZWTmpyUzdwOHR4MWN0NVN5YzlEVEVCYUFWQXc?oc=5",
-          "publisher": "thestandard.co",
-          "publishedAt": "Thu, 19 Nov 2026 09:32:00 GMT"
-        },
-        {
-          "title": "GDP ไตรมาส 3/2569 ฟื้นตัวดีขึ้น ศูนย์วิจัยกสิกรไทยปรับประมาณการเศรษฐกิจไทยปี 2569 ขยายตัวที่ 2.6% ขณะที่ มองปี 2570 ชะลอลง - kasikornbank.com",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQODJGc0VlZFhibkU4UHRHdk56WnNEeU1kTUcwNnRmMXBlbEZITDZIMkRfTGhPNE1xQVk2bWtTNWo5RHVoVGFZRFpHM1JGTEhZZEFyM2J6MHU0Mkt4enhQZWt6azhOSG54Yzc3N3c0QjFBU1h2Z0tUQzdMbURlQWhxaUx2MkgtbDhpQ0VuM3hyTlNFOXV4QmZwLUpXRUFfT0xV?oc=5",
-          "publisher": "kasikornbank.com",
-          "publishedAt": "Mon, 16 Nov 2026 09:18:13 GMT"
-        },
-        {
-          "title": "เอกนิติ เปิดยอดลงทุนยืนยัน 3 ไตรมาสเศรษฐกิจไทยโตต่อเนื่อง เชื่อโรดโชว์ญี่ปุ่น ขยายการลงทุนได้ - มติชนออนไลน์",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5MT09qdm10WFV2VUkwVmNPMkUyRDMwYjRJeHFzbVlPalZBQjhTM1pxQjV1YXgxU2l4czFWblNmWEQ3Umg3eUlwZXlMR1J6YkZyYjFTcmtxNW9zNGM?oc=5",
-          "publisher": "มติชนออนไลน์",
-          "publishedAt": "Fri, 13 Nov 2026 07:04:30 GMT"
-        },
-        {
-          "title": "BOI โชว์ยอดลงทุน 9 เดือนแตะ 8 แสนลบ. คาดทั้งปีทะล 1 ล้านลบ. : อินโฟเควสท์ - สำนักข่าวอินโฟเควสท์",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5EZng3Sy03MThYb1MzblE1SU5DSTBYaXlaUHBsTk1LLUMyVk54RFBFN2VtMXNkemtDTlVuV01hVTBQTmZYVHo4YmcybnFiM1Zt?oc=5",
-          "publisher": "สำนักข่าวอินโฟเควสท์",
-          "publishedAt": "Fri, 13 Nov 2026 09:43:00 GMT"
+          "title": "เศรษฐกิจไทยปี 2570 โตต่ำ 1.8–2.1% เมื่อกำลังซื้อเปลี่ยนเกมธุรกิจ ‘ความคุ้มค่า’ กลายเป็นโจทย์ใหม่ที่ต้องจับตา - Thaipost.net",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9peTI4YVdpWlY1d2lObGdaZkttQ1dFRXd2X2hGc0ViaXlfTmJYWVBURmV1cXZLZTlfNjVORkE2ZllSS2xTS3IyMnF4b2F4eU5uNmQxclRnZjdyUQ?oc=5",
+          "publisher": "Thaipost.net",
+          "publishedAt": "Fri, 20 Nov 2026 06:12:49 GMT"
         },
         {
           "title": "ttb analytics ประเมินเศรษฐกิจไทยปี 2570 โตดีขึ้น ท่ามกลางแรงกดดันเงินเฟ้อและช่องว่างดอกเบี้ยโลก มอง Reinvent Thailand ช่วยดันจีดีพีไทยโตแตะ 3-4% ในอีก 5 ปีข้างหน้า - Brand Buffet",
@@ -344,22 +363,56 @@
       ]
     },
     {
-      "id": "sig-6-mwohidok",
-      "title": "Financial Sector Advances Tokenized Deposits and Regional Payment Dominance",
-      "summary": "SCBX has applied to enter the Bank of Thailand regulatory sandbox as the first institution to test tokenized deposit infrastructure. At the same time, PromptPay continues to dominate Thai e-commerce payments with a 44% market share.",
-      "soWhat": "Commercial banks and consumer platforms must prepare their digital payment architecture for tokenized settlement methods while maintaining frictionless PromptPay integration.",
-      "titleTh": "การเงินไทยก้าวสู่อนาคต ดัน Tokenized Deposit ควบคู่ความแข็งแกร่ง PromptPay",
-      "summaryTh": "กลุ่ม SCBX ยื่นขอเข้าร่วมทดสอบ Tokenized Deposit ใน Regulatory Sandbox ของแบงก์ชาติเป็นรายแรกของประเทศ ขณะเดียวกัน PromptPay ยังคงครองแชมป์ช่องทางการชำระเงินออนไลน์ในตลาดอีคอมเมิร์ซไทยด้วยส่วนแบ่งถึง 44%",
-      "soWhatTh": "แพลตฟอร์มการค้าและสถาบันการเงินต้องเตรียมความพร้อมด้านโครงสร้างพื้นฐานการชำระเงินเพื่อรองรับระบบสินทรัพย์ดิจิทัลควบคู่ไปกับการรักษาความสะดวกของ PromptPay",
+      "id": "sig-6-mwp2pedy",
+      "title": "Chinese and Singaporean FDI Surge Targets Thai AI and Semiconductor Supply Chains",
+      "summary": "Foreign direct investment in Thailand reached over 320 billion baht over ten months, representing a 16 percent year-on-year increase. Singapore and China dominate these capital flows, focusing heavily on AI data centers, chips, and advanced electronics projects.",
+      "soWhat": "Local industrial estate developers and utility providers should expand infrastructure capacity tailored for power-intensive data center and semiconductor operations.",
+      "titleTh": "ทุนจีนและสิงคโปร์นำทัพ FDI ทะลุ 3.2 แสนล้าน ปักหมุด AI และเซมิคอนดักเตอร์",
+      "summaryTh": "ยอดเงินลงทุนจากต่างประเทศในไทยช่วง 10 เดือนแรกทะลุ 3.2 แสนล้านบาท เติบโต 16% โดยมีสิงคโปร์และจีนครองแชมป์การลงทุนสูงสุด เน้นโครงการ AI ชิป และอิเล็กทรอนิกส์ขั้นสูงรวมเกือบ 500 โครงการ",
+      "soWhatTh": "ผู้พัฒนานิคมอุตสาหกรรมและธุรกิจพลังงานในไทยควรเร่งขยายโครงสร้างพื้นฐานเพื่อรองรับดาต้าเซ็นเตอร์และโรงงานชิปที่ต้องการพลังงานสูง",
+      "category": "Economic",
+      "impact": 4,
+      "confidence": 0.85,
+      "timeHorizon": "Now",
+      "tags": [
+        "FDI",
+        "China Investment",
+        "Semiconductors",
+        "Data Centers"
+      ],
+      "sources": [
+        {
+          "title": "ต่างชาติลงทุนไทย 10 เดือนทะลุ 3.2 แสนล้าน โต 16% สิงคโปร์ครองแชมป์ จีนลงทุนมากสุด - Businesstoday",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE85bHhXYW56d0ZRbTBoNFFURHNKY3Vnb29VOWJFcTF1dXFsbmNuR2RkT285akxsb3R0VHBIcUVhV0oxalB2dnJsbzZKalpoUE1TdnB6ZWRMcjVwX0RvRkZTQW1sNk1oTWc?oc=5",
+          "publisher": "Businesstoday",
+          "publishedAt": "Thu, 19 Nov 2026 06:24:21 GMT"
+        },
+        {
+          "title": "“อนุทิน–หลี่ เฉียง” ถกเศรษฐกิจสองประเทศ เผยจีนลงทุนไทยเกือบ 500 โครงการ ชู AI–ชิป - ข่าวหุ้นธุรกิจออนไลน์",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBKSTVydDBqem9UVUdBbVRfTUIzeGEtc0Vial9SZTRCVm5VbVhweDB2T1hUNnI5NmhOQ0NWLUFOSGlwVFF2ODE5ZmxwWW8xanllQndn?oc=5",
+          "publisher": "ข่าวหุ้นธุรกิจออนไลน์",
+          "publishedAt": "Sat, 14 Nov 2026 07:40:43 GMT"
+        }
+      ]
+    },
+    {
+      "id": "sig-7-mwp2pedy",
+      "title": "PromptPay Solidifies Payment Dominance as Banking Sector Pilots Tokenized Deposits",
+      "summary": "PromptPay now commands a 44 percent market share in Thai online transaction payments, maintaining its status as a regional leader in real-time digital rails. Concurrently, major banking groups like SCBX are entering central bank regulatory sandboxes to test tokenized deposits.",
+      "soWhat": "Financial institutions and merchant aggregators must build infrastructure compatible with programmable tokenized money while optimizing checkout flows for PromptPay.",
+      "titleTh": "พร้อมเพย์ครองแชมป์ชำระเงินดิจิทัล ขณะที่กลุ่มแบงก์เริ่มทดลอง Tokenized Deposit",
+      "summaryTh": "พร้อมเพย์กวาดส่วนแบ่ง 44% ในตลาดอีคอมเมิร์ซไทย ครองแชมป์ช่องทางชำระเงินออนไลน์ ขณะที่สถาบันการเงินยักษ์ใหญ่เช่น SCBX เริ่มเข้า Regulatory Sandbox ของแบงก์ชาติเพื่อทดสอบ Tokenized Deposit เป็นรายแรก",
+      "soWhatTh": "สถาบันการเงินและผู้ให้บริการระบบชำระเงินต้องเตรียมพร้อมรองรับโครงสร้างเงินดิจิทัลแบบโปรแกรมได้ (Tokenized Deposit) ควบคู่ไปกับการรักษาประสิทธิภาพของพร้อมเพย์",
       "category": "Business",
       "impact": 4,
       "confidence": 0.85,
       "timeHorizon": "3-6mo",
       "tags": [
-        "Tokenized Deposit",
         "PromptPay",
+        "Tokenized Deposit",
         "Fintech",
-        "Digital Payments"
+        "SCBX",
+        "Sandbox"
       ],
       "sources": [
         {
@@ -377,22 +430,107 @@
       ]
     },
     {
-      "id": "sig-7-mwohidok",
-      "title": "Government Launches Export Programs for SME Regional E-Commerce Expansion",
-      "summary": "Thai government agencies have launched targeted export support programs to help SMEs enter regional e-commerce markets like the Philippines. The initiative provides digital platform setup, business matching, and cross-border marketing infrastructure.",
-      "soWhat": "E-commerce and consumer brands should utilize state-supported digital export programs to cost-effectively test consumer demand across ASEAN markets.",
-      "titleTh": "พาณิชย์ดัน SME ไทยลุยอีคอมเมิร์ซอาเซียน นำร่องเจาะตลาดฟิลิปปินส์",
-      "summaryTh": "กระทรวงพาณิชย์และ สสว. ร่วมมือเปิดโครงการสนับสนุน SME ไทยบุกตลาดอีคอมเมิร์ซในภูมิภาคอาเซียน โดยเริ่มต้นที่ประเทศฟิลิปปินส์ โครงการนี้ช่วยสนับสนุนด้านร้านค้าออนไลน์ การจับคู่ธุรกิจ และการทำตลาดข้ามพรมแดน",
-      "soWhatTh": "ผู้ประกอบการแบรนด์สินค้าควรร่วมมือกับโครงการภาครัฐเพื่อทดลองขยายตลาดไปยังกลุ่มผู้บริโภคในอาเซียนด้วยต้นทุนการเข้าสู่ตลาดที่ต่ำลง",
-      "category": "Business",
+      "id": "sig-8-mwp2pedy",
+      "title": "Consumer Shifts Favor Pure Value and Sustainability Over Premium Brand Equity",
+      "summary": "Thai consumer behavior is rapidly adjusting to tight household purchasing power, driving demand for high utility, affordability, and eco-conscious products. Research reveals buyers prioritize functional value and cyber safety credentials over traditional brand marketing.",
+      "soWhat": "Consumer product firms must revamp portfolio strategies to introduce value-tier product lines while embedding transparent sustainability claims into core packaging.",
+      "titleTh": "ผู้บริโภคไทยปรับพฤติกรรมมุ่งเน้นความคุ้มค่า สินค้ารักษ์โลก และความปลอดภัยไซเบอร์",
+      "summaryTh": "กำลังซื้อที่ตึงตัวกดดันให้ผู้บริโภคไทยหันมาเลือกซื้อสินค้าจากความคุ้มค่าและคุณประโยชน์จริงมากกว่าชื่อเสียงของแบรนด์ พร้อมทั้งให้ความสำคัญกับสินค้าที่เป็นมิตรต่อสิ่งแวดล้อมและมาตรการป้องกันภัยไซเบอร์",
+      "soWhatTh": "บริษัทสินค้าอุปโภคบริโภคต้องปรับกลยุทธ์พอร์ตสินค้าโดยเพิ่มกลุ่มสินค้าราคาคุ้มค่า (Value Tier) และระบุคุณค่าด้านความยั่งยืนอย่างชัดเจนเพื่อรักษาฐานลูกค้า",
+      "category": "Consumer",
       "impact": 3,
       "confidence": 0.8,
+      "timeHorizon": "Now",
+      "tags": [
+        "Consumer Behavior",
+        "Eco-Friendly",
+        "Value Shopping",
+        "Retail Strategy"
+      ],
+      "sources": [
+        {
+          "title": "TDRI คาด GDP ไทยปี 70 โตชะลอลง พฤติกรรมผู้บริโภคเปลี่ยนเน้นความคุ้มค่า-ภัยไซเบอร์เพิ่มโจทย์ท้าทายใหม่ : อินโฟเควสท์ - สำนักข่าวอินโฟเควสท์",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1QMC1iblAxcFJ3akZJUEh0LVNkVjF2NTlQWDhUdU5YbWstZ2Jxc256SEFmRmwtcWtWQW1qdWlNTUJqQ0lzYWlqeFlMRWw5WUhX?oc=5",
+          "publisher": "สำนักข่าวอินโฟเควสท์",
+          "publishedAt": "Fri, 20 Nov 2026 09:15:00 GMT"
+        },
+        {
+          "title": "ส่องเทรนด์ ‘ตลาดนัดรักษ์โลก’ บูม ผู้บริโภคซื้อสินค้าจากคุณค่า ไม่ใช่แค่ราคาถูก - springnews",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1fb2RRdkFEdzdnUG1DVmhMUDlhX2Q4WGs2VGg5VlY3U3NJMmFHVkZOS3huSFN0LTMzZWlVdy1FbzIzM3lqN2l6dDl2azFyMHlWLU1WcXVpbEE3SUNZYkU1VGtuMmgzSl9uU2pmSThfRQ?oc=5",
+          "publisher": "springnews",
+          "publishedAt": "Sun, 15 Nov 2026 03:53:37 GMT"
+        },
+        {
+          "title": "เศรษฐกิจไทยปี 2570 โตต่ำ 1.8–2.1% เมื่อกำลังซื้อเปลี่ยนเกมธุรกิจ ‘ความคุ้มค่า’ กลายเป็นโจทย์ใหม่ที่ต้องจับตา - Thaipost.net",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9peTI4YVdpWlY1d2lObGdaZkttQ1dFRXd2X2hGc0ViaXlfTmJYWVBURmV1cXZLZTlfNjVORkE2ZllSS2xTS3IyMnF4b2F4eU5uNmQxclRnZjdyUQ?oc=5",
+          "publisher": "Thaipost.net",
+          "publishedAt": "Fri, 20 Nov 2026 06:12:49 GMT"
+        }
+      ]
+    },
+    {
+      "id": "sig-9-mwp2pedy",
+      "title": "Thai State Agencies Lead Deep Tech and Space Tech Globalization Initiatives",
+      "summary": "Government agencies including DEPA and the Stock Exchange of Thailand are backing global expansion tours and venture funds targeting AI, fintech, and space technology. Initiatives in Finland and China connect local startups with international research centers and institutional capital.",
+      "soWhat": "Corporate venture capital funds should co-invest alongside government-backed tech trusts to secure early rights to frontier research and deep-tech intellectual property.",
+      "titleTh": "ภาครัฐจับมือพันธมิตรต่างประเทศดันสตาร์ทอัพไทยสู่ Deep Tech และ Space Tech",
+      "summaryTh": "ดีอี ดีป้า และ ตลท. เร่งเครื่องพา สตาร์ทอัพไทยบุกตลาดเทคโนโลยีระดับโลก เช่น ฟินแลนด์และจีน พร้อมจัดตั้งกองทุน PE Trust ดึงดูดการลงทุนด้าน AI, ฟินเทค และเทคโนโลยีอวกาศ",
+      "soWhatTh": "หน่วยงาน CVC ขององค์กรเอกชนควรร่วมลงทุนในกองทุนเทคโนโลยีของรัฐบาลเพื่อสร้างโอกาสเข้าถึงทรัพย์สินทางปัญญาและเทคโนโลยีขั้นสูงก่อนคู่แข่ง",
+      "category": "Technology",
+      "impact": 3,
+      "confidence": 0.8,
+      "timeHorizon": "1yr+",
+      "tags": [
+        "Deep Tech",
+        "Space Tech",
+        "Startup",
+        "DEPA",
+        "CVC"
+      ],
+      "sources": [
+        {
+          "title": "ดีอี-ดีป้า พาสตาร์ทอัพไทยบุกฟินแลนด์ เชื่อมพันธมิตร Space Tech-AI ดึงลงทุน | ข่าวหุ้นธุรกิจ - LINE TODAY",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9QUTFEMjlkMFFIVTNMX0NyQVJiVC1UenpzQWZ1Rzd0aTVsTkhlVkY5eU4ycHlLakpTZXR4TUMyazJUdVlIMTZwaU5tQ1VrQmpURGlPWjFWT3F4azlRTGdtYzZxLU9ldUxYaVZ2Q3Vlb3RQbXM3Y1d3ZWFFT1lPUQ?oc=5",
+          "publisher": "LINE TODAY",
+          "publishedAt": "Tue, 17 Nov 2026 08:00:00 GMT"
+        },
+        {
+          "title": "Thailand’s plan to build a stronger home-grown defence industry by 2037 - GovInsider",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxONWVmdEVTdThHRDF4ek9oVk5XZjRJX3Y4Z3ZrRnByNGp4U0ZwY3MxQWVWTy1EckdNSkdYNWNWd3Atc1lySDdKSXRjc2FuMTNvQmF0aWNhN3dVVW01dkg1TEhtUVRYUS1lbXpUdXhIZERGMDVyYmpVVnF3dGtMWU5UMUF1b0FwTHBVU1NDdDd1OHo3Wktqc3ZQZmlRRkVPN0Z0eTFNMmhZNW5CRTJ5TE5J?oc=5",
+          "publisher": "GovInsider",
+          "publishedAt": "Fri, 20 Nov 2026 00:46:42 GMT"
+        },
+        {
+          "title": "NITMX และ Techsauce เปิดประสบการณ์ระดับโลก พาทีม FinTechMaiFinJai สัมผัสนวัตกรรมจากองค์กรชั้นนำ ณ เซินเจิ้น-ฮ่องกง",
+          "url": "https://techsauce.co/news/nitmx-fintech-bootcamp-2026-innovation-tour-hong-kong-shenzhen",
+          "publisher": "Techsauce",
+          "publishedAt": "Thu, 19 Nov 2026 14:53:06 +0700"
+        },
+        {
+          "title": "ดีอี-ดีป้า พาสตาร์ทอัพไทยบุกฟินแลนด์ เชื่อมพันธมิตร Space Tech-AI ดึงลงทุน - ข่าวหุ้นธุรกิจออนไลน์",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA5bkFSaFM5N3gwdTIxWkMza3pIa2hRcDdHTDRCYmdSMm40bS1JbTkyYVlLMzRpWHcxeHU4eWk2cjE3UExfQWIxVHNSNA?oc=5",
+          "publisher": "ข่าวหุ้นธุรกิจออนไลน์",
+          "publishedAt": "Thu, 19 Nov 2026 06:54:41 GMT"
+        }
+      ]
+    },
+    {
+      "id": "sig-10-mwp2pedy",
+      "title": "Ministry of Commerce Launches Digital Connect Program for SME Regional Exports",
+      "summary": "The Ministry of Commerce and OSMEP launched the Digital Connect initiative to assist Thai SMEs in expanding digital storefronts across ASEAN markets, starting with the Philippines. The program provides localized e-commerce support, logistics integration, and platform onboarding assistance.",
+      "soWhat": "Logistics operators and B2B SaaS platforms should establish ready-made cross-border enablement packages to target SMEs leveraging government trade programs.",
+      "titleTh": "กระทรวงพาณิชย์เปิดโครงการ Digital Connect ดัน SME ไทยบุกอีคอมเมิร์ซอาเซียน",
+      "summaryTh": "พาณิชย์ผนึก สสว. เปิดตัวโครงการ Digital Connect พาร้านค้าและ SME ไทยปักหมุดขายสินค้าออนไลน์ข้ามพรมแดน โดยประเดิมตลาดฟิลิปปินส์ผ่านการสนับสนุนด้านระบบการค้าดิจิทัลและโลจิสติกส์",
+      "soWhatTh": "ผู้ให้บริการโลจิสติกส์และแพลตฟอร์ม B2B SaaS ควรออกโซลูชันสำเร็จรูปเพื่อรองรับกลุ่มผู้ประกอบการ SME ที่เข้าร่วมโครงการส่งออกของภาครัฐ",
+      "category": "Industry",
+      "impact": 3,
+      "confidence": 0.75,
       "timeHorizon": "3-6mo",
       "tags": [
-        "SME",
-        "Cross-Border E-Commerce",
-        "ASEAN Expansion",
-        "Export"
+        "SME Export",
+        "Digital Connect",
+        "Philippines",
+        "E-Commerce"
       ],
       "sources": [
         {
@@ -406,129 +544,6 @@
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE9FWmdmUW1BWmhMRHg0QmZTR1BIeHUxNkdxd25Gdi1WZVQ0WVVXTzVpakxqaFpvQW9lY3pFcGNZSzNrbUV4VVhGY0JGaWlmWm1sMklyRA?oc=5",
           "publisher": "เนชั่นทีวี สถานีข่าว 24 ชั่วโมง",
           "publishedAt": "Thu, 19 Nov 2026 10:52:00 GMT"
-        }
-      ]
-    },
-    {
-      "id": "sig-8-mwohidok",
-      "title": "Thailand Partners with Finland to Accelerate Space Tech and AI Startups",
-      "summary": "Thai technology agencies are building partnerships with Finland to connect local startups with international expertise in space tech and advanced AI. This cooperation aims to attract global venture funding and uplift Thailand's deep-tech startup ecosystem.",
-      "soWhat": "Enterprise strategy teams should monitor space tech and satellite data applications for logistics, infrastructure management, and precision supply chain planning.",
-      "titleTh": "ไทยจับมือฟินแลนด์เชื่อมพันธมิตร Space Tech และ AI ยกระดับสตาร์ทอัพ",
-      "summaryTh": "หน่วยงานภาครัฐด้านเทคโนโลยีของไทยร่วมมือกับฟินแลนด์ในการเชื่อมโยงสตาร์ทอัพไทยกับพันธมิตรรอบโลกด้าน Space Tech และ AI ขั้นสูง ความร่วมมือนี้มุ่งดึงดูดการลงทุนต่างชาติและยกระดับระบบนิเวศ Deep Tech ของไทยสู่ระดับสากล",
-      "soWhatTh": "ทีมกลยุทธ์องค์กรควรติดตามการประยุกต์ใช้เทคโนโลยีอวกาศและข้อมูลดาวเทียมเพื่อนำมาใช้ประโยชน์ด้านการบริหารจัดการโครงสร้างพื้นฐานและห่วงโซ่อุปทาน",
-      "category": "Technology",
-      "impact": 3,
-      "confidence": 0.85,
-      "timeHorizon": "1yr+",
-      "tags": [
-        "Space Tech",
-        "AI Startups",
-        "Finland Partnership",
-        "Deep Tech"
-      ],
-      "sources": [
-        {
-          "title": "ดีอี-ดีป้า พาสตาร์ทอัพไทยบุกฟินแลนด์ เชื่อมพันธมิตร Space Tech-AI ดึงลงทุน | ข่าวหุ้นธุรกิจ - LINE TODAY",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9QUTFEMjlkMFFIVTNMX0NyQVJiVC1UenpzQWZ1Rzd0aTVsTkhlVkY5eU4ycHlLakpTZXR4TUMyazJUdVlIMTZwaU5tQ1VrQmpURGlPWjFWT3F4azlRTGdtYzZxLU9ldUxYaVZ2Q3Vlb3RQbXM3Y1d3ZWFFT1lPUQ?oc=5",
-          "publisher": "LINE TODAY",
-          "publishedAt": "Tue, 17 Nov 2026 08:00:00 GMT"
-        },
-        {
-          "title": "ไชยชนก ชูจุดแข็งตลาดไทย ดึงบริษัทเทคฟินแลนด์จับมือสตาร์ทอัพไทย ปั้นธุรกิจ AI-อวกาศ - มติชนออนไลน์",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE94LVNlWmQ3NVFZQXZRaTZPU1BwZldmNmpUSXNBaHRUMmJZLXBYcFVacVQwUWtUTFV1ejIyd3M5eEF2U1NPMFZFRW5vb0Q1c1lwWVpEZG5EcW1MdXM?oc=5",
-          "publisher": "มติชนออนไลน์",
-          "publishedAt": "Wed, 18 Nov 2026 12:32:46 GMT"
-        },
-        {
-          "title": "ดีอี-ดีป้า พาสตาร์ทอัพไทยบุกฟินแลนด์ เชื่อมพันธมิตร Space Tech-AI ดึงลงทุน - ข่าวหุ้นธุรกิจออนไลน์",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFA5bkFSaFM5N3gwdTIxWkMza3pIa2hRcDdHTDRCYmdSMm40bS1JbTkyYVlLMzRpWHcxeHU4eWk2cjE3UExfQWIxVHNSNA?oc=5",
-          "publisher": "ข่าวหุ้นธุรกิจออนไลน์",
-          "publishedAt": "Thu, 19 Nov 2026 06:54:41 GMT"
-        }
-      ]
-    },
-    {
-      "id": "sig-9-mwohidok",
-      "title": "Residential Solar Market Surges Fueled by Government Rooftop Incentives",
-      "summary": "Thailand's residential solar market is expanding rapidly, supported by government initiatives promoting rooftop solar adoption. Clean energy companies are shifting toward B2C markets and integrating battery storage to capture growing household demand.",
-      "soWhat": "Consumer tech and home appliance manufacturers should partner with energy firms to build integrated smart-home energy management solutions.",
-      "titleTh": "ตลาดโซลาร์เซลล์ครัวเรือนไทยบูม ภาคเอกชนรุกหนัก B2C และแบตเตอรี่",
-      "summaryTh": "ตลาดโซลาร์เซลล์ภาคครัวเรือนในไทยขยายตัวอย่างรวดเร็วโดยได้รับแรงหนุนจากนโยบายสนับสนุนการติดตั้ง Solar Rooftop ของภาครัฐ บริษัทพลังงานสะอาดเร่งรุกตลาด B2C และธุรกิจแบตเตอรี่เพื่อรองรับความต้องการของครัวเรือน",
-      "soWhatTh": "ผู้ผลิตสินค้าเทคโนโลยีและเครื่องใช้ไฟฟ้าภายในบ้านควรร่วมมือกับผู้ให้บริการพลังงานเพื่อพัฒนาโซลูชันบริหารจัดการพลังงานอัจฉริยะสำหรับที่อยู่อาศัย",
-      "category": "Consumer",
-      "impact": 3,
-      "confidence": 0.7,
-      "timeHorizon": "3-6mo",
-      "tags": [
-        "Solar Rooftop",
-        "Clean Energy",
-        "Battery Storage",
-        "B2C"
-      ],
-      "sources": [
-        {
-          "title": "UPDATE: ไทยบูมโซลาร์เซลล์ นโยบายล้านหลังคาปลุกตลาด ‘ION Energy’ รุกสนาม B2C ต่อยอดธุรกิจแบตเตอรี่ ตั้งเป้ารายได้ปี 70 โตเท่าตัวแตะ 600 ล้าน ตลาดโซลาร์เซลล์ภาคครัวเรือนไทยกำลังเข้าสู่ช่วงเปลี่ยนผ่านสำคัญ หลังภาครัฐทยอยออกมาตรการสนับสนุนการติดตั้ง Solar Rooftop - Facebook",
-          "url": "https://news.google.com/rss/articles/CBMiqwZBVV95cUxNRGxiblRXQVNiOU5FN0hvYU8yMUxHbnZCUm9PWkd4VXppamZwcGhZOGFnTlJhLTJUYkozVktyVkNKQ1lPd2RJb3B4bnkwZXZrbXdWRS1QV3dHUkx2NEVfUjhSUXRaNU5wcUt5bk1Fb3pCTEs5b3A1anBHbGZvOFdaclN3Tm9ZYnZJSHF2WFJIMlA3c2U2ZjR1ZG1na2lHMUtFUTQxU1V5N3BRRGpvQ3d0bWlUZU5fcFFCNVhVeGJzM1VxdFJXQTVZQVlMS0ZaTElERGRuTDBLaHhnNkFqd3AyUWZhYlJ1LWxwWDlGUnlNMkJ3ZFFRcmEyczBNd0FkNEY3TWlwbUJaME5ZU3ZwbmZ3c2Q0SGxDM3A5YnJZZzNPUV9HcE9vLWg5VHFQSEZ3ajdHLWx5MGg4M2lDOU85R2hwV0VYMnFwSmVwcHVPbkJTR3hIaVdSVXdHVFNvNDRNS29vdWRad1dkS0I2TGdlbG1nSUpJbXhKd0xqUC1PRkFwcnFodWFHUl9mdDN4NHAzdmRWbnNaTUpOZ2pKUWg3VDRQMllQWWlrb2dNbWE1dzZXT2dkWHNWTlI1VjN6T29sWmtOaUpGVHR4VzRSX0t5ZC0tSXBad3FCOVlUX2Y0ZHR0a1k5QThrMUFTRjhyVTJjVTdnMU5oSzh0RzVRR25kazdtUFE3MUx3eUVNX245WE1MczhjWVNnWGdEWEd1U1R3by04QnJrWG5lb2dpOGpTX3l1LVhtQ2MteUpzbGV4Nm5vNGJoN2hTLURZYkthbnNSdGJkeEVCQ0JWSGpLTFV6dHJsRUsxdFRiYmZPYkFIazdLUzFMZmFOMWpaMGtBY3dPVG5RT3NhVWYySDZvSU9QbVRhdUkxZWpRUjVoYlJ2SXJTbUFiblkteDNCaHkzM2JJQUFMS1lVQUh1eTFDbjNJODAwMlhoOGp1cDdzNUt6cG9hOVY5MmxEbnh4aTlJZDRVcmJmd2t2cFctcktrM19zQjN1cGZnZFhhcjJLeC1EU2Nxa0p0UC1Ka3hYd1JPanJWblFscUU0Z191d0tBQlltUkVxME9QSG9DTWFMSi00?oc=5",
-          "publisher": "Facebook",
-          "publishedAt": "Thu, 19 Nov 2026 08:09:35 GMT"
-        }
-      ]
-    },
-    {
-      "id": "sig-10-mwohidok",
-      "title": "Thai Consumer Shift Toward Sustainability, Creator Commerce, and Premium Quality",
-      "summary": "Thai consumer behavior is increasingly driven by sustainability values, luxury digital experiences, and functional skincare innovations. Furthermore, major consumer brands are adopting creator affiliate models and local retail partnerships to compete against cross-border platforms.",
-      "soWhat": "Consumer marketing teams should redirect resources toward affiliate creator ecosystems and value-aligned product messaging to build brand trust and sustain margins.",
-      "titleTh": "พฤติกรรมผู้บริโภคไทยปรับสู่ความยั่งยืน สินค้าลักชูรี และ Affiliate Commerce",
-      "summaryTh": "พฤติกรรมผู้บริโภคไทยหันมาให้ความสำคัญกับคุณค่าความยั่งยืน สินค้าลักชูรี และนวัตกรรมดูแลสุขภาพผิวเพิ่มมากขึ้น ขณะเดียวกันแบรนด์ใหญ่เร่งปรับตัวจับมือร้านค้าท้องถิ่นและใช้ระบบ Affiliate ผ่านครีเอเตอร์เพื่อสู้ศึกอีคอมเมิร์ซ",
-      "soWhatTh": "ฝ่ายการตลาดสินค้าอุปโภคบริโภคควรปรับงบประมาณเน้นการสร้างเครือข่ายครีเอเตอร์และชูจุดเด่นด้านคุณค่าของสินค้าเพื่อสร้างความภักดีในแบรนด์และรักษาอัตรากำไร",
-      "category": "Consumer",
-      "impact": 3,
-      "confidence": 0.9,
-      "timeHorizon": "Now",
-      "tags": [
-        "Consumer Trends",
-        "Sustainability",
-        "Affiliate Marketing",
-        "Premiumization"
-      ],
-      "sources": [
-        {
-          "title": "LINE เปิดอินไซต์ลูกค้าลักชูรีไทย พร้อมช้อป-เปิดใจให้แบรนด์ใหม่ ถอดกลยุทธ์สร้างประสบการณ์พรีเมียมน่าจดจำ - LINE TODAY",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5EdlFLMjc0bnZGV3NhYUFnSFZwNVU1SHY0YWEzVjlYZTQ3cXBHMUZzZ0hKS0ZqS3A0aFlHVVFoejNWOElRMktISjUwM1hlQ0oyNzNKMGJ3?oc=5",
-          "publisher": "LINE TODAY",
-          "publishedAt": "Wed, 18 Nov 2026 15:30:04 GMT"
-        },
-        {
-          "title": "ส่องเทรนด์ ‘ตลาดนัดรักษ์โลก’ บูม ผู้บริโภคซื้อสินค้าจากคุณค่า ไม่ใช่แค่ราคาถูก - springnews",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1fb2RRdkFEdzdnUG1DVmhMUDlhX2Q4WGs2VGg5VlY3U3NJMmFHVkZOS3huSFN0LTMzZWlVdy1FbzIzM3lqN2l6dDl2azFyMHlWLU1WcXVpbEE3SUNZYkU1VGtuMmgzSl9uU2pmSThfRQ?oc=5",
-          "publisher": "springnews",
-          "publishedAt": "Sun, 15 Nov 2026 03:53:37 GMT"
-        },
-        {
-          "title": "บิ๊กมูฟ! ยูนิลีเวอร์รุกหนัก ผนึก Thaimart เปิดช็อปทางการ ชู Affiliate ให้ครีเอเตอร์ทำเงิน ดันอีคอมเมิร์ซไทยสู้ต่างชาติ - Forbes Thailand",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUDN4a1lNX0l2djA2R1pKOGo5RVlodzRNeTZ4QTFKUEhqUWNkT004S1FuTHBISTdhQmdHZzhZWllXZlNla3FOVEFjNW1pbWphUzJrVzZSRHpva1oxWkdoQVIteURMcGo2WXgyZEdqZVlyWW55NEZDZWJuT09aSmpUSGpNOVNXbm5sMTR6SzlQTU5mSjFUbERqZEVqbWlWbFM2RTdCT2hzZEZkYkVuSnpvRlV0SUtHSk4yM2R1TzRkaEhXZ1hiZEJV?oc=5",
-          "publisher": "Forbes Thailand",
-          "publishedAt": "Mon, 16 Nov 2026 05:12:22 GMT"
-        },
-        {
-          "title": "ยูเซอริน รุกตลาดสกินแคร์ไทย 1.06 แสนล้านบาท เปิดตัว “PROBIOM8” นวัตกรรมดูแลผิวเป็นสิว รับเทรนด์ผู้บริโภคยุคใหม่ใส่ใจสุขภาพผิว - Positioningmag",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFAxVHZLRzlkYnBNd3dNSWRQLWpTQ01tR19hUXpBQXlWRjZIczM2cm5HRHZXejQwWjdTMTBZZkNJeUFjQmd1VThpSmJBSFROV0tmbktV?oc=5",
-          "publisher": "Positioningmag",
-          "publishedAt": "Mon, 16 Nov 2026 04:17:38 GMT"
-        },
-        {
-          "title": "BAOJI ปรับเกมธุรกิจ 28 ปี พลิกแบรนด์รองเท้าไทยสู่ Fashion & Lifestyle เปิดตัว ‘bbold’ เจาะตลาดผู้หญิง รับเทรนด์ Total Look - ไทยโพสต์",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5GMjYtTTA5ZGt0MlVYTUtDYW5XaGhsc0dvRHhQZU9CZWR2Q2Roa2lwVHFOQ1J5YWlpNXk3bk1UNjFKZl85MWZqRU1Dam9IcklkVFdlV00wUTdfUQ?oc=5",
-          "publisher": "ไทยโพสต์",
-          "publishedAt": "Wed, 18 Nov 2026 06:31:54 GMT"
-        },
-        {
-          "title": "ส.อ.ท. เปิดหลักสูตร CHINA BUSINESS SURVIVAL “ถอดรหัส รอดธุรกิจจีน” เสริมแกร่ง SMEs ไทย สู่โอกาสการค้าและการลงทุนระหว่างประเทศ - สภาอุตสาหกรรมแห่งประเทศไทย",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTWllTzNCckJrNGp6alZDVWlKU3kxOFVzYVJCbTZFbHNsbDJZVDlDRkFEaTRMZlRMNzUzRUVfTWk3S2NPalA3MmZJdUNRM0VTVnlwNlliVFlBMTB3YWFMbUZtWE92dUI2ZU93bEVVUXYzdkpBTzdvV0VaVTBLek1JUjdmd0I0QXZNS0xJ?oc=5",
-          "publisher": "สภาอุตสาหกรรมแห่งประเทศไทย",
-          "publishedAt": "Fri, 13 Nov 2026 07:39:02 GMT"
         }
       ]
     }
