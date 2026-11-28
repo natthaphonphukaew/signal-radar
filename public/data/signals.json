@@ -1,191 +1,528 @@
 {
-  "generatedAt": "2026-11-28T00:43:46.305Z",
+  "generatedAt": "2026-11-28T14:36:58.112Z",
   "stats": {
     "feedsScanned": 10,
-    "feedsFailed": 9,
-    "articlesFetched": 10,
-    "signalsProduced": 6,
-    "durationMs": 50286,
+    "feedsFailed": 1,
+    "articlesFetched": 70,
+    "signalsProduced": 12,
+    "durationMs": 87362,
     "model": "gemini-3.6-flash"
   },
   "signals": [
     {
-      "id": "sig-1-mwzot14x",
-      "title": "US Proposes Section 301 Tariffs on ASEAN Export Hubs",
-      "summary": "The US Trade Representative proposed tariffs up to 18 percent on Thai goods and 20 percent on Singapore under Section 301. The move signals escalating trade friction as Washington increases scrutiny on ASEAN supply chain transshipments.",
-      "soWhat": "Thai exporters must immediately audit supply chain origin compliance and diversify destination markets to mitigate potential tariff risks.",
-      "titleTh": "สหรัฐฯ เสนอเก็บภาษีมาตรา 301 กระทบฐานส่งออกอาเซียนและไทย",
-      "summaryTh": "ผู้แทนการค้าสหรัฐฯ เสนอเก็บภาษีนำเข้าสินค้าไทยสูงสุด 18% และสิงคโปร์ 20% ภายใต้การสอบสวนตามมาตรา 301 เรื่องสินค้าล้นตลาดและการสวมสิทธิ การเคลื่อนไหวนี้สะท้อนว่าอาเซียนกำลังเผชิญความเสี่ยงสูงขึ้นจากการถูกเพ่งเล็งว่าเป็นทางผ่านของสินค้าและเทคโนโลยีจากจีน",
-      "soWhatTh": "ภาคการผลิตและส่งออกของไทยต้องเร่งตรวจสอบสำแดงถิ่นกำเนิดสินค้าและกระจายตลาดส่งออกเพื่อลดผลกระทบต่ออัตรากำไรหากภาษีมีผลบังคับใช้",
+      "id": "sig-1-mx0ikj28",
+      "title": "Thailand Overhauls Investment Policies to Target AI, EV, and Deep Tech",
+      "summary": "Thai economic authorities and BOI are revamping investment incentives for 2027, shifting away from short-term stimulus toward attracting high-value foreign manufacturing. The updated framework raises minimum capital thresholds for large projects while creating dedicated tracks for SMEs to integrate into global supply chains.",
+      "soWhat": "Enterprise strategists should align expansion projects with BOI target supply chains—such as AI hardware and EV components—to capture upgraded tax privileges and co-investment support.",
+      "titleTh": "ไทยรื้อเกณฑ์สิทธิประโยชน์ BOI ดึงการลงทุน AI และ EV ขับเคลื่อนเศรษฐกิจระยะยาว",
+      "summaryTh": "หน่วยงานเศรษฐกิจและ BOI ปรับเปลี่ยนมาตรการส่งเสริมการลงทุนปี 2570 โดยลดการกระตุ้นระยะสั้นและมุ่งดึงการลงทุนย้ายฐานในอุตสาหกรรมมูลค่าสูง กรอบใหม่นี้ปรับเพิ่มเกณฑ์เงินลงทุนขั้นต่ำของโครงการใหญ่ ควบคู่กับการเปิดช่องทางให้ SME ไทยเชื่อมโยงเข้าสู่ห่วงโซ่อุปทานระดับโลก",
+      "soWhatTh": "ฝ่ายกลยุทธ์องค์กรควรเร่งปรับแผนการลงทุนให้สอดรับกับอุตสาหกรรมเป้าหมายอย่าง AI และ EV เพื่อรับสิทธิประโยชน์ทางภาษีและโอกาสร่วมทุนจากภาครัฐ",
       "category": "Economic",
       "impact": 4,
-      "confidence": 0.85,
+      "confidence": 0.9,
       "timeHorizon": "3-6mo",
       "tags": [
-        "Tariffs",
-        "Trade Policy",
-        "Exports",
-        "Supply Chain"
+        "BOI",
+        "Investment Policy",
+        "AI Supply Chain",
+        "EV",
+        "Thailand Economy"
       ],
       "sources": [
         {
-          "title": "14 ประเทศที่สหรัฐฯ เสนอขึ้นภาษี อาเซียนโดนอ่วม 6 ประเทศ เวียดนามหนักสุด 35%",
-          "url": "https://techsauce.co/news/us-tariffs-14-countries-asean",
-          "publisher": "Techsauce",
-          "publishedAt": "Fri, 27 Nov 2026 15:25:35 +0700"
+          "title": "UPDATE: ‘ชาติศิริ’ ชี้คลื่นลงทุนย้ายฐานรอบใหม่ใหญ่เทียบเท่ายุคญี่ปุ่น แนะเร่งปลดล็อกโครงสร้าง ด้าน ‘ดร.กอบศักดิ์’ กาง 4 โจทย์ชี้ชะตาประเทศ เตือน AI ดิสรัปต์แรงงานทักษะสูง ‘ชาติศิริ’ มองกระแสย้ายฐานการผลิตรอบใหม่เข้าสู่อาเซียนและไทย มีขนาดใหญ่เทียบเท่ายุคญี่ปุ่นเมื่อ 30-40 ปีก่อน เชื่อหนุนเศรษฐกิจต่อเนื่องไปอีก 3-4 ปีข้างหน้า ย้ำไทยมีจุดแข็งพร้อมรับโอกาส แต่ต้องเร่งแก้ไขข้อจำกัดเชิงโครงสร้าง ขณะที่แบงก์กรุงเทพพร้อมเชื่อมโยงธุรกิจในภูมิภาคและใช้ AI ยกระดับบริการ ด้าน ‘ดร.กอบศักดิ์’ กาง 4 โจทย์ใหญ่ชี้ชะตาประเทศช่วงโค้งสำคัญ 2-3 ปีข้างหน้า พร้อมเตือนคลื่น AI จะเข้ามาทดแทนแรงงานเกือบทุกมิติ แม้แต่สายงานทักษะสูง ชาติศิริ โสภณพนิช กรรมการผู้จัดการใหญ่ ธนาคารกรุงเทพ จำกัด (มหาชน) เปิดเผยในงานเสวนาซีรีส์ ‘โจทย์ใหญ่ประเทศไทย’ ซึ่งจัดขึ้นร่วมกับ สุทธิชัย หยุ่น เมื่อวันที่ 25 พฤศจิกายน 2569 ณ ธนาคารกรุงเทพ สำนักงานใหญ่ สีลม โดยระบุว่า โลกกำลังเผชิญกับความผันผวนและการเปลี่ยนแปลงอย่างรวดเร็ว ทั้งปัญหาภูมิรัฐศาสตร์และภูมิเศรษฐศาสตร์ (Geopolitics & Geoeconomics) ที่ลุกลามไปสู่สงครามการค้า การเปลี่ยน - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMi1gdBVV95cUxOOWNFakEzNXRSVE85dUNPc1M3LUZHZEJSZE04NHdUVHJBUmlSN2M3UzR2cFUxXzB4V09KX2VhdW9wLXI5c215RmdBZGdib0RrWHRPN2dlSkxhdHdXalhQN0ZPMmt0N2YyZWpnUnVxOW00d05BdFE0cmVmM1hFaE1LQW1CT1RQWFpiTm16SC1NVFRFd20wUHhOWS1YdlJINkkwWmtXZGY4Y1IyeFl4Z1F3QWctNUE3ZGhZMXc4UGo4NUlGMDBHbTVRbjJBT3A4bHpmS0I5cE0tSmJFREp5czdObENRSjVVZFVaWnVpWnBmTFYxUnBhQ2RhRkgwcEEzQ1FQajA3ZTc5MnVYeWlHaEFKb3F2ZWRxOXZHSE9LY2VtZFM5MnZPcUdzWDhDWFZRZzZzdC1CUHBsRjk5RXFhZWxkcDFTWlpCSFpzb0VBVXB4ZE5wcUhfQVY2YjhOc2NuS0ZaT0RvdnBrNXJuWU9NVWFUVHV5NU9EOHJaS1ptcGNjN3RvYm53MzVNNm1XSW8zdDYzWm9ZUlJpVUM0N083VXpfTi14RjdlN2ZDc244by01SXRqWXNGQzhqMThiOTZWWVJaV1NxWEZ3MWEzMTA3RUhQR0tqUEpiSTc5S1RsakdaZ0dpYUZ1YTBtSGJUT0t0ZFd4SzVJcFpPR0QzOTUtcWRYbmFPUS02aFNqNzdUWmI3SlR3bVBkMjZYNkR0aGlxcW93X2c4UjBna0ljYThETHcyYlprMkN5MzN0SnRGX0tmdDJGekJLT2VyWEIwUFNJdUZiVHl2QURoUDNVSGozd2xRckRXLVFsTHVhbnJfQWlDRnI3Zml4c3N5bHctangwa0pPczFZWFFnOFRBd0wzU09YUkxjYW5YeXQ0QjBEazN6YU5jd1FqUWVGZ2VZb2NORFFKMUg0SUFVc0NhT3VVLUlMOXpVYnMwd3NWRlFWUHhkLTdkdmUwcnN4T2h6UzhNc1NXNzQ5aWVDVjVCNmpaSUpwQks5Nk1uU3dOc2kwbU5jRTlRWTJsVmxubndZZzI5ZkFLUVZ4UzF4U0E0MzVaaVlrdVBaV2lSN1ZmUm1wa1B2U284cHhsejhteElHbzZCbmdhVWFkbFNMQklNNW1jcnJLUmxiWG5aX21RaVVISzdmRkRvcW1ZcVNZZzJoeEtBYVN6MXg5bUtCNXpaSl9KWEE3STFHMm02Ti1NUzBsRHc0bG1CT1NjbE9oc1JwN2x4Vi1rY09fWUp1NWxEUWd3RUQ0Vkt4X3ZmMHVoV2ZwRGR5WlVkSEpseDN5bFhUOHhlY214OU8tX1NR?oc=5",
+          "publisher": "Facebook",
+          "publishedAt": "Wed, 25 Nov 2026 13:14:12 GMT"
         },
         {
-          "title": "สหรัฐฯ เสนอภาษี 20% ให้สินค้าจากสิงคโปร์ สองวันหลังแบนบริษัทคลาวด์ Megaspeed ตั้งข้อสังเกตประเด็นทางผ่านชิป AI ไปจีน",
-          "url": "https://techsauce.co/news/ustr-proposes-20-percent-tariff-singapore-excess-capacity",
-          "publisher": "Techsauce",
-          "publishedAt": "Fri, 27 Nov 2026 12:41:09 +0700"
-        }
-      ]
-    },
-    {
-      "id": "sig-2-mwzot14x",
-      "title": "Thailand BOI Tightens 2027 Promotion Rules to Boost Domestic Sourcing",
-      "summary": "Thailand's Board of Investment revised its 2027 guidelines, raising minimum manufacturing investment thresholds to 20 million THB while tying incentives to domestic employment and local raw material usage. Simultaneously, the board lowered the investment entry threshold for Thai SMEs to 500,000 THB.",
-      "soWhat": "Industrial manufacturers operating in Thailand should restructure supply chains to maximize local procurement and retain top-tier tax incentives.",
-      "titleTh": "บอร์ดบีโอไอปรับเกณฑ์ปี 2570 มุ่งเพิ่มสัดส่วนวัตถุดิบและการจ้างงานในประเทศ",
-      "summaryTh": "บอร์ดบีโอไออนุมัติปรับเกณฑ์ส่งเสริมการลงทุนปี 2570 โดยปรับเพิ่มทุนลงทุนขั้นต่ำสำหรับกิจการผลิตเป็น 20 ล้านบาท และผูกสิทธิประโยชน์ภาษีกับการจ้างงานและใช้วัตถุดิบในประเทศ ในขณะเดียวกันได้ลดเกณฑ์เริ่มต้นสำหรับ SMEs ไทยเหลือเพียง 5 แสนบาทเพื่อกระตุ้นการลงทุนรายย่อย",
-      "soWhatTh": "ภาคอุตสาหกรรมในไทยต้องปรับโครงสร้างการจัดซื้อจัดจ้างโดยเพิ่มสัดส่วนวัตถุดิบในประเทศเพื่อรักษาการได้รับสิทธิประโยชน์ทางภาษีขั้นสูงสุด",
-      "category": "Economic",
-      "impact": 4,
-      "confidence": 0.8,
-      "timeHorizon": "1yr+",
-      "tags": [
-        "BOI",
-        "Investment",
-        "Supply Chain",
-        "SMEs"
-      ],
-      "sources": [
+          "title": "ยกเครื่องเกณฑ์ลงทุนปี’70 เอื้อเศรษฐกิจไทยไม่เน้นมูลค่า | The Better - LINE TODAY",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE5lN2F5RS0yWXlVOXZCUmNqdmdlUFVOVjhSRmxKRXhOcmhwWFVCamNTYkhhVUFNQ0VsdDBOa0FBYnRidGJIeExLTWJTVTdPWC10WlB2YTc4UzhPMWhEc0duRU9BOTd3dmxSbFBUbXBzWjlMRW1xaVVVRA?oc=5",
+          "publisher": "LINE TODAY",
+          "publishedAt": "Fri, 27 Nov 2026 11:05:04 GMT"
+        },
+        {
+          "title": "\"เอกนิติ\" ปั้นลงทุนใหม่ขับเคลื่อนเศรษฐกิจ ดันไทยเข้าซัพพลายเชน AI-EV ก้าวสู่ Next Take-off : อินโฟเควสท์ - สำนักข่าวอินโฟเควสท์",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5nV2lNanM1aHJJUHR2T2RQRlQzMHNSTjllcGR4M3M5TDMtMUFTOVY1UlFnaDlhNUFORXdqSG8wWmktS0dBQjhhTUFaTkZ6cDlY?oc=5",
+          "publisher": "สำนักข่าวอินโฟเควสท์",
+          "publishedAt": "Thu, 26 Nov 2026 09:13:00 GMT"
+        },
         {
           "title": "บีโอไอปรับเกณฑ์ปี 2570 ลงทุนขั้นต่ำกิจการผลิตเป็น 20 ล้านบาท เปิดทาง SMEs ไทยลงทุนเริ่มต้น 5 แสน พร้อมอนุมัติ 2 โครงการใหญ่ มูลค่ากว่า 1 หมื่นล้านบาท",
           "url": "https://techsauce.co/news/boi-2570-investment-promotion-reform",
           "publisher": "Techsauce",
           "publishedAt": "Fri, 27 Nov 2026 16:21:46 +0700"
+        },
+        {
+          "title": "‘เอกนิติ’ กางเข็มทิศเคลื่อนเศรษฐกิจไทย ลดกระตุ้นสั้น เน้นดึงดูดการลงทุน - Thansettakij",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE9YU0hXR0ZzdERGV3d3cFljYVItcDdXdHM0ek9KUjktRGRwM3RLUW5zMFV2YVlVN1Q3V184NTJxdWppalQ2amYxOXVPZE4wNU96Z0J0c2F3?oc=5",
+          "publisher": "Thansettakij",
+          "publishedAt": "Thu, 26 Nov 2026 05:14:00 GMT"
+        },
+        {
+          "title": "“สันติธาร” ชู 4 Twists ดันลงทุนนำเศรษฐกิจ พลิกเกมธุรกิจไทย - ข่าวหุ้นธุรกิจออนไลน์",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1saUpmMUk2XzVTSmkxZnZZNm1EWXFrczJ0NFZfWDdOZVFPdkFXX3plQnNveWs4ZDBHTU84a3ZRdy1GMURLdDk5a1NGbEtMSndIUEhv?oc=5",
+          "publisher": "ข่าวหุ้นธุรกิจออนไลน์",
+          "publishedAt": "Wed, 25 Nov 2026 08:08:57 GMT"
+        },
+        {
+          "title": "‘สันติธาร’ หนุนไทยคว้า 4 โอกาสเศรษฐกิจ ใช้การลงทุนเป็นตัวนำ เร่งเพิ่มผลิตภาพ - bangkokbiznews",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1UaFZQYWlsS2d1OXlxVDUtS01mNmY5QVNSQ3pmTjVEakk3Nlh5Wks5UUEwRUxwUFp2RDlYN0U0M0JBSTV2WXFIUXhTNTFET0VneXlmZURVSHZ2bGlI?oc=5",
+          "publisher": "bangkokbiznews",
+          "publishedAt": "Wed, 25 Nov 2026 09:13:00 GMT"
         }
       ]
     },
     {
-      "id": "sig-3-mwzot14x",
-      "title": "Southeast Asia Prepares Financial Governance for Agentic AI Deployments",
-      "summary": "Singapore is defining regulatory frameworks for autonomous AI agents capable of executing financial transactions, while regional tech leaders encourage operational AI agent development. This shift highlights the evolution of AI from conversational assistants to decision-making operational actors.",
-      "soWhat": "Financial services and e-commerce strategists must establish robust risk management protocols and accountability frameworks before deploying transactional AI agents.",
-      "titleTh": "อาเซียนเร่งวางระบบกำกับดูแลรองรับ AI Agent ทำธุรกรรมอัตโนมัติ",
-      "summaryTh": "สิงคโปร์เริ่มวางกรอบการเงินและการกำกับดูแลสำหรับ AI Agent ที่สามารถทำธุรกรรมการเงินได้เอง ขณะที่ยักษ์ใหญ่เทคโนโลยีอย่าง Sea เร่งพัฒนาโซลูชัน AI Agent ใช้งานจริง พัฒนาการนี้ชี้ให้เห็นว่า AI กำลังเปลี่ยนผ่านจากการตอบคำถามไปสู่การทำธุรกรรมแทนมนุษย์",
-      "soWhatTh": "ทีมกลยุทธ์ของบริษัทเทคโนโลยีและสถาบันการเงินต้องเร่งกำหนดแนวทางการรับผิดชอบและระบบควบคุมความเสี่ยงก่อนเปิดใช้ AI Agent ในเชิงพาณิชย์",
-      "category": "Technology",
+      "id": "sig-2-mx0ikj28",
+      "title": "K-Shaped Growth and Delayed Infrastructure Projects Risk Thai Economic Momentum",
+      "summary": "Thailand's GDP growth faces persistent pressure due to widening K-shaped inequality between large enterprises and struggling lower-income segments. Delayed key infrastructure projects, particularly in the Eastern Economic Corridor (EEC), threaten long-term competitiveness amid global macroeconomic risks.",
+      "soWhat": "Large consumer firms must hedge against sluggish mass-market demand while diversifying exposure toward high-income cohorts or international markets.",
+      "titleTh": "เศรษฐกิจไทยฟื้นตัวแบบ K-Shape และ EEC ล่าช้า กดดันกำลังซื้อระดับล่าง",
+      "summaryTh": "ภาพรวมเศรษฐกิจไทยยังคงเผชิญความท้าทายจากภาวะ K-Shape ที่ความเหลื่อมล้ำระหว่างกลุ่มทุนใหญ่และรายย่อยขยายตัวกว้างขึ้น นอกจากนี้ ความล่าช้าของโครงการโครงสร้างพื้นฐานในพื้นที่ EEC ยังเป็นความเสี่ยงสำคัญต่อขีดความสามารถในการแข่งขันของประเทศ",
+      "soWhatTh": "ธุรกิจสินค้าอุปโภคบริโภคจำเป็นต้องปรับพอร์ตสินค้าเพื่อรับมือกับกำลังซื้อฐานรากที่ซบเซา โดยหันไปเน้นกลุ่มลูกค้ารายได้สูงและตลาดต่างประเทศมากขึ้น",
+      "category": "Economic",
       "impact": 4,
-      "confidence": 0.8,
-      "timeHorizon": "3-6mo",
+      "confidence": 0.85,
+      "timeHorizon": "Now",
       "tags": [
-        "AI Agents",
-        "Fintech Governance",
-        "RegTech",
-        "AI"
+        "Macroeconomics",
+        "K-Shaped Recovery",
+        "EEC",
+        "GDP Growth"
       ],
       "sources": [
         {
-          "title": "สิงคโปร์วางรากฐานการเงินยุค AI จากสกัดมิจฉาชีพ สู่ระบบที่ Agent ทำธุรกรรมได้ภายใต้การควบคุม",
-          "url": "https://techsauce.co/tech-and-biz/singapore-fintech-festival-2026-ai-agents-tokenisation",
+          "title": "ผวา ‘เศรษฐกิจไทย’ ลวงตา จีดีพี 2.5% K ขาล่างทรุด ขาบนเสี่ยงหมดแรง . เศรษฐกิจไทยเผชิญโจทย์ซับซ้อนกว่าการเติบโตจากตัวเลขเศรษฐกิจ เพราะแม้สภาพัฒนาการเศรษฐกิจและสังคมแห่งชาติ (สภาพัฒน์) เพิ่มประมาณการ GDP ปี 2569 อยู่ที่ 2.5% และเศรษฐกิจไทยได้รับแรงสนับสนุนจา - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMivAdBVV95cUxQLWkyeXhEd2g5QjgtaFJpcHpWY3YtTG81ZjNoaFIwVmExeFBhU1hfa2VBZl9VRVlyOVZpYTQzTzdmVkQweWZMTVdUbW1tdnFnTTRrbzhId183dWRsQm5BR21FQ1BEMkVuNUlQVURJRFBjdHRDbzZkbDF6a1ZGN3VGOHY5RVlfZ21SS2xJQmJ2dmhaMW1sdmV0YU9GZFg2UFB6M1R3Z1EyekhlMzNyZWRfTEFKbDBCRWgtbHFERXdQRG4zUkFtMFB3ckdlWTM3TjJ2U0pVX0lyZDg1bmFVVjVBemczQnUwRGpLcmdlb0ZxQkZFVGNmNVM5eExGOU9DWExhd29XQVR3N2dwNDJMSGZsY1ctaHdNVk5ZM0lkZUxPN1o1N18tNkFKdElDRkY3bVdGd1l6azFjaGNqRGEzZWhnb25DUDdGVWo5QjRyQ1JBdHhJck9oRXd4dllqS2hpb2VkdG9sRVJNTjRGZTRyOXZiaXhmeDM2QUFHTWRmWmVMSi01TjdzVV92dG5wMTY1a3VqU1JYd05nSXBQR21qTm9aNFd1TUNrS2lXUTk3Q0J2U25TclB0TFBVd2haRHdUMkE4X0xGS05zdUpXREExMWhPMmV0R3I1ZlFKUEdndnNOaFI1WVhIYzRDY2hKVGx1eGNFMWYxM24tbGg0alRtSU1ZcGhTNi1NdDREYnZBY0xPZ3UxeWlDRmc5RzFVcTZYV3NJTHRRaWdLUENtRzVNQUxOSmU5ekxUUS1BZU10SHFyazBnUGFkWE9IUkNVVk9JUkJXUUZ5VWo2TUlrZThHcllmTkhjWVhkZ1MzbHMwQmtzdWtydUJDeFE5UXROdVhTSGY0SVE0UVI3THF6RzNhZldFdmJaM3oyUHpkRF8zM2NRbzMxZF9ubVFaNVQzRmtmdU5IYlp2VWloWTFpSG5iWUFhU1R6Tlg1Q21rYmtXQjJzbVY5UkFtOTFnS25PcWloUnlmTlg4SXdkNlcwOHJUaDRySmRzN1k5a0pZa1o1UktlRnlXREdxYWY2aC1HNTgyYl9DbjZ1N3pDN3BMT21FNE9LZzJudjVnb2xvUldmZXo4U1VxME1RRHFTcHhCYnJoQ1ZDaDNPbjFGSXNxdnlCTVE1QlZadlA2LTlnVkdzWnctZ3dnSmlZYkF1QURTejZJWnFwY3V3a29EZ0F6bExsLTFjbnpXXzJsa3BTY29DdW1xSVBpU3dRUXhJTHZ6blhjSDhHWW15WE9vajN3dGJzQzJDVDdSR3Y0WWdWVW1LRw?oc=5",
+          "publisher": "Facebook",
+          "publishedAt": "Mon, 23 Nov 2026 03:35:43 GMT"
+        },
+        {
+          "title": "EEC กำลังเผชิญวิกฤตอะไร? จากความล่าช้าของโครงการ สู่ความเสี่ยงต่ออนาคตเศรษฐกิจไทย - salika.co",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1jQTJ6QTc2d2UxZFBkMmdwUFdTWmxFdHJ4N2xDb3RxaWVCeXVFNEtVcXVsU2RUenV5RHd0clluTTdQVjhET3lQLWVjeGlRYUFJWGpWVTBTeHFzeXczUnhaTkUwZVNRZWtlV1FZYXFyenJnYXNIenc?oc=5",
+          "publisher": "salika.co",
+          "publishedAt": "Mon, 23 Nov 2026 10:02:49 GMT"
+        },
+        {
+          "title": "เศรษฐกิจไทยปี 2570 โตแต่เหนื่อย.!? - ข่าวหุ้นธุรกิจออนไลน์",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5QbVlVSjRtVVFLVU16aGREQWZfTVRNMnBuQlRyREVlQmhiX0wtZ215eUFxY3NRTnBSZ0FCQy1DM1dUMjNCN0trY29GUDdGZw?oc=5",
+          "publisher": "ข่าวหุ้นธุรกิจออนไลน์",
+          "publishedAt": "Thu, 26 Nov 2026 23:40:04 GMT"
+        },
+        {
+          "title": "SCB EIC เพิ่มคาดการณ์ GDP ปีนี้ เป็น 2.6% จับตา 3 ความเสี่ยงใหญ่ปี 2570 \"ตะวันออกกลาง-ภาษีสหรัฐฯ-Super El Nino\" - ThaiPublica",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE1OTTd0VXgyUUNWbjRzQnlZUE5xSnpmSzc0Y2RXRjJYdDczMXZPT3N4c3hZSi1RWDRVbjBaRWdHUWFPZld1ck5XaFdlNEI5T3dSRllLN2tMb1YweXNfb2hlZGNsU2FxeXU5MGxVdw?oc=5",
+          "publisher": "ThaiPublica",
+          "publishedAt": "Tue, 24 Nov 2026 13:40:32 GMT"
+        }
+      ]
+    },
+    {
+      "id": "sig-3-mx0ikj28",
+      "title": "Proposed US Section 301 Tariffs Threaten Thai Export Competitiveness",
+      "summary": "The United States has proposed new tariffs of up to 18% on Thai exports under a Section 301 investigation targeting 14 economies. This trade barrier risks disrupting major export-oriented manufacturing sectors across ASEAN as global trade tension escalates.",
+      "soWhat": "Exporters must urgently assess tariff exposure, audit regional origin content, and explore market diversification across non-US trade corridors.",
+      "titleTh": "สหรัฐฯ ชงขึ้นภาษีมาตรา 301 สูงสุด 18% กระทบภาคส่งออกไทย",
+      "summaryTh": "สหรัฐอเมริกาเสนอจัดเก็บภาษีนำเข้ารอบใหม่ภายใต้มาตรา 301 โดยไทยอาจถูกเรียกเก็บภาษีสูงสุดถึง 18% พร้อมกับอีก 13 เขตเศรษฐกิจ มาตรการกีดกันทางการค้านี้อาจส่งผลกระทบอย่างหนักต่อภาคการผลิตเพื่อการส่งออกของไทยในอุตสาหกรรมหลัก",
+      "soWhatTh": "ผู้ส่งออกไทยต้องเร่งประเมินผลกระทบจากโครงสร้างภาษีใหม่ และวางแผนกระจายความเสี่ยงไปยังตลาดอื่นนอกเหนือจากสหรัฐฯ ทันที",
+      "category": "Economic",
+      "impact": 5,
+      "confidence": 0.95,
+      "timeHorizon": "3-6mo",
+      "tags": [
+        "US Tariffs",
+        "Section 301",
+        "Exports",
+        "Geopolitics",
+        "Trade War"
+      ],
+      "sources": [
+        {
+          "title": "สหรัฐฯ ชงรีดภาษีรอบใหม่ 14 เขตเศรษฐกิจ - ไทยโดน 18% - Thai PBS",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1lalNKZ3hhQWphOFdhcVZOa0VxUHYzZlFFanRMRXRRaHZWNDBsZExpeTlMc2RWYXdJRUZJLVJ3Q0hlT3ZCNzJvUzhNN2JaTk5NQld2T0NXLWU?oc=5",
+          "publisher": "Thai PBS",
+          "publishedAt": "Thu, 26 Nov 2026 01:39:27 GMT"
+        },
+        {
+          "title": "14 ประเทศที่สหรัฐฯ เสนอขึ้นภาษี อาเซียนโดนอ่วม 6 ประเทศ เวียดนามหนักสุด 35%",
+          "url": "https://techsauce.co/news/us-tariffs-14-countries-asean",
           "publisher": "Techsauce",
-          "publishedAt": "Fri, 27 Nov 2026 17:32:23 +0700"
+          "publishedAt": "Fri, 27 Nov 2026 15:25:35 +0700"
+        }
+      ]
+    },
+    {
+      "id": "sig-4-mx0ikj28",
+      "title": "Thailand Tightens Customs Inspection and Raises Tax Ceilings on Cross-Border E-Commerce",
+      "summary": "The Thai Customs Department is stepping up box-by-box inspections of imported goods to enforce FTA regulations and curb low-cost foreign inventory floods. Furthermore, regulatory proposals aim to increase import duty ceilings on cross-border e-commerce platforms up to 30%.",
+      "soWhat": "Local retail brands and marketplaces must restructure supply chains and compliance processes as foreign ultra-low-cost sellers lose their tax advantages.",
+      "titleTh": "ศุลกากรไทยคุมเข้มสินค้าอีคอมเมิร์ซข้ามพรมแดน จ่อปรับเพิ่มเพดานภาษีสูงสุด 30%",
+      "summaryTh": "กรมศุลกากรเพิ่มความเข้มงวดในการตรวจสอบสินค้านำเข้ารายกล่องเพื่อสกัดสินค้าทุ่มตลาดที่ไม่มีคุณภาพและตรวจสอบเอกสาร FTA อย่างละเอียด พร้อมกันนี้ยังมีแนวทางปรับเพิ่มเพดานภาษีนำเข้าสำหรับแพลตฟอร์มอีคอมเมิร์ซข้ามพรมแดนสูงสุดถึง 30% เพื่อปกป้อง SME ไทย",
+      "soWhatTh": "ผู้ประกอบการค้าปลีกและแพลตฟอร์มในไทยควรอาศัยช่วงเวลานี้เร่งสร้างจุดแข็งด้านแบรนด์และคุณภาพสินค้าเพื่อชิงส่วนแบ่งตลาดคืนจากสินค้านำเขิาราคาถูก",
+      "category": "Industry",
+      "impact": 4,
+      "confidence": 0.9,
+      "timeHorizon": "Now",
+      "tags": [
+        "E-Commerce",
+        "Customs",
+        "Import Duties",
+        "SMEs",
+        "Cross-Border"
+      ],
+      "sources": [
+        {
+          "title": "'ศุลกากร' เรียกถกแพลตฟอร์ม e-Commerce แจงภาษีนำเข้า หนุน SME ไทยสู้สินค้าทะลัก - bangkokbiznews",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBwcTNVcUJYUDIxRnF3LTlMV3VRWkpaMXl3Yk9lVjVmSlRUTXUyeU1LbXRUcTJuRVVEWk4yOElseWZ5TEYydV92d3g3bHcxYkhzYVdZOFRjODY2TTZ3?oc=5",
+          "publisher": "bangkokbiznews",
+          "publishedAt": "Wed, 25 Nov 2026 00:00:00 GMT"
+        },
+        {
+          "title": "“ศุลกากร” กวดขัน “อีคอมเมิร์ซ” ตรวจเอกสาร FTA รายกล่อง–สั่งส่งกลับขยะพิษ 337 ตู้ - LINE TODAY",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5rdldTVWpDbTZMX3lmOWNMWlpPOUxleEdqdUlLQk8wa3ZjUk1jbFAwdGtlQnVGMGdPVVRFSmZRNjRiY21jLUZuTGM4dXFscmJHczZnMlV3?oc=5",
+          "publisher": "LINE TODAY",
+          "publishedAt": "Thu, 26 Nov 2026 11:47:24 GMT"
+        },
+        {
+          "title": "ปรับเพิ่มเพดานภาษีนำเข้า E-commerce สูงสุดไม่เกิน 30% ผลกระทบต่อผู้ประกอบการไทย ใครได้-ใครเสีย? (ศูนย์วิจัยกสิกรไทย) - siamturakij.com",
+          "url": "https://news.google.com/rss/articles/CBMixgJBVV95cUxNS3ZnUFJxeHdINF9fM1lxeUFHVGgzT09IT0JZYWdaUTBKOGZWRXpBQ0xKQlU5TWpIOUNqeEdlS05XOUFXNG9ZaXhMYjBkaHRSY3g1cHZwNmw0VWNnS2pVRUlLY3p1MmZxSExURC1wby1icEJHbW5ia0hESGh5eDZRMjF1eWJZT3U3S1I3bmdmUzk4alBTMUdMOWtORUpoWWhOUkVXN0s4MGZVcm85M0JYQU9jQm90VFNOZHBqTHVxNC1tR3BvWl8wUHdib1k2WkFBOGlyWmFGcVFiN2x2U2FpSlExUm1Wbi1BZGQxbV96VG9ZSWp4SEpvVnV1akNKNlRiSzlWT0ZMMDE3cVpBZ3F5YmY0V000Q012ZVJlc1E5ZjlYVW9GTTBvRERKdWszdG1kSDdqT09rTUctX3NRTWdTQnZNY3NoUQ?oc=5",
+          "publisher": "siamturakij.com",
+          "publishedAt": "Tue, 24 Nov 2026 02:15:59 GMT"
+        }
+      ]
+    },
+    {
+      "id": "sig-5-mx0ikj28",
+      "title": "Thai Enterprise AI Adoption Lags Behind Potential Amid Disruption Fears",
+      "summary": "Despite widespread interest in generative AI, Thai businesses report achieving only a 12% average productivity gain due to outdated internal processes and talent gaps. Experts warn that slow technology integration and rising labor disruption risk leaving legacy corporations behind global peers.",
+      "soWhat": "Enterprise leaders need to pivot from isolated AI pilots to systemic workflow redesign and aggressive workforce upskilling to realize tangible ROI.",
+      "titleTh": "ภาคธุรกิจไทยเผชิญช่องว่างการใช้ AI ชี้ประสิทธิผลโตเพียง 12% เหตุขาดการปรับกระบวนการทำงาน",
+      "summaryTh": "แม้ธุรกิจไทยจะตื่นตัวกับเทคโนโลยี AI แต่ส่วนใหญ่กลับเพิ่มผลิตภาพได้เพียง 12% เนื่องจากยังขาดการปรับเปลี่ยนโครงสร้างองค์กรและระบบงานอย่างจริงจัง ผู้เชี่ยวชาญเตือนว่าหากปรับตัวล่าช้า นอกจากจะตกขบวนการแข่งขันแล้ว ยังเสี่ยงต่อการถูก AI ดิสรัปต์แรงงานทักษะสูง",
+      "soWhatTh": "ผู้บริหารต้องเร่งเปลี่ยนผ่านจากการทดลองใช้ AI เป็นจุดๆ ไปสู่การยกเครื่องกระบวนการทำงาน (Workflow Redesign) และรีสกิลพนักงานอย่างเป็นระบบ",
+      "category": "Technology",
+      "impact": 4,
+      "confidence": 0.85,
+      "timeHorizon": "Now",
+      "tags": [
+        "AI Adoption",
+        "Productivity Gap",
+        "Workforce Disruption",
+        "Upskilling"
+      ],
+      "sources": [
+        {
+          "title": "“สันติธาร” ชี้ธุรกิจไทยใช้ AI เพิ่มผลิตภาพเพียง 12% แนะปรับระบบงาน–เร่งอัปสกิล - ข่าวหุ้นธุรกิจออนไลน์",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1wSGYtclU1azM4S25xU256VTdVSW5iTVR3WnpkOFY0TVJwRGFROHRPcDlmcEZ3ampCZkZveFNzaG5EUXNYR3QzbGMtNGxjeVBVcUlz?oc=5",
+          "publisher": "ข่าวหุ้นธุรกิจออนไลน์",
+          "publishedAt": "Thu, 26 Nov 2026 11:54:51 GMT"
+        },
+        {
+          "title": "'Salesforce' เตือนธุรกิจไทย ปรับตัวช้า เสี่ยงตกขบวน AI - bangkokbiznews",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5RcFJpazVmeUtzS0FCMVZBb05XUXR4RXB5Y0c5ekl5cnVTbXEwVTJyYmRsblB3WTRKV2NvVzVadnVJTDZNSlJoNmxwMXExVDdQUHpmc0pvb2hrdw?oc=5",
+          "publisher": "bangkokbiznews",
+          "publishedAt": "Thu, 26 Nov 2026 08:35:00 GMT"
+        },
+        {
+          "title": "ธุรกิจครอบครัวไทย กับการปรับตัวในยุค AI - Thansettakij",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9oTU04UTJMcG5PVmtzWDlxSjhwNGV1NXpkejFTa1J6cV9La2dSWWlaaXp6Q1VrS0F1NW9QdEFqREg2Tk0zWjM2M3ZOLU5BTEt3NEROTjg3dXhKLS1yalNxVTM5aVFuRXhUNGdGQkNMN1NVOGdmNUNpNnNB?oc=5",
+          "publisher": "Thansettakij",
+          "publishedAt": "Fri, 27 Nov 2026 22:13:00 GMT"
+        },
+        {
+          "title": "แรงงานไทยจะไปทางไหน เมื่อ AI เปลี่ยนทั้งงาน คน และเกมธุรกิจ - thestandard.co",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5ZV25WWDV4dkh6V3ZmZWpOTjZ2ZWJZWTBrM0c3d2J6c2FfMUpVSU9hVjdkRVAzQWI3LTZ1dTU2S3FySzZZUFJmTlNKV3g2cHVFNUZlOTgxN1lKX1dSbkVNUTZTWQ?oc=5",
+          "publisher": "thestandard.co",
+          "publishedAt": "Fri, 27 Nov 2026 00:48:11 GMT"
         },
         {
           "title": "Sea จับมือ OpenAI จัดงาน Codex Hackathon ใช้ AI สร้างผลงานจริงในวันเดียว ตั้งแต่ผู้กำกับไลฟ์อัจฉริยะ ถึงผู้ช่วยวางแผนการลงทุน",
           "url": "https://techsauce.co/news/sea-openai-codex-hackathon-thailand",
           "publisher": "Techsauce",
           "publishedAt": "Fri, 27 Nov 2026 14:16:48 +0700"
-        }
-      ]
-    },
-    {
-      "id": "sig-4-mwzot14x",
-      "title": "CP Axtra Makro PRO Drives B2B Wholesale Digitalization in ASEAN",
-      "summary": "CP Axtra announced Makro PRO as the top first-party B2B e-commerce platform in ASEAN after daily sales reached 250 to 300 million THB. This dramatic growth demonstrates rapid centralization and digital migration across regional wholesale fulfillment networks.",
-      "soWhat": "Consumer goods brands must optimize direct integration with leading 1P platforms to protect market share in digital wholesale channels.",
-      "titleTh": "Makro PRO ครองผู้นำ B2B อีคอมเมิร์ซแบบ 1P ในอาเซียนด้วยยอดขายเติบโตก้าวกระโดด",
-      "summaryTh": "ซีพี แอ็กซ์ตร้า เผย Makro PRO ก้าวขึ้นเป็นแพลตฟอร์มอีคอมเมิร์ซแบบ 1P อันดับ 1 ในอาเซียน โดยดันยอดขายเพิ่มขึ้นแตะ 250-300 ล้านบาทต่อวัน การเติบโตอย่างรวดเร็วนี้สะท้อนถึงการย้ายช่องทางค้าส่งและห่วงโซ่อุปทาน B2B เข้าสู่ระบบดิจิทัลอย่างเต็มรูปแบบ",
-      "soWhatTh": "ผู้ผลิตสินค้าอุปโภคบริโภคและซัพพลายเออร์ต้องเร่งเชื่อมโยงห่วงโซ่อุปทานดิจิทัลและปรับกลยุทธ์ราคาผ่านแพลตฟอร์ม 1P เพื่อรักษาช่องทางการขายหลัก",
-      "category": "Business",
-      "impact": 4,
-      "confidence": 0.75,
-      "timeHorizon": "Now",
-      "tags": [
-        "B2B E-Commerce",
-        "CP Axtra",
-        "Retail Tech",
-        "Supply Chain"
-      ],
-      "sources": [
-        {
-          "title": "Makro PRO ขึ้นแท่นอันดับ 1 แพลตฟอร์มอีคอมเมิร์ซแบบ First-party (1P) ในอาเซียน ยอดขายโตขึ้น 250-300 ล้านบาท",
-          "url": "https://techsauce.co/news/makro-pro-asean-no1-first-party-ecommerce-rewrite",
-          "publisher": "Techsauce",
-          "publishedAt": "Fri, 27 Nov 2026 10:22:30 +0700"
-        }
-      ]
-    },
-    {
-      "id": "sig-5-mwzot14x",
-      "title": "Direct Stem Cell Therapies and Neuroscience Expand Longevity Market Opportunities",
-      "summary": "Early clinical trials showed positive results from direct stem cell injections into Alzheimer's patients, validating novel regenerative neuroscience methods. Meanwhile, neuroscience innovations are increasingly entering proactive brain health and cognitive care applications.",
-      "soWhat": "Healthcare operators should strategically expand into preventative neurological wellness and neuro-regenerative care services to target aging demographic demand.",
-      "titleTh": "ความก้าวหน้าทางประสาทวิทยาศาสตร์และสเต็มเซลล์สมองเปิดโอกาสใหม่ในธุรกิจ Longevity",
-      "summaryTh": "การทดลองฉีดสเต็มเซลล์เข้าสมองผู้ป่วยอัลไซเมอร์โดยตรงประสบความสำเร็จในระยะแรกทั้งด้านความปลอดภัยและการฟื้นฟูความจำ ขณะเดียวกันเทคโนโลยี Neuroscience กำลังเข้ามาเปลี่ยนโฉมการดูแลสุขภาพสมองและการรักษาโรคทางระบบประสาท",
-      "soWhatTh": "ผู้ประกอบการด้านการแพทย์และเฮลท์แคร์ควรเตรียมความพร้อมรองรับโอกาสทางธุรกิจใหม่ด้านการดูแลสุขภาพสมองเชิงป้องกันและการรักษาทางประสาทวิทยาสำหรับสังคมสูงวัย",
-      "category": "Technology",
-      "impact": 3,
-      "confidence": 0.75,
-      "timeHorizon": "1yr+",
-      "tags": [
-        "Healthtech",
-        "Biotech",
-        "Neuroscience",
-        "Longevity"
-      ],
-      "sources": [
-        {
-          "title": "ครั้งแรกของโลก ฉีดสเต็มเซลล์เข้าสมองผู้ป่วยอัลไซเมอร์โดยตรง",
-          "url": "https://techsauce.co/healthtech/world-first-stem-cell-brain-alzheimers-trial",
-          "publisher": "Techsauce",
-          "publishedAt": "Fri, 27 Nov 2026 22:43:53 +0700"
         },
         {
-          "title": "คุยกับนักวิทย์ไทยจาก Cambridge เรียนเรื่องสมองเกือบ 10 ปี ได้รู้อะไรบ้าง? l Healthspan EP. 4",
-          "url": "https://techsauce.co/video/healthspan-ep-3-neuroscience",
-          "publisher": "Techsauce",
-          "publishedAt": "Fri, 27 Nov 2026 17:00:00 +0700"
+          "title": "ทำไมไทย ‘ต้องระวัง’ สัญญาณเตือนฟองสบู่ AI | บทบรรณาธิการกรุงเทพธุรกิจ . แม้ว่าหุ้น AI จะดีดกลับขึ้นมาร้อนแรงในวานนี้ (24 พ.ย.)​ แต่ไม่ได้หมายความว่าข้อเป็นห่วงของนักลงทุนต่อประเด็น “ฟองสบู่ AI” จะหมดไป เพราะสิ่งที่ตลาดกังวลสุดในเวลานี้ คือ การลงทุนมหาศาลของธุรกิจที่เกี่ยวข้องกับ AI จะสามารถสร้างผลตอบแทนได้ตามที่คาดหวังหรือไม่ ... . ย้อนกลับไปไม่กี่เดือนก่อนหน้านี้ หลายคนตั้งคำถามว่า บริษัทเทคโนโลยียักษ์ใหญ่ระดับโลกหลายแห่งซึ่งทุ่มเงินมหาศาลไปกับการพัฒนา AI จะสามารถสร้างรายได้กลับมาได้มากน้อยแค่ไหน . ธนาคารกลางยุโรป(ECB) ประเมินว่า รายจ่ายลงทุนสะสม(Capex) ของ 7 บริษัทเทคยักษ์ใหญ่ในสหรัฐ อาจสูงถึง 5.5 ล้านล้านดอลลาร์ ภายในปี 2573 ขณะที่ความต้องการลงทุน AI โดยรวมต่อปีในช่วงปี 2568-2575 อาจมีมูลค่ามากกว่า 3% ของจีดีพีสหรัฐ ที่น่ากังวลคือ ECB ระบุว่า ในปีนี้ผู้ให้บริการคลาวด์รายใหญ่ส่วนใหญ่ของสหรัฐอาจเริ่มเผชิญภาวะกระแสเงินสดอิสระติดลบ เนื่องจากรายจ่ายลงทุนโครงสร้างพื้นฐาน AI สูงกว่ากระแสเงินสดจากการดำเนินงาน . ขณะที่ กองทุนการเงินระหว่างประเทศ(IMF) ระบุว่า ธุรกรรมที่เกี่ยวข้องกับ AI จำนวน - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMixwdBVV95cUxOeVRiT2xoTXBNN0JnUTZvd29fQTN3M0pmR0JxdU5iTWRBYzhxLUx3bTFaUkc0MlktTVRnMGptZFRlWVlVd3M4TEJrMUk0NEZpSkNubXRGajdTbWVtNWlURVFSdGUzYVJSVWYxTm1wUDNoaTFGWllBS0pHTGxYWV80NlM0eXl5ZDFUNnFzWGpnSFd1MDdESHJ0amx3R3lfeWZ2RWRhMm9qcG1vNUNNMkpKbmJzcjhtZlNKYWp0WU9fMUpTdUM5ampORnRocThBc1I3QXVjNXFkcTVQOG56MHE5NG5Jamc3VmdwdXFSejllY0FLV3l4UFB3MURXa3ZpVUhPSTBJV3hicVZaMElQcUJITVV6S0RYOWJDVTh4dXl3d2xQS05IMFFiaTBNZjZKTlQyU01wdlc5dGlPTE1TOEdSbGNFRUJqczM1enAyQnJVcERqa1NtcjA3bFF3R1lXNTBPNFZnc01SdVBIUlpKbXBhd09TY0ZjXzZBV0w5SVlhY0E1UmxaOTNheDI3QV92ai1sSEhUU1lKTHlDUE10TUZlS19HNUJfZndvNmJRdENmYWs2UGZvcEpZOUxqcGp4ZDdhcFptWUoyQ3h1N2JLQ2YwZThnQlFaakwxQklUY0JUTmNSRHNlV0R5QnB1WHh3VDEwRUkxZ0JNSldMRmVHY2k1el91Y0lrT04waGU4dnZIbm1udG45dmpRTXBlMEhXdTBCTkRkVGNTNDEzbFdlS1VyWlFibnZTUDk3N3FkRGQ2Y1piNlVDVXdKZWpRVjdlVTBKWGRXR1hRVk05RG9RTkVjY0I5R041YW9YVDQwdVcwUVlyNFpwSGRMZXRSVk96N3JBZ3Q4NTlZNUM2WFE0OEZPUUxnTVUtZzY2QzA2d3B0RGgzOF8wWDdvVlk0OFp4V202UUpYcDVFMUM0XzljRC16a29xekpoZDlZT2JXbkFCb3lzNGZEZmhVaUQ1SElwNjE4NDlGVGgtNy05djJrRWFxUUF0U2dTamlOdmRjMUlwSXZTVVZrbU02UjF1SWpFblJOU0JaUEY4RlZncHVBT3g0WFdaeWhqTGd6M09LdXJOendWVGV0dm5QWTF4WEthM05sVElTaUZYTE83M0VlcHV3cnBjalRwb29YYVQzaVpFWG43eUxQWVVDd3RidTExazFwd095bVliSzB0Y2V4QU9IRVFta3Z5aXh4d2V3MHdCVlhVYlhjQzhjbGNfa25qMEVBMVk0V1VXem5DdEVRbmtyZkZRT2pSTS1vUUh0aXJVSFZtQ054U000?oc=5",
+          "publisher": "Facebook",
+          "publishedAt": "Tue, 24 Nov 2026 23:06:03 GMT"
         }
       ]
     },
     {
-      "id": "sig-6-mwzot14x",
-      "title": "Geopolitical Friction Intensifies Over Semiconductor Machinery Export Controls",
-      "summary": "The Netherlands has voiced opposition to proposed US legislation seeking to restrict ASML from servicing semiconductor manufacturing equipment in China. This dispute highlights growing friction between Western allies over unilateral tech sanctions and chip supply chain sovereignty.",
-      "soWhat": "Tech hardware and electronics companies must monitor potential supply bottlenecks and maintenance disruptions in advanced machinery supply chains.",
-      "titleTh": "ความขัดแย้งภูมิรัฐศาสตร์ตึงเครียดหลังเนเธอร์แลนด์ค้านสหรัฐฯ คุมบริการเครื่องผลิตชิป",
-      "summaryTh": "เนเธอร์แลนด์ประกาศคัดค้านร่างกฎหมายของสหรัฐฯ ที่จะบีบไม่ให้บริษัท ASML ขายและซ่อมบำรุงเครื่องผลิตชิปแก่ประเทศจีน ประเด็นนี้สะท้อนความตึงเครียดที่เพิ่มขึ้นระหว่างพันธมิตรตะวันตกเกี่ยวกับการออกมารตรการคว่ำบาตรทางเทคโนโลยี",
-      "soWhatTh": "บริษัทในอุตสาหกรรมอิเล็กทรอนิกส์และเทคโนโลยีต้องติดตามความเสี่ยงด้านห่วงโซ่อุปทานและชิ้นส่วนอุปกรณ์การผลิตขั้นสูงอย่างใกล้ชิด",
-      "category": "Economic",
+      "id": "sig-6-mx0ikj28",
+      "title": "DGA Upgrades Thangrath Super-App to Consolidate Public Services Digitally",
+      "summary": "The Digital Government Development Agency has released a new version of the Thangrath mobile application, integrating over 2,000 public services into one platform. The enhanced portal aims to streamline citizen-to-government transactions, digital identity authentication, and civic engagement.",
+      "soWhat": "Digital businesses should evaluate API integration opportunities with Thangrath to simplify user verification and government-related workflows.",
+      "titleTh": "DGA เปิดตัว “ทางรัฐ” เวอร์ชันใหม่ รวบรวมกว่า 2,000 บริการภาครัฐไว้บนแอปเดียว",
+      "summaryTh": "สำนักงานพัฒนารัฐบาลดิจิทัล (DGA) เปิดตัวแอปพลิเคชัน “ทางรัฐ” โฉมใหม่ที่เชื่อมโยงบริการภาครัฐมากกว่า 2,028 บริการไว้ในแพลตฟอร์มเดียว การอัปเดตครั้งนี้มุ่งยกระดับการยืนยันตัวตนดิจิทัลและอำนวยความสะดวกในการรับบริการภาครัฐของประชาชนทั่วประเทศ",
+      "soWhatTh": "บริษัทเทคโนโลยีและบริการดิจิทัลควรศึกษาการเชื่อมต่อข้อมูลกับแอปพลิเคชันภาครัฐเพื่อเพิ่มความสะดวกในกระบวนการยืนยันตัวตนและการให้บริการลูกค้า",
+      "category": "Business",
+      "impact": 3,
+      "confidence": 0.95,
+      "timeHorizon": "Now",
+      "tags": [
+        "Digital Government",
+        "Thangrath",
+        "GovTech",
+        "SuperApp",
+        "DGA"
+      ],
+      "sources": [
+        {
+          "title": "DGA เปิดตัว “ทางรัฐ”เวอร์ชันใหม่ ชวนคนไทยมาอัปเดต บริการภาครัฐที่รู้ใจคุณมากกว่าที่เคย . วันที่ 25 พฤศจิกายน 2569 สำนักงานพัฒนารัฐบาลดิจิทัล (องค์การมหาชน) หรือ DGA จัดงานแถลงข่าว “The New Thangrath: Making Everyday Life Better” เปิดตัวแอปพลิเคชัน “ทางรัฐ” เวอร์ชั - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE11NXlnLUpESXYzU2JIZzVmeXRFNVdLejNGXzVFNFRXYWtVMXlpcDFPM2xnS1B3QWhNRzZsUFhUUEZhOUpxNEJENUJwMUNoU2g5aUFVemdZcnNPMl84V2JqaHdqRGlrQ193YXU0Vmtn?oc=5",
+          "publisher": "Facebook",
+          "publishedAt": "Thu, 26 Nov 2026 05:11:28 GMT"
+        },
+        {
+          "title": "DGA เปิดตัว “ทางรัฐ” โฉมใหม่ ชู 3 ฟีเจอร์เด่น เชื่อม 2,028 บริการภาครัฐ - ข่าวหุ้นธุรกิจออนไลน์",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE14V3EzNTRfRC1LS2REMm90RnRtMmJqeFB1ZmZYLU51TS1qQUlkQ3Fya2Y4d2R5VVZIRlRVREJhMFdoTURFV1hQdHpuMA?oc=5",
+          "publisher": "ข่าวหุ้นธุรกิจออนไลน์",
+          "publishedAt": "Thu, 26 Nov 2026 07:29:04 GMT"
+        },
+        {
+          "title": "DGA เปิดตัว “ทางรัฐ” เวอร์ชันใหม่ ชวนคนไทยมาอัปเดต บริการภาครัฐที่รู้ใจคุณมากกว่าที่เคย - เดลินิวส์",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1UeUhVWlhuR0ZEWUJlSHg4SzUzNUVZUE9VbHNlMklrUEt3TFh1UGdaazl2UEJPZEl6NVExTnRqeTNXZkZra0RLaVQtZ2FPVzc4VHdr?oc=5",
+          "publisher": "เดลินิวส์",
+          "publishedAt": "Fri, 27 Nov 2026 10:59:00 GMT"
+        }
+      ]
+    },
+    {
+      "id": "sig-7-mx0ikj28",
+      "title": "Corporate Budget Tightening and Slowing Economy Force Marketing Strategy Pivot",
+      "summary": "The Marketing Association of Thailand projects sluggish economic growth through 2027, prompting businesses to cut marketing budgets by an average of 3.32%. Marketers and agencies are abandoning traditional playbook strategies in favor of hyper-targeted, high-efficiency digital campaigns.",
+      "soWhat": "CMOs must shift metrics from vanity reach to direct sales conversion and automated marketing workflows to preserve margin during lean spending cycles.",
+      "titleTh": "ภาคธุรกิจรัดเข็มขัดหั่นงบการตลาด ปรับกลยุทธ์เน้นความคุ้มค่ารับเศรษฐกิจโตช้า",
+      "summaryTh": "สมาคมการตลาดแห่งประเทศไทยประเมินว่าเศรษฐกิจไทยจะเติบโตชะลอตัวลากยาวไปถึงปี 2570 ส่งผลให้องค์กรส่วนใหญ่ปรับลดงบการตลาดเฉลี่ย 3.32% สภาวะนี้กดดันให้เอเจนซีและผู้ทำมาร์เก็ตติ้งต้องละทิ้งสูตรสำเร็จเดิมๆ แล้วหันมาใช้กลยุทธ์ที่เน้นความคุ้มค่าและผลลัพธ์วัดผลได้ทันที",
+      "soWhatTh": "ผู้บริหารการตลาดต้องปรับตัวจากการสร้างการรับรู้แบรนด์แบบหว่าน ไปสู่การใช้ MarTech และ AI ที่มุ่งผลลัพธ์ด้านยอดขายและผลตอบแทนการลงทุนอย่างแม่นยำ",
+      "category": "Consumer",
+      "impact": 3,
+      "confidence": 0.9,
+      "timeHorizon": "3-6mo",
+      "tags": [
+        "Marketing Budgets",
+        "Advertising",
+        "Consumer Sentiment",
+        "MarTech"
+      ],
+      "sources": [
+        {
+          "title": "สมาคมการตลาดฯ ชี้ปี 2570 ศก. โตช้า 1.2% หั่นงบตลาดเฉลี่ย 3.32% | การเงินธนาคาร - LINE TODAY",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE1zY2kySnNJeHBpUWk1UjNMbTBnMWlnV2E3VV9wSFhEeXRBYlg1a2ZwWmRYd3VzSXNXSGlCWW5QOFVRSVp1di1ET2hhTXVPcUZrWGJzQVZB?oc=5",
+          "publisher": "LINE TODAY",
+          "publishedAt": "Thu, 26 Nov 2026 10:27:30 GMT"
+        },
+        {
+          "title": "7 เทรนด์ผู้บริโภค 2027 เมื่อคนอยากทวงคืนพลังชีวิต ธุรกิจต้องปรับอย่างไร - thestandard.co",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNbWM2cnA2M1lmc0FycDZQVmNlc2J6WkFOLW1ZWlM1MmtpdzE5SjN4WGlpVWhlZDRsNDJaN3dfcWgxVmt4OEhpdzU2QjU5anZ2ekhyWlhlUHRpLWNWZUlwbEh4Q2twU0JmelZsQ2NxSE5iN0FHMGphdzRpNjhEZEY4Z3IwbXZqa1A1?oc=5",
+          "publisher": "thestandard.co",
+          "publishedAt": "Mon, 23 Nov 2026 10:57:01 GMT"
+        },
+        {
+          "title": "ทางรอดเอเจนซีไทยยุค AI เมื่อความเร็วไม่ใช่แต้มต่อ และ ‘ซัคเซสสตอรีเมื่อวาน’ ใช้ไม่ได้อีกต่อไป - Marketeer Online",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1JZjNDajRpem9CRnZHcHN0ZEZ2V3d5ZnBialRZQWVMMVBIZ3FCek01WGRUTWFzWGZZc21QVkVWOEFYOGtmUVFfVC1nZGJnWGxjbjBlTw?oc=5",
+          "publisher": "Marketeer Online",
+          "publishedAt": "Fri, 27 Nov 2026 07:30:32 GMT"
+        },
+        {
+          "title": "สมาคมการตลาดแห่งประเทศไทย ชี้ทิศปี 2027 \"งบหด-ธุรกิจรัดเข็มขัด-ศก.โตช้า\" - RYT9",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE4yQjdXNUFMN0xndTNnNFFmTUQzM0Rvb0ZuT20tdXk3M3J5U0VXRkhEbTlsZzZ0bDZlMjRvWW5wdFRmMm5RY295UU5Rcw?oc=5",
+          "publisher": "RYT9",
+          "publishedAt": "Thu, 26 Nov 2026 12:58:32 GMT"
+        }
+      ]
+    },
+    {
+      "id": "sig-8-mx0ikj28",
+      "title": "Thailand Positioned as Regional Hub for Web3, Crypto Payments, and FinTech",
+      "summary": "Industry events and regulatory shifts, such as Binance Blockchain Week and Tourism DigiPay, are positioning Thailand as a Web3 and digital asset destination. New crypto-to-fiat tourist payment gateways and AI-assisted financial agent tools are modernizing the national financial ecosystem.",
+      "soWhat": "Financial institutions and retail operators should build infrastructure support for crypto-backed tourist spending and agentic wealth tools.",
+      "titleTh": "ไทยรุกก้าวสู่ศูนย์กลาง Web3 และ FinTech ภูมิภาค ผสานคริปโทฯ หนุนท่องเที่ยวและการลงทุน",
+      "summaryTh": "การจัดงานระดับโลกอย่าง Binance Blockchain Week และการเปิดตัว TouristDigiPay สะท้อนให้เห็นถึงความพร้อมของไทยในการเป็นศูนย์กลางสินทรัพย์ดิจิทัล การอนุญาตให้แปลงคริปโทฯ เป็นเงินบาทสำหรับนักท่องเที่ยว ควบคู่กับการนำ AI มาช่วยวิเคราะห์การลงทุน กำลังเปลี่ยนรูปแบบบริการทางการเงินในไทย",
+      "soWhatTh": "ภาคการเงินและธุรกิจท่องเที่ยวควรเร่งปรับระบบรองรับการชำระเงินดิจิทัลรูปแบบใหม่เพื่อดึงดูดกลุ่มนักท่องเที่ยวและนักลงทุนยุคใหม่",
+      "category": "Technology",
       "impact": 4,
+      "confidence": 0.85,
+      "timeHorizon": "3-6mo",
+      "tags": [
+        "Web3",
+        "Crypto Payments",
+        "FinTech",
+        "TourismDigiPay",
+        "Binance"
+      ],
+      "sources": [
+        {
+          "title": "กรุงเทพธุรกิจ. . Liberator เปิดตัว AI ผู้ช่วยนักลงทุนไทยทุกระดับ | Highlights กรุงเทพธุรกิจ INSIGHT . Liberator จับมือ DeepScope บริษัทพัฒนา AI สัญชาติไทย เปิดตัว 3 นวัตกรรม AI Investment ได้แก่ LIB Agent ผู้ช่วยวิเคราะห์หุ้นและทบทวนพอร์ต, Data MCP ระบบเชื่อมต่อข้อมูลการลงทุนกับ AI ภายนอก และแอปพลิเคชันโฉมใหม่ที่ปรับแต่งได้ตามความถนัดของผู้ใช้งาน มุ่งใช้ AI เป็นผู้ช่วยลงทุน หรือ Co-pilot ช่วยคัดกรองข้อมูล วิเคราะห์หุ้น และบริหารพอร์ตอย่างเป็นระบบ เปิดโอกาสให้นักลงทุนไทยทั้งมือใหม่และมืออาชีพเข้าถึงเครื่องมือวิเคราะห์ขั้นสูงได้ง่ายขึ้น โดยยังคงให้นักลงทุนเป็นผู้ตัดสินใจขั้นสุดท้ายด้วยตนเอง . Announcer | พิภู พุ่มแก้วกล้า และ ไอลดา พิศสุวรรณ . #Liberator #DeepScope #AIInvestment #AIลงทุน #AIวิเคราะห์หุ้น #วทันยาบุนนาค #ตลาดหุ้นไทย #ลงทุนหุ้น #FinTech #LIBAgent #DataMCP #ข่าวเศรษฐกิจ #กรุงเทพธุรกิจINSIGHT #กรุงเทพธุรกิจ #InsightforOpportunities - Facebook",
+          "url": "https://news.google.com/rss/articles/CBMiyAVBVV95cUxNTnlUc2MwWGZmOWJ5RnM2ZS0xeGVZdkpuMXBJSVU4RW1iM0dGaDM3TkVBRE9DM3hRTXU4dzhBeHNTS3hiczhFWXVhekZBdVBsMFAtOUV4WFBQY2dCT1ZSSWxZVV9hLWVKMmt4djBhb2I3Q3ZNOHVpb1RleTlzRnkzc3dIV3E3bnhYMHlrRHM1WnE2NzJaaGZDS2pIRHFEUVEzRmVNR3JBZlRrUnVvMlNuNDduajdabzlCVmE5c1UyekdsT0NVM3BablE1NVdTRm4zRVlWVExqbUJIU3hIUVJZaHBxUG00TEpxakxGdUtOZWZnQWVOYzBOQjJxSzYycjhseW1NREpzN1FIOFFHOElXbXdlbVhyaTZwNnI5RTFPUjhGWHgwS0hxTld0Rnl2YU9pVjIxQXJ2YktQb0tvaEd6QXNCajNzMUF5aTF0R1NHN0hHYmlCeU9HXzVMbzhRSHRBYnZEcEprekN0Y2RlS2ZNQm9GbEhPb0hFRk5NanhWNklqMDA5VUhhUWpIZDlZWC11WEJkN3BLcG1nbjdoblM1NEVRcVlfRVFncHczRmotcDF6SGZXd29QZHZvT2c5THJrbWU2RDVMZF92eHh4VUpWZ01fbXZqcHFjMFdGZjdoWlJhVFpKcGw4R2VNT2Nfall2Z3U4dlUyMS1TZzhkdUIwYU04U0w4Rl9mLWhrSzlXTUFYR3JhU01kUUFRQ25ReDZyWmpxRDFNX1NGRnBUNGVNdVZ5aU04Ym42TUl2QkZEMEc2RFV6bHl3NzNMVmVJa21FN0pma1FmdjRpTXhtN3d0U1h1U1gxSmFtSzJKMURIYlRjWXNXS05VQ0ZJWFdKTEtyZDhXQ1gwRmFIS0x3YThad25CM0lYRWVJR19IRjdfTVRQQkphYnJkRXFDb2VyeTVCSkJYNWdrdDF3NGF3TVFYYUdwdUFEWEZV?oc=5",
+          "publisher": "Facebook",
+          "publishedAt": "Fri, 27 Nov 2026 06:00:09 GMT"
+        },
+        {
+          "title": "Crypto Shot: TouristDigiPay เริ่มแล้ว! Bitazza แปลงคริปโทฯ เป็นบาท ดึงนักท่องเที่ยวเข้าไทย : อินโฟเควสท์ - สำนักข่าวอินโฟเควสท์",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE85SV9ZMEdiOHRlOEstZTFmSm55LWxMN1IxZVVlU3Z1aGRKUnFIcWNzQ1BtV3VNcm4xWVpjVWM3U25rREZFNlBPQUQ4aXdVdnIz?oc=5",
+          "publisher": "สำนักข่าวอินโฟเควสท์",
+          "publishedAt": "Thu, 26 Nov 2026 11:04:00 GMT"
+        },
+        {
+          "title": "จับตา ‘Binance Blockchain Week 2026’ ปักหมุดไทยสู่ศูนย์กลางการเงินยุคใหม่! ดึงผู้นำ TradFi–Web3 ระดับโลกร่วมกำหนดทิศทางเศรษฐกิจดิจิทัล 28–29 พ.ย. นี้ ณ ศูนย์ฯ สิริกิติ์ - มิติหุ้น | ชี้ชัดทุกการลงทุน - มิติหุ้น",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE5zUUxwRjZhVFVDaW5XSmc1MVJ3UVZWM3dobmd2V2VHYjMtbV9DcjhzdXBTNFk2eHB0a3VFZ3I3V2dkSGtLdDYxRmpxRzVpTm5wallid2pR?oc=5",
+          "publisher": "มิติหุ้น",
+          "publishedAt": "Tue, 24 Nov 2026 07:32:22 GMT"
+        },
+        {
+          "title": "Thailand - Fintech Laws and Regulations 2026 - ICLG",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE8zT3hiTTAtR1VNWFYyb1UtMjJ3RGFFT3dWcnlSUUVPblJwWG5KMXZXc0Q5SHZJQzdreHV4TmFOSm81RzJ0MkxGc0hTOC1GZjBNVWVKNnZDOFRKdkt3bEhGeGJKdDJfMW5Sby1YOWlYenlVSkRIVnAzb2FR?oc=5",
+          "publisher": "ICLG",
+          "publishedAt": "Fri, 20 Nov 2026 15:21:17 GMT"
+        }
+      ]
+    },
+    {
+      "id": "sig-9-mx0ikj28",
+      "title": "Thailand Broadens High-Tech Investment Push into Semiconductors, Space, and Drones",
+      "summary": "Thailand is expanding its investment targets beyond data centers to attract global leaders in semiconductors, space technology, and autonomous drones. International partnerships, such as delegations from Taiwan and Japan, are driving multimillion-dollar tech transfer deals in smart cities and commercial drones.",
+      "soWhat": "Tech infrastructure developers and industrial real estate operators should prepare specialized facilities suited for advanced semiconductor testing and aerospace manufacturing.",
+      "titleTh": "ไทยขยายฐานดึงทุนเทคโนโลยีขั้นสูง มุ่งเป้าเซมิคอนดักเตอร์ เทคโนโลยีอวกาศ และโดรน",
+      "summaryTh": "ประเทศไทยกำลังเร่งขยายขอบเขตการดึงดูดเงินทุนต่างชาติ จากเดิมที่เน้น Data Center ไปสู่เทคโนโลยีขั้นสูงอย่างเซมิคอนดักเตอร์ เทคโนโลยีอวกาศ และโดรนอัจฉริยะ ความร่วมมือกับพันธมิตรต่างชาติทั้งไต้หวันและญี่ปุ่นช่วยหนุนการเติบโตของเมืองอัจฉริยะและระบบอัตโนมัติในประเทศ",
+      "soWhatTh": "ผู้พัฒนาโครงสร้างพื้นฐานและนิคมอุตสาหกรรมต้องเตรียมความพร้อมด้านพื้นที่และสาธารณูปโภคเฉพาะทางเพื่อรองรับอุตสาหกรรมเทคโนโลยีขั้นสูง",
+      "category": "Technology",
+      "impact": 4,
+      "confidence": 0.85,
+      "timeHorizon": "1yr+",
+      "tags": [
+        "Semiconductors",
+        "Space Tech",
+        "Drones",
+        "Smart City",
+        "FDI"
+      ],
+      "sources": [
+        {
+          "title": "Taipei City Sends First-Ever Delegation to Thailand Smart City Expo, 12 Companies Drum Up NT$830 Million in Business Over Three Days - BigGo Finance",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1lVTlUeWphM0lsZG8tQUJ2OXcxZHpiWFNDQlZXQ1pPeXlwM1ZTSHVqbXkzNmk2SnQwMDBWanRiMUZlNlpYV2xCTEc4V1NMV1hQVFVCN0tnUjFaLXlPaGRmR2h4ZEdoanY5WkpVLWZJc3ExLUJDcmc?oc=5",
+          "publisher": "BigGo Finance",
+          "publishedAt": "Wed, 25 Nov 2026 12:05:00 GMT"
+        },
+        {
+          "title": "เจาะทิศทางทุนโลก จับจุดแข็งไทย หลังชิป - Data Center บูมแล้ว เงินใหญ่ไหลไปไหนต่อ? - thairath.co.th",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5Xd3hOcmEtSld1cjQ2OGlZZFBDWjVCWHVsMkNjclFWd2lxS0ZJMVdwYnFicnIwZnhCcjlqWG1Qcl9wWV8tZzhYZlRWcjhRMzdrMThPNmt1VEZMWTVrTzg1TnVnU0YyOG45ME0xNW0zWWR1bzg?oc=5",
+          "publisher": "thairath.co.th",
+          "publishedAt": "Fri, 27 Nov 2026 10:56:11 GMT"
+        },
+        {
+          "title": "Thailand looks to diversify Japanese investment into semiconductors and space technology - Thailand Business News",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPYnBLdER3WXgzSGJfc3J1UzFTU3Q1Nmt4U1Z5OW5wdEo1Y3M0bF81SjY4OVJQM0w4OTYxdkgyY2hTU0RCaUVWODVhMGJsWHozc1JNMGRnR1lNeUloVllYdmhYeTlEVVJKVk1MalF4Vkg1TjlTbUlQTHBZcHRDQ0ZRMGZQRldkaDJlUnNTMDlCWkVKQWl6ZzlQMlV0Zmw5eXNKNUxteElyb2lXQ2pHVmxHS0lNTERaUGhockU3WU1xc1RQNnUwdHNlcVVGZUsxVkw3bEE3YmxtNA?oc=5",
+          "publisher": "Thailand Business News",
+          "publishedAt": "Wed, 25 Nov 2026 01:48:00 GMT"
+        },
+        {
+          "title": "Thailand: Building International Partnerships in Space Tech, Satellite Data and AI - OpenGov Asia",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZjM1UllwaG42NU9CdVB4RlRoTmxlNFdWX0FzbTkxZ3RudklvNFhIU2ZWN1AyQUV5T2h3ZUlCX3dLLUw3SS1DNXQ5cFNmVy1iMndwbGI4dS1PSTFSdFFJYVN0WG5aQnV3eGducHVIX1R4NHJfbXgwOUVyZVhyNnI1Mjg2V2tNZmdfVkJKT0tPTzhnVDJqX3BScnU4YWdKZ1ZOMlVSMFhFT2I?oc=5",
+          "publisher": "OpenGov Asia",
+          "publishedAt": "Fri, 20 Nov 2026 00:19:00 GMT"
+        },
+        {
+          "title": "DronTech Asia 2026 Brings Global Drone and Autonomous Technology Companies to Thailand - AeroMorning.com",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNeHR3bFFtUUlfdGdLWktIRnk2SDVzU1JCc1Y3Z3k4NVB5b2V4TzV2dWlTS25OTThKS1VoVzZLQ3JLVktiRGduWlNNWVFlMDlJUnBnaEIyUHB1emhXcHdHbUhrQmt1TkdqVXJodUFzU1RXbEJtNk9WMnVfanZpWjMxUEVnTTlYVmVWLXdUV3RhQ0pVdW9ScDdER0lZaE9WMXlHNTV0ZkI3UFFENUw1bHNQbHhWR1BESjYybHhHaQ?oc=5",
+          "publisher": "AeroMorning.com",
+          "publishedAt": "Wed, 11 Nov 2026 08:00:00 GMT"
+        }
+      ]
+    },
+    {
+      "id": "sig-10-mx0ikj28",
+      "title": "Bank of Thailand Targets Large Informal Economy and Illicit Financial Flows",
+      "summary": "The Bank of Thailand highlighted that the shadow economy accounts for nearly 48% of Thai GDP, prompting stricter financial surveillance. Regulators plan to use financial system controls to starve illicit capital while improving credit access for legitimate high-potential businesses.",
+      "soWhat": "Banks and FinTech firms should expect heightened AML/KYC scrutiny while developing alternative credit scoring models to onboard informal merchants cleanly.",
+      "titleTh": "ธปท. เผยเศรษฐกิจนอกระบบสูง 48% เดินหน้าสกัดทุนเทาและเพิ่มโอกาสการเงินให้ธุรกิจมีศักยภาพ",
+      "summaryTh": "ธนาคารแห่งประเทศไทยระบุว่าขนาดเศรษฐกิจนอกระบบของไทยสูงถึง 48% ของ GDP จึงเร่งใช้มาตรการทางกสิกรและภาคการเงินเพื่อตัดท่อน้ำเลี้ยงธุรกิจสีเทา ควบคู่กันนี้ ธปท. มุ่งปรับปรุงระบบการเงินให้ธุรกิจที่มีศักยภาพแต่ขาดหลักประกันสามารถเข้าถึงสินเชื่อในระบบได้ง่ายขึ้น",
+      "soWhatTh": "สถาบันการเงินและผู้ให้บริการชำระเงินต้องยกระดับระบบตรวจสอบความถูกต้องของธุรกรรม (KYC/AML) พร้อมพัฒนาทางเลือกการประเมินสินเชื่อรูปแบบใหม่",
+      "category": "Economic",
+      "impact": 5,
       "confidence": 0.75,
       "timeHorizon": "3-6mo",
       "tags": [
-        "Semiconductors",
-        "Geopolitics",
-        "Supply Chain",
-        "Tech Policy"
+        "Bank of Thailand",
+        "Informal Economy",
+        "Financial Regulation",
+        "Shadow Capital"
       ],
       "sources": [
         {
-          "title": "เนเธอร์แลนด์ประกาศสู้สหรัฐฯ ปกป้อง ASML จากร่างกฎหมายคุมชิป ที่สหรัฐฯ เร่งดันหลังประเด็นอื้อฉาว Nvidia ชี้ย้อนแย้ง สหรัฐฯ ยังปล่อยชิป AI ขายให้จีน",
-          "url": "https://techsauce.co/news/netherlands-fights-us-match-act-asml-export-curbs",
+          "title": "ผู้ว่าฯ ธปท. ชี้เศรษฐกิจนอกระบบไทยใหญ่ถึง 48% ของ GDP เร่งใช้ภาคการเงิน “ปลดล็อกธุรกิจศักยภาพ” ควบคู่ “ตัดท่อน้ำเลี้ยงทุนเทา” - ThaiPublica",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1PcFFpd1JhYjcwaXRMTnFjbFBvWUtycXUtVkh4UTh4NFhpNzNNUGFORTNQMmN0cGdVVmFJd3p1UWJrRzNuRVFpc1VNWmk3TzZXWXdqQjRpWUFycnRGWERWRzJ1aVBPZnNiSzg3Y0czVQ?oc=5",
+          "publisher": "ThaiPublica",
+          "publishedAt": "Tue, 24 Nov 2026 14:20:52 GMT"
+        }
+      ]
+    },
+    {
+      "id": "sig-11-mx0ikj28",
+      "title": "B2B First-Party E-Commerce Platforms Gain Dominance in ASEAN Retail Supply Chains",
+      "summary": "CP Axtra's Makro PRO platform has emerged as the leading 1P B2B e-commerce platform in ASEAN, driving multi-hundred million Baht sales growth. The rise of integrated B2B digital procurement signals a structural shift in how traditional retailers and HORECA businesses order inventory.",
+      "soWhat": "FMCG brand manufacturers must prioritize direct integration into 1P wholesale e-commerce networks to secure shelf space and digital buyer access.",
+      "titleTh": "แพลตฟอร์ม B2B 1P ยึดพื้นที่ค้าปลีกอาเซียน สัญญาณการเปลี่ยนผ่านสู่ดิจิทัลของโฮเรก้าและร้านค้าชุมชน",
+      "summaryTh": "แพลตฟอร์ม Makro PRO ในเครือ ซีพี แอ็กซ์ตร้า ก้าวขึ้นเป็นผู้นำอีคอมเมิร์ซแบบ 1P ในระดับอาเซียน ด้วยยอดขายที่เติบโตอย่างก้าวกระโดด เทรนด์นี้แสดงถึงการย้ายช่องทางการสั่งซื้อสินค้าของกลุ่มผู้ประกอบการร้านอาหารและร้านค้าปลีกรายย่อยมาสู่ระบบดิจิทัลอย่างเต็มรูปแบบ",
+      "soWhatTh": "ซัพพลายเออร์สินค้า FMCG ต้องเร่งสร้างความร่วมมือเชิงกลยุทธ์กับแพลตฟอร์มค้าส่งดิจิทัล 1P เพื่อรักษาช่องทางการกระจายสินค้าหลัก",
+      "category": "Industry",
+      "impact": 3,
+      "confidence": 0.8,
+      "timeHorizon": "Now",
+      "tags": [
+        "Retail Tech",
+        "1P E-Commerce",
+        "B2B Procurement",
+        "CP Axtra",
+        "Makro PRO"
+      ],
+      "sources": [
+        {
+          "title": "Makro PRO ขึ้นแท่นอันดับ 1 แพลตฟอร์มอีคอมเมิร์ซแบบ First-party (1P) ในอาเซียน ยอดขายโตขึ้น 250-300 ล้านบาท - Techsauce",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPaXdCZF9IWG52eXB0QmN1WVdXY3ZtZnAxWG5CY3lOdzg5S1ZFQWlmNUN1NU9kQTlINGRmSG95bXU0ZDdDZFFBdC1wNVR3QXNrallrZDBPbnREVUVyQ255UkdTNDJrcW56SHJ4ODBhZGExMlZ4YmZUeWRoNGgxN2lqbw?oc=5",
           "publisher": "Techsauce",
-          "publishedAt": "Fri, 27 Nov 2026 14:13:11 +0700"
+          "publishedAt": "Fri, 27 Nov 2026 03:23:53 GMT"
+        },
+        {
+          "title": "Makro PRO ขึ้นแท่นอันดับ 1 แพลตฟอร์มอีคอมเมิร์ซแบบ First-party (1P) ในอาเซียน ตอกย้ำความเป็นผู้นำเทคโนโลยีค้าปลีกของ ซีพี แอ็กซ์ตร้า - Share2Trade",
+          "url": "https://news.google.com/rss/articles/CBMikwpBVV95cUxNQU80aS1BU2tMamMycTBNaW1HVUhITndXVklDUzZyVFFMUlRNaVVtSWtXN2JCVVZ1cG11M3lZc3N1aXUxNXdxS3laTTJXQzhDeUVPeGZpeG5kblZKX09HMkFZWHZXa0ZJWk1vd0NjTTBDVUpNWGpYbXVTNURGbk9nWXpjTnRacTR4WXFmUnFiTmpUWGhwQzc3bnp5RnpmTHpmZHAxeTgzcU1NWkh4Qm82Snd1SVN4bjJwTU54MEtSV2xkNjFQdURVUkZPeDFLYnBhaHlKNVRwaTdrcVhxVnRfQmdNRldwNzdubHVJTC0xaVY0OVJJT255ZDVZcW44eWthd0lBWWVIdEgwSW9JYlU1WG1jZzVqVm0zUWVVTFVaWlRsejNvRGVfN0dsS0ctbFB3dU9CNzJzSEM2U3cza0x5bGV1OVBpTWRIZXhsUjNvV0F1UjVsbEhiUmthSENFRDFZREdKaWt6SVdfZjRUdE9kTDhqcUdFeW1ENGlHRURhNkRDWkVQTkc3RTdhUHgxYzZnOHRHMlFUcmxVSmpDOFYxSTUySEIzcnY3ZlZaVTNKUElsZnc5dnA0Zkp4ejl6X3F0NUlJYjhFZ191QV9MdmZzemdEcGxaN3pNUE5FWTZhUTJaMm5pMWprbG4tX2dxVzRLZGdGX3F0d0dfakJ1eHRGdTNRYlZkYUFwanZ1eW44c0pic29NejM5QjV1aTdQczd5N080NVRIQmk0Yk01dW9sRzB5NGhReG1WOVBVRXZwOEpYNUkwdkVLSW1aazh3WVk4bF92c001UWJNdU9mRWkzYzRDaG82MlpIQUdNXy1QR3J6QzZzQnBOSWRyNmlFN0pNQV9wSFZzYnJ3UUFVZkdnQWpQeGVPNm5TTGsyeXM2Qy00MnhtbHNzWDdGeVVQMXZ5SFJIRGo3cHh0S2VXUWpCVXRNaDZEMlNtVXo1Y19JeFFLbHNUZ3NoME9ncXRmQTZTNDU1V3VkVUF2cTBDNHNVRFJfVFN3RVpoRzIzb0ZwVjdZY2NYcmNvTGxpaUVfb0NGQ3R1NmFTdjJUNS1RbUIybW9sMC1BNWtRQlNpZUlKX1FPU1U1elpOYTJZWWcxd0RyblByZkpROVRyYkF6UTV3U3pBVEhNa2UyUm9LVTg3aUhiR1IwUjlLV185OGhrZnhMQ1M5VlhNQVBDSjFsZVhQeWJ3Uk5BVnJrZXRBWEtnemM4WUE4WEVGT0E0cmItaHdGTUl0eGZVZUtMY1Z5anA1OEE3bjRZWkxHMmFhZnA2UWNfak5qdXo4Q3pBQnlxOWh6YzRxdGNyRnVTUTZQLTY2WlBJUFJDS3ZBaFBKOEVZRGVldFRZdzBYUHpBWGxDekRxRWdZMkhrcExIQkMzczdOMXRfSFlaWW4xQXNiVkFJUEZLSmw4VkdDc0hFZFB1cm1ZRHhLa3owcmZuOWFqLVdlZ2g3d2ZvMldxLU9Xa0RxNGt3TkxkSFhWUmRUWWJnQVlWVlBRdjBEX1JzUlp5aG9lRGkxUGM5OVZRMF9pYjRsWl9rZ2p5Z3o1OFItQ0xidnNiXzNuMHJQNk5yemk0WmZTVkxvU3FQeDRYQVlqLW9Ic2MyeW1veWROaUtseVJtOGJjMVZnaUI3NkZnM2tLNVdLYzRwdmNSWElzSXBaRTFLVy1mVExaSFkzTk1oSnZ6ZXZuMXRCRVRGdV96RUVjc2JmTUZvVXEzbE9CQ2VaaGhjd0puUnc?oc=5",
+          "publisher": "Share2Trade",
+          "publishedAt": "Fri, 27 Nov 2026 02:03:18 GMT"
+        }
+      ]
+    },
+    {
+      "id": "sig-12-mx0ikj28",
+      "title": "Demographic Shifts Fuel Boom in Pet Economy and Premium FMCG Segments",
+      "summary": "Declining birth rates across Thailand are accelerating the growth of the pet economy, which now encompasses over 7.3 million domestic pets. In response to changing lifestyle demographics, consumer packaged goods manufacturers are pivoting toward premium, functional, and health-focused offerings.",
+      "soWhat": "Consumer goods enterprises should reallocate R&D and product development toward pet care innovations and high-margin specialized nutrition.",
+      "titleTh": "สังคมคนเกิดน้อยดัน Pet Economy โตกระฉูด ธุรกิจ FMCG ปรับตัวรุกตลาดพรีเมียมและสุขภาพ",
+      "summaryTh": "อัตราการเกิดที่ลดลงในไทยส่งผลให้ธุรกิจสัตว์เลี้ยง (Pet Economy) ขยายตัวอย่างรวดเร็ว ครอบคลุมสัตว์เลี้ยงกว่า 7.3 ล้านตัวทั่วประเทศ สภาพสังคมที่เปลี่ยนไปนี้ดันให้ผู้ผลิตสินค้าอุปโภคบริโภคต้องปรับกลยุทธ์ไปสู่สินค้ากลุ่มพรีเมียม สุขภาพ และตอบโจทย์ไลฟ์สไตล์เฉพาะกลุ่มมากขึ้น",
+      "soWhatTh": "ธุรกิจ FMCG ควรแบ่งงบวิจัยและพัฒนาผลิตภัณฑ์ไปสู่สินค้ากลุ่มสัตว์เลี้ยงและอาหารสุขภาพเฉพาะทางที่มีอัตรากำไรสูงเพื่อสร้างนิวสไลด์รายได้",
+      "category": "Consumer",
+      "impact": 3,
+      "confidence": 0.8,
+      "timeHorizon": "1yr+",
+      "tags": [
+        "Pet Economy",
+        "FMCG",
+        "Demographics",
+        "Premiumization"
+      ],
+      "sources": [
+        {
+          "title": "ไวไว เปิดเกมรุกปี 70 ขยายพอร์ต “พรีเมียม-กรีน” ประเดิม ‘บะหมี่กึ่งไร้กลูเตน’ 30 บาท/ซอง ชิงตลาด 2.8 หมื่นล้าน - Positioningmag",
+          "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFB0LW5DWW9SQWNXNHk1WWxsaGJWbGxKZjUza3lPRGd0MXRkTmx3c0hjZ240UTBYSTVaNURfajJiWXFnRG5SbmJmc0JaLW5mTUxGTEo4Qnc2XzF0bEV3?oc=5",
+          "publisher": "Positioningmag",
+          "publishedAt": "Sun, 22 Nov 2026 02:01:03 GMT"
+        },
+        {
+          "title": "วิจัยกรุงศรีชี้คนเกิดน้อย สัตว์เลี้ยงเพิ่ม! เจาะ Pet Economy 7.3 ล้านชีวิตสี่ขา โอกาสใหม่ธุรกิจไทย - นิตยสารผู้จัดการ",
+          "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1wQUZkZDBLYzhaQWdLbzRCbVcwRzR6TGZEd1RjTTR4Rm5UeFlkdXp6V29rN051dWNBM2Z1UV9ZZkZCUmVEeW5HVEx3b1lueGs?oc=5",
+          "publisher": "นิตยสารผู้จัดการ",
+          "publishedAt": "Fri, 27 Nov 2026 22:59:35 GMT"
         }
       ]
     }
